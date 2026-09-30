@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: plot_expert_npc_citizen_23_mini_library_config
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: 6e8acde30a1051f488728464afaf7cdd, type: 3}
+  clips:
+  - name: sit1
+    duration: 2
+    xOffset: 0.009803922
+    yOffset: 0.0015337423
+    yLength: 0.048057258
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: standidle
+    duration: 2
+    xOffset: 0.009803922
+    yOffset: 0.050613496
+    yLength: 0.048057258
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: standanswer
+    duration: 9
+    xOffset: 0.009803922
+    yOffset: 0.099693246
+    yLength: 0.2198364
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: sleep
+    duration: 2.6666667
+    xOffset: 0.009803922
+    yOffset: 0.32055214
+    yLength: 0.064417176
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: sit2
+    duration: 2
+    xOffset: 0.009803922
+    yOffset: 0.3859918
+    yLength: 0.048057258
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: sit1to2
+    duration: 0.5
+    xOffset: 0.009803922
+    yOffset: 0.43507156
+    yLength: 0.011247443
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: silentlywalk
+    duration: 1.3333334
+    xOffset: 0.009803922
+    yOffset: 0.4473415
+    yLength: 0.03169734
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: silently
+    duration: 1
+    xOffset: 0.009803922
+    yOffset: 0.48006135
+    yLength: 0.023517381
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: shake
+    duration: 2
+    xOffset: 0.009803922
+    yOffset: 0.50460124
+    yLength: 0.048057258
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: pullback
+    duration: 2.5
+    xOffset: 0.009803922
+    yOffset: 0.55368096
+    yLength: 0.0603272
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: laugh2
+    duration: 3
+    xOffset: 0.009803922
+    yOffset: 0.61503065
+    yLength: 0.07259714
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: laugh1
+    duration: 3
+    xOffset: 0.009803922
+    yOffset: 0.6886503
+    yLength: 0.07259714
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: getup
+    duration: 1
+    xOffset: 0.009803922
+    yOffset: 0.7622699
+    yLength: 0.023517381
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: fallidle
+    duration: 2
+    xOffset: 0.009803922
+    yOffset: 0.7868098
+    yLength: 0.048057258
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: fall
+    duration: 2
+    xOffset: 0.009803922
+    yOffset: 0.8358896
+    yLength: 0.048057258
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: down
+    duration: 1
+    xOffset: 0.009803922
+    yOffset: 0.8849693
+    yLength: 0.023517381
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: back
+    duration: 2.4
+    xOffset: 0.009803922
+    yOffset: 0.9095092
+    yLength: 0.058282208
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: walk
+    duration: 1.2666668
+    xOffset: 0.009803922
+    yOffset: 0.9688139
+    yLength: 0.030674845
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  bones: []
+  binePosesOffsets:
+  - name: plot_expert_npc_citizen_23_mini_library
+    bindPoses: {x: 0.009803922, y: 0.00051124743}
+  transitions: []
+  offsets: []

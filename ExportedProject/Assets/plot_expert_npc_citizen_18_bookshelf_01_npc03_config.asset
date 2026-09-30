@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: plot_expert_npc_citizen_18_bookshelf_01_npc03_config
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: af01bb91f525eb24bac879f5e20a3c95, type: 3}
+  clips:
+  - name: fanying
+    duration: 3.3333335
+    xOffset: 0.009259259
+    yOffset: 0.0043604653
+    yLength: 0.22965117
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: shake
+    duration: 2.5666668
+    xOffset: 0.009259259
+    yOffset: 0.2369186
+    yLength: 0.17732558
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: down
+    duration: 1
+    xOffset: 0.009259259
+    yOffset: 0.41715115
+    yLength: 0.06686047
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: sleep
+    duration: 2.6666667
+    xOffset: 0.009259259
+    yOffset: 0.4869186
+    yLength: 0.18313953
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: fanshu
+    duration: 4.666667
+    xOffset: 0.009259259
+    yOffset: 0.6729651
+    yLength: 0.3255814
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  bones: []
+  binePosesOffsets:
+  - name: plot_expert_npc_citizen_18_bookshelf_01_npc03
+    bindPoses: {x: 0.009259259, y: 0.0014534884}
+  transitions: []
+  offsets: []

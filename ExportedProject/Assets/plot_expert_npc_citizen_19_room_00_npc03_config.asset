@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: plot_expert_npc_citizen_19_room_00_npc03_config
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: 378bb76999acb6c4aa96ca2258bcd57d, type: 3}
+  clips:
+  - name: walk3
+    duration: 1.2666668
+    xOffset: 0.00877193
+    yOffset: 0.010869565
+    yLength: 0.21739131
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: read01
+    duration: 3.3333335
+    xOffset: 0.00877193
+    yOffset: 0.23550725
+    yLength: 0.57246375
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: idle1
+    duration: 1.0666667
+    xOffset: 0.00877193
+    yOffset: 0.81521744
+    yLength: 0.18115942
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  bones: []
+  binePosesOffsets:
+  - name: plot_expert_npc_citizen_19_room_00_npc03
+    bindPoses: {x: 0.00877193, y: 0.0036231885}
+  transitions: []
+  offsets: []

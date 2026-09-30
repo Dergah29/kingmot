@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: m_hero_exhibit_50012_jebell
+  m_Shader: {fileID: 4800000, guid: cf0cee96b16512d4f94b53e749919a8a, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _NORMALMAP_ON
+  - _REFLECTIONS_ON
+  - _USERIM_MATCAP
+  m_InvalidKeywords:
+  - _EMISSION_OFF
+  - _SHADOWMODE_MULTIPLY
+  - _USERIM_OFF
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 88457d72a91956e41a316822c547e85c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _BumpMap:
+        m_Texture: {fileID: 2800000, guid: da911f58012ad5a45a6b76301bb00eeb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DissolveMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MaskMap:
+        m_Texture: {fileID: 2800000, guid: d9eb4742bdac80f4d9efdbc3460c3bd6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MatCapMap:
+        m_Texture: {fileID: 2800000, guid: 957ae203e1575c8448a205794bfca902, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _OutlineMap:
+        m_Texture: {fileID: 2800000, guid: 8d765e92b23ddac488b429b11bc32373, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _RimMatCapMap:
+        m_Texture: {fileID: 2800000, guid: 88f5ab879f5834d4c812c1b4ee968667, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _ShadowRamp:
+        m_Texture: {fileID: 2800000, guid: 8954ad62a821cce46930a0052ac1584a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _DissolvePow: 1
+      _DissolveRange: 0.1
+      _DissolveValue: 0
+      _DstBlend: 0
+      _Emission: 0
+      _GlossMapScale: 1
+      _Glossiness: 0.5
+      _GlossyReflections: 1
+      _MatCapStrength: 3
+      _Metallic: 0.9
+      _MiddleEdge: 0.25
+      _MiddleRange: 0.65
+      _Mode: 0
+      _NormalMap: 1
+      _NormalStrength: 1
+      _OcclusionStrength: 1
+      _OutlineStrength: 0.83
+      _OutlineWidth: 0.8
+      _Parallax: 0.02
+      _Reflections: 1
+      _RimEdge: 0
+      _RimRange: 0
+      _RimStrength: 2.65
+      _ShadowMode: 0
+      _ShadowSmoothness: 0.6
+      _ShadowStrength: 0.4
+      _Smoothness: 0.8
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _Stencil: 1
+      _UVSec: 0
+      _UseDissolve: 0
+      _UseRim: 2
+      _ZWrite: 1
+    m_Colors:
+      _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _DissolveColor: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _MiddleColor: {r: 0.8479495, g: 0.8352941, b: 0.99215686, a: 1}
+      _OutlineCol: {r: 0, g: 0, b: 0, a: 1}
+      _OutlineCol1: {r: 0.3962264, g: 0.217021, b: 0.11400853, a: 1}
+      _OutlineCol10: {r: 0, g: 0, b: 0, a: 1}
+      _OutlineCol2: {r: 0.15806337, g: 0.3018868, b: 0.2144266, a: 1}
+      _OutlineCol3: {r: 0.31132078, g: 0.08719613, b: 0.054334287, a: 1}
+      _OutlineCol4: {r: 0.3679245, g: 0.25940886, b: 0.053800277, a: 1}
+      _OutlineCol5: {r: 0.3207547, g: 0.16794232, b: 0.16794232, a: 1}
+      _OutlineCol6: {r: 0.2735849, g: 0.1758328, b: 0.10969206, a: 1}
+      _OutlineCol7: {r: 0.109914556, g: 0.17575844, b: 0.24528301, a: 1}
+      _OutlineCol8: {r: 0.2735849, g: 0.24404691, b: 0.14066394, a: 1}
+      _OutlineCol9: {r: 0.41509432, g: 0.28589946, b: 0.20558916, a: 1}
+      _RimColor: {r: 0.8773585, g: 0.86016786, b: 0.76561946, a: 1}
+      _ShadowColor: {r: 1, g: 0, b: 0.06451607, a: 1}
+      _ShadowDark: {r: 0.16648668, g: 0.06692773, b: 0.3018868, a: 1}
+      _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

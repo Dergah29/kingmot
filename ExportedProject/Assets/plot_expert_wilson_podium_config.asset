@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: plot_expert_wilson_podium_config
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: 2247d438025402b49ada2071bf5a0354, type: 3}
+  clips:
+  - name: stand_loop
+    duration: 6.0000005
+    xOffset: 0.0042735045
+    yOffset: 0.0012875537
+    yLength: 0.123605154
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: clap
+    duration: 2.6666667
+    xOffset: 0.0042735045
+    yOffset: 0.12575108
+    yLength: 0.054077253
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: look
+    duration: 8
+    xOffset: 0.0042735045
+    yOffset: 0.1806867
+    yLength: 0.1639485
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: look_paper
+    duration: 8.333334
+    xOffset: 0.0042735045
+    yOffset: 0.34549356
+    yLength: 0.17167382
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: nod
+    duration: 1.8333334
+    xOffset: 0.0042735045
+    yOffset: 0.51802576
+    yLength: 0.03690987
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: run
+    duration: 0.73333335
+    xOffset: 0.0042735045
+    yOffset: 0.555794
+    yLength: 0.014592275
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: talk_01
+    duration: 11.000001
+    xOffset: 0.0042735045
+    yOffset: 0.57124466
+    yLength: 0.22660944
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: talk_02
+    duration: 3.6666667
+    xOffset: 0.0042735045
+    yOffset: 0.79871243
+    yLength: 0.074678116
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: talk_03
+    duration: 5.0000005
+    xOffset: 0.0042735045
+    yOffset: 0.8742489
+    yLength: 0.10300429
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: walk
+    duration: 1.0666667
+    xOffset: 0.0042735045
+    yOffset: 0.9781116
+    yLength: 0.021459227
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  bones: []
+  binePosesOffsets:
+  - name: plot_expert_wilson_podium
+    bindPoses: {x: 0.0042735045, y: 0.00042918455}
+  transitions: []
+  offsets: []

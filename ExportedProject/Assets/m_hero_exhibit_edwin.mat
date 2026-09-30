@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: m_hero_exhibit_edwin
+  m_Shader: {fileID: 4800000, guid: cf0cee96b16512d4f94b53e749919a8a, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _NORMALMAP_ON
+  - _REFLECTIONS_ON
+  - _USERIM_MATCAP
+  m_InvalidKeywords:
+  - _EMISSION_OFF
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _BaseMap:
+        m_Texture: {fileID: 2800000, guid: c3bb7716640cbe749b81fb9cf31ded9f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _BumpMap:
+        m_Texture: {fileID: 2800000, guid: a86c3b4334f12844884d98b45e8b0ad7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DissolveMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MaskMap:
+        m_Texture: {fileID: 2800000, guid: 3663969daafb84747a5e72f0fea2445d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MatCapMap:
+        m_Texture: {fileID: 2800000, guid: 9f9f944451487114299c61ed1ba61012, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _OutlineMap:
+        m_Texture: {fileID: 2800000, guid: 5dac59187a93f4549974ea83d4cd7ee0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _RimMatCapMap:
+        m_Texture: {fileID: 2800000, guid: 88f5ab879f5834d4c812c1b4ee968667, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _ShadowRamp:
+        m_Texture: {fileID: 2800000, guid: 8954ad62a821cce46930a0052ac1584a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _DissolvePow: 1
+      _DissolveRange: 0.1
+      _DissolveValue: 0
+      _DstBlend: 0
+      _Emission: 0
+      _GlossMapScale: 1
+      _Glossiness: 0.5
+      _GlossyReflections: 1
+      _MatCapStrength: 4.5
+      _Metallic: 0.85
+      _MiddleEdge: 0.391
+      _MiddleRange: 0.557
+      _Mode: 0
+      _NormalMap: 1
+      _NormalStrength: 1
+      _OcclusionStrength: 1
+      _OutlineStrength: 1
+      _OutlineWidth: 0.7
+      _Parallax: 0.02
+      _Reflections: 1
+      _RimEdge: 0
+      _RimRange: 0.5
+      _RimStrength: 1.8
+      _ShadowSmoothness: 0.447
+      _ShadowStrength: 0.587
+      _Smoothness: 0.65
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _Stencil: 1
+      _UVSec: 0
+      _UseDissolve: 0
+      _UseRim: 2
+      _ZWrite: 1
+    m_Colors:
+      _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _DissolveColor: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _MiddleColor: {r: 0.7075472, g: 0.45410484, b: 0.44388574, a: 1}
+      _OutlineCol1: {r: 0.509434, g: 0.3772695, b: 0.3772695, a: 1}
+      _OutlineCol10: {r: 0, g: 0, b: 0, a: 1}
+      _OutlineCol2: {r: 0, g: 0, b: 0, a: 1}
+      _OutlineCol3: {r: 0, g: 0, b: 0, a: 1}
+      _OutlineCol4: {r: 0, g: 0, b: 0, a: 1}
+      _OutlineCol5: {r: 0, g: 0, b: 0, a: 1}
+      _OutlineCol6: {r: 0, g: 0, b: 0, a: 1}
+      _OutlineCol7: {r: 0, g: 0, b: 0, a: 1}
+      _OutlineCol8: {r: 0, g: 0, b: 0, a: 1}
+      _OutlineCol9: {r: 0, g: 0, b: 0, a: 1}
+      _RimColor: {r: 1, g: 1, b: 1, a: 1}
+      _ShadowColor: {r: 1, g: 1, b: 1, a: 1}
+      _ShadowDark: {r: 0, g: 0, b: 0, a: 1}
+      _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
