@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: fx_mat_castle_dress_35_120
+  m_Shader: {fileID: 4800000, guid: cf0cee96b16512d4f94b53e749919a8a, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _EMISSION_ON
+  - _NORMALMAP_ON
+  - _REFLECTIONS_ON
+  - _USEDISSOLVE_ON
+  - _USERIM_DEFAULT
+  m_InvalidKeywords:
+  - _MAINUSEDISTORT_ON
+  - _SHADOWMODE_MULTIPLY
+  - _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+  - _USECUTOFF_OFF
+  - _USEFLOW_OFF
+  - _USERIM_OFF
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3001
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 2f5c3e122bde6f544af87f33d6d06997, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 2beda3aeb72987640af2b6610c30b0bd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DissolveMap:
+        m_Texture: {fileID: 2800000, guid: 61c5d97bc407376419055d0ecf438159, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MatCapMap:
+        m_Texture: {fileID: 2800000, guid: 477cc0974789eee408a28492c79ffb62, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _OutlineMap:
+        m_Texture: {fileID: 2800000, guid: 30bd4022c202b9f428375a71846f1c96, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _RimMatCapMap:
+        m_Texture: {fileID: 2800000, guid: aace1023b94098e4bba25e09a44e25c6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _ShadowRamp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _AlphaClip: 0
+      _BlendOp: 0
+      _BumpScale: 1
+      _ColorMask: 15
+      _CullMode: 0
+      _Cutoff: 0.272
+      _CutoffHeight: 0
+      _DetailNormalMapScale: 1
+      _DissolveMaskStrength: 1
+      _DissolveMaskStrengthCustomData: 0
+      _DissolvePolar: 0
+      _DissolvePow: 3.7
+      _DissolveRange: 0.0727
+      _DissolveSoftClip: 15
+      _DissolveSpeed_U: 0
+      _DissolveSpeed_V: 0
+      _DissolveTexOffsetCustomData: 0
+      _DissolveUseDistort: 0
+      _DissolveValue: 0
+      _DistortNormalScale: 0.1
+      _DistortNormalScaleCustomData: 0
+      _DistortPolar: 0
+      _DistortSpeed: 0.1
+      _DistortSpeed_U: 1
+      _DistortSpeed_V: 1
+      _DistortTexIsNormal: 0
+      _Diurnal: 0
+      _DstBlend: 10
+      _Emission: 1
+      _FadeLerp: 1
+      _FadePow: 0.01
+      _FadeRange: 0
+      _FinalAlphaIndensity: 1
+      _FinalAlphaPow: 1
+      _FinalRGBIndensity: 1
+      _FinalRGBPow: 1
+      _Fog: 0
+      _FresnelPow: 1
+      _GammaFactor: 1
+      _Gloss1: 64
+      _Gloss2: 64
+      _GlossMapScale: 1
+      _Glossiness: 0.5
+      _GlossyReflections: 1
+      _MainPolar: 0
+      _MainPolarRot: 0
+      _MainStencil: 0
+      _MainStencilComp: 0
+      _MainStencilOp: 0
+      _MainTexAngle: 0
+      _MainTexOffsetCustomData: 0
+      _MainTexSpeed_U: 0
+      _MainTexSpeed_V: 0
+      _MainTexStrength: 1
+      _MainTwoSide: 0
+      _MainUseDistort: 1
+      _MaskPolar: 0
+      _MaskTexAngle: 0
+      _MaskTexCustomData: 0
+      _MaskTexSpeed_U: 0
+      _MaskTexSpeed_V: 0
+      _MaskUseDistort: 0
+      _MatCapStrength: 1.67
+      _Metallic: 0
+      _MiddleEdge: 0.5
+      _MiddleRange: 0.511
+      _Mode: 0
+      _MoveZ: 0
+      _NoiseUseUV2: 0
+      _NormalMap: 1
+      _NormalStrength: 1
+      _OcclusionStrength: 1
+      _OffVertexColor: 0
+      _OutlineStrength: 4.54
+      _OutlineWidth: 7.5
+      _Parallax: 0.02
+      _Reflections: 1
+      _RimEdge: 1
+      _RimRange: 0.157
+      _RimStrength: 6.36
+      _ShadeRange: 1
+      _ShadowMode: 0
+      _ShadowSmoothness: 0
+      _ShadowSpecScale: 0
+      _ShadowStrength: 0
+      _Shift1: -0.126
+      _Shift2: -0.38
+      _Smoothness: 0
+      _SmoothnessTextureChannel: 1
+      _SpecScale: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 5
+      _Stencil: 8
+      _StencilComp: 8
+      _StencilOp: 0
+      _StencilReadMask: 255
+      _StencilWriteMask: 255
+      _Strength: 1
+      _UI: 0
+      _UVSec: 0
+      _UseCutoff: 0
+      _UseDissolve: 1
+      _UseFlow: 0
+      _UseRim: 1
+      _UseUIAddAlpha: 0
+      _ZBias: 0
+      _ZTest: 4
+      _ZWrite: 1
+      _ZWriteHide: 0
+    m_Colors:
+      _BaseColor: {r: 0.8679245, g: 0.5450542, b: 0.40530434, a: 1}
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _DissolveColor: {r: 4.8796897, g: 2.5345657, b: 1.6802704, a: 1}
+      _DissolveMaskRGBAStrength: {r: 0, g: 0, b: 0, a: 1}
+      _DissolveRGBAStrength: {r: 1, g: 0, b: 0, a: 0}
+      _DistortRGBAStrength: {r: 0, g: 0, b: 0, a: 1}
+      _EmissionColor: {r: 5.2356415, g: 2.2309554, b: 0.7161964, a: 1}
+      _FresnelInsideCol: {r: 0, g: 0, b: 0, a: 0}
+      _FresnelOutsideCol: {r: 1, g: 1, b: 1, a: 1}
+      _GammaChanelRGBA: {r: 0, g: 0, b: 0, a: 1}
+      _MainCol: {r: 1, g: 1, b: 1, a: 1}
+      _MainCol2: {r: 1, g: 1, b: 1, a: 1}
+      _MaskRGBAStrength: {r: 0, g: 0, b: 0, a: 1}
+      _MiddleColor: {r: 1, g: 0.6934567, b: 0.3537736, a: 1}
+      _RimColor: {r: 0.8962264, g: 0.7282697, b: 0.2747864, a: 1}
+      _ShadeCol: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      _ShadowColor: {r: 0, g: 0, b: 0, a: 0.87058824}
+      _ShadowDark: {r: 0, g: 0, b: 0, a: 1}
+      _SpecColor1: {r: 0, g: 0, b: 0, a: 1}
+      _SpecColor2: {r: 0, g: 0, b: 0, a: 1}
+      _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

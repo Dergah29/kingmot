@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: fx_mat_mask_dkb_128
+  m_Shader: {fileID: 4800000, guid: 36eeaa22a35558d48ba83454d14279c5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _MAINUSEDISTORT_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: a8f0a9b82506f234da5d95ef0a2942bb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: -0.1, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexOffsetTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BlendOp: 0
+    - _BumpScale: 1
+    - _ClipDiscard: 0
+    - _ClipVal: 0
+    - _ColorMask: 15
+    - _CullMode: 0
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DissolveMaskStrength: 1
+    - _DissolveMaskStrengthCustomData: 0
+    - _DissolvePolar: 0
+    - _DissolveSoftClip: 15
+    - _DissolveSpeed_U: 0
+    - _DissolveSpeed_V: 0
+    - _DissolveTexOffsetCustomData: 0
+    - _DissolveUseDistort: 0
+    - _DistortNormalScale: 0.1
+    - _DistortNormalScaleCustomData: 0
+    - _DistortPolar: 0
+    - _DistortSpeed: 0.1
+    - _DistortSpeed_U: 1
+    - _DistortSpeed_V: 1
+    - _DistortTexIsNormal: 0
+    - _Diurnal: 0
+    - _DstBlend: 1
+    - _FinalAlphaIndensity: 1
+    - _FinalAlphaPow: 1
+    - _FinalRGBIndensity: 1
+    - _FinalRGBPow: 1
+    - _Fog: 0
+    - _FresnelPow: 1
+    - _GammaFactor: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _KSAlpha: 0.75
+    - _KSUseMainTex: 1
+    - _MainPolar: 0
+    - _MainPolarRot: 0
+    - _MainTexAngle: 90
+    - _MainTexOffsetCustomData: 1
+    - _MainTexSpeed_U: 0
+    - _MainTexSpeed_V: 0
+    - _MainTexStrength: 1
+    - _MainTwoSide: 0
+    - _MainUseDistort: 1
+    - _MaskPolar: 0
+    - _MaskTexAngle: 0
+    - _MaskTexCustomData: 0
+    - _MaskTexSpeed_U: 0
+    - _MaskTexSpeed_V: 0
+    - _MaskUseDistort: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _MoveZ: 0
+    - _OcclusionStrength: 1
+    - _OffVertexColor: 0
+    - _Parallax: 0.02
+    - _SetGray: 0
+    - _ShadeRange: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 5
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UI: 0
+    - _UVSec: 0
+    - _UseUIAddAlpha: 0
+    - _ZBias: 0
+    - _ZTest: 4
+    - _ZWrite: 1
+    - _ZWriteHide: 0
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DissolveMaskRGBAStrength: {r: 0, g: 0, b: 0, a: 1}
+    - _DissolveRGBAStrength: {r: 1, g: 0, b: 0, a: 0}
+    - _DistortRGBAStrength: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FresnelInsideCol: {r: 0, g: 0, b: 0, a: 0}
+    - _FresnelOutsideCol: {r: 1, g: 1, b: 1, a: 1}
+    - _GammaChanelRGBA: {r: 1, g: 1, b: 1, a: 1}
+    - _MainCol: {r: 1, g: 1, b: 1, a: 1}
+    - _MainCol2: {r: 1, g: 1, b: 1, a: 1}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MaskRGBAStrength: {r: 0, g: 0, b: 0, a: 1}
+    - _ShadeCol: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _VertexOffsetParam: {r: -1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
