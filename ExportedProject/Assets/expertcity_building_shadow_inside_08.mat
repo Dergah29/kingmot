@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: expertcity_building_shadow_inside_08
+  m_Shader: {fileID: 4800000, guid: 93f1bbd7d896e8d4ba44d576f83587a1, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _CUSTOMLIGHTDIR_ON
+  m_InvalidKeywords:
+  - _EMISSION
+  - _SOFTBYCENTER_OFF
+  - _SOFTSHADOW_OFF
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: {}
+    m_Ints: {}
+    m_Floats:
+      _CustomLightDir: 1
+      _DstBlend: 10
+      _ShadowDistance: 1
+      _ShadowStrength: 1
+      _SoftByCenter: 0
+      _SoftShadow: 0
+      _Softness: 1.8
+      _SrcBlend: 5
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 0.5019608}
+      _LightDir: {r: 0.3, g: -3, b: 0.3, a: 1}
+      _Offset: {r: 0.5, g: 0.5, b: 1, a: 0.01}
+      _ShadowColor: {r: 1, g: 1, b: 1, a: 1}
+      _ShadowMask: {r: 1, g: 0.8, b: 1, a: 1}
+  m_BuildTextureStacks: []

@@ -1,0 +1,55 @@
+Shader "DianDian/City/Fog Color" {
+	Properties {
+		[NoScaleOffset] _MaskTex ("Mask Tex", 2D) = "white" {}
+		[NoScaleOffset] _NoiseTex ("Noise Tex", 2D) = "black" {}
+		_MaskChannel ("MaskChannel", Vector) = (0,0,0,0)
+		_Color ("Color", Vector) = (1,1,1,1)
+		_FogColor ("Fog Color", Vector) = (0.2,0.2,0.2,1)
+		_Alpha ("Alpha", Range(0, 1)) = 1
+		_Tiling ("Fog Tiling(xy:layer1, zw:layer2)", Vector) = (0,0,0,0)
+		_Speed ("Fog Speed(xy:layer1, zw:layer2)", Vector) = (0,0,0,0)
+		_Blink ("Blink(xy:range, z:speed, w:time(s))", Vector) = (0.5,1,10,2)
+		[HideInInspector] _BlinkStart ("Blink Start Time", Float) = 0
+	}
+	//DummyShaderTextExporter
+	SubShader{
+		Tags { "RenderType"="Opaque" }
+		LOD 200
+
+		Pass
+		{
+			HLSLPROGRAM
+			#pragma vertex vert
+			#pragma fragment frag
+
+			float4x4 unity_ObjectToWorld;
+			float4x4 unity_MatrixVP;
+
+			struct Vertex_Stage_Input
+			{
+				float4 pos : POSITION;
+			};
+
+			struct Vertex_Stage_Output
+			{
+				float4 pos : SV_POSITION;
+			};
+
+			Vertex_Stage_Output vert(Vertex_Stage_Input input)
+			{
+				Vertex_Stage_Output output;
+				output.pos = mul(unity_MatrixVP, mul(unity_ObjectToWorld, input.pos));
+				return output;
+			}
+
+			float4 _Color;
+
+			float4 frag(Vertex_Stage_Output input) : SV_TARGET
+			{
+				return _Color; // RGBA
+			}
+
+			ENDHLSL
+		}
+	}
+}

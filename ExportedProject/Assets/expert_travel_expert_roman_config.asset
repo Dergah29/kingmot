@@ -1,0 +1,254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: expert_travel_expert_roman_config
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: 05189427471369d43bdf39474e92e82c, type: 3}
+  clips:
+  - name: approve
+    duration: 1.4666667
+    xOffset: 0.0061728396
+    yOffset: 0.00093399745
+    yLength: 0.021793274
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: attack1
+    duration: 2.6666667
+    xOffset: 0.0061728396
+    yOffset: 0.023349937
+    yLength: 0.039227895
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: attack1_2_idle
+    duration: 1
+    xOffset: 0.0061728396
+    yOffset: 0.063200496
+    yLength: 0.014321295
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: attack2
+    duration: 1.6
+    xOffset: 0.0061728396
+    yOffset: 0.07814445
+    yLength: 0.023661269
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: boxer_idle
+    duration: 1.6000001
+    xOffset: 0.0061728396
+    yOffset: 0.10242839
+    yLength: 0.023661269
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: comeon
+    duration: 2.6
+    xOffset: 0.0061728396
+    yOffset: 0.12671232
+    yLength: 0.038605228
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: command
+    duration: 6.3333335
+    xOffset: 0.0061728396
+    yOffset: 0.16594023
+    yLength: 0.094022416
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: hit_back
+    duration: 2
+    xOffset: 0.0061728396
+    yOffset: 0.2605853
+    yLength: 0.029265255
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: hit_dodge
+    duration: 1.3333334
+    xOffset: 0.0061728396
+    yOffset: 0.29047322
+    yLength: 0.019302614
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: hit_dodge2
+    duration: 1.6666667
+    xOffset: 0.0061728396
+    yOffset: 0.3103985
+    yLength: 0.024283934
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: hit_front
+    duration: 1.3333334
+    xOffset: 0.0061728396
+    yOffset: 0.3353051
+    yLength: 0.019302614
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: idle
+    duration: 2
+    xOffset: 0.0061728396
+    yOffset: 0.35523036
+    yLength: 0.029265255
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: idle1
+    duration: 1.4666667
+    xOffset: 0.0061728396
+    yOffset: 0.3851183
+    yLength: 0.021793274
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: keep
+    duration: 3.4
+    xOffset: 0.0061728396
+    yOffset: 0.40753424
+    yLength: 0.050435863
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: look_grab
+    duration: 2.4
+    xOffset: 0.0061728396
+    yOffset: 0.45859277
+    yLength: 0.035491902
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: pause
+    duration: 2.2666667
+    xOffset: 0.0061728396
+    yOffset: 0.49470735
+    yLength: 0.033623908
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: punch_L
+    duration: 1.3333334
+    xOffset: 0.0061728396
+    yOffset: 0.5289539
+    yLength: 0.019302614
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: punch_R
+    duration: 1.3333334
+    xOffset: 0.0061728396
+    yOffset: 0.5488792
+    yLength: 0.019302614
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: push_up
+    duration: 3.4333334
+    xOffset: 0.0061728396
+    yOffset: 0.56880444
+    yLength: 0.051058527
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: run
+    duration: 1.0666667
+    xOffset: 0.0061728396
+    yOffset: 0.62048566
+    yLength: 0.015566625
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: stand
+    duration: 7.733333
+    xOffset: 0.0061728396
+    yOffset: 0.63667494
+    yLength: 0.115193024
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: stretch
+    duration: 5.4666667
+    xOffset: 0.0061728396
+    yOffset: 0.75249064
+    yLength: 0.08156911
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: talk
+    duration: 3.7333336
+    xOffset: 0.0061728396
+    yOffset: 0.8346824
+    yLength: 0.055417184
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: walk
+    duration: 1.2666667
+    xOffset: 0.0061728396
+    yOffset: 0.8907223
+    yLength: 0.01867995
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: walk_back
+    duration: 1.2666668
+    xOffset: 0.0061728396
+    yOffset: 0.9100249
+    yLength: 0.01867995
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: walkL
+    duration: 1.2666667
+    xOffset: 0.0061728396
+    yOffset: 0.9293275
+    yLength: 0.01867995
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: walkR
+    duration: 1.2666667
+    xOffset: 0.0061728396
+    yOffset: 0.9486301
+    yLength: 0.01867995
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: punch_rush
+    duration: 1.1333334
+    xOffset: 0.0061728396
+    yOffset: 0.9679327
+    yLength: 0.016811954
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: walk_2_punch
+    duration: 1
+    xOffset: 0.0061728396
+    yOffset: 0.98536736
+    yLength: 0.014321295
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  bones: []
+  binePosesOffsets:
+  - name: expert_travel_expert_roman
+    bindPoses: {x: 0.0061728396, y: 0.0003113325}
+  transitions: []
+  offsets: []
