@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: slg_fog
+  m_Shader: {fileID: 4800000, guid: b5d42ce8ed3367740b811bdcf3190e82, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _VOLUMETRICFOG_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _MaskTex:
+        m_Texture: {fileID: 2800000, guid: a612ef3cc3999d24ea41cb2eb371cda8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 1dc391b66453b2e4e8d5b126d2797f37, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _Alpha: 1
+      _AlphaDensity: 0
+      _BlinkStart: 0
+      _ColorDensity: 1
+      _FogDensity: 0.96
+      _FogEnd: 15
+      _FogStart: 0
+      _HighPower: 1
+      _Level: 1
+      _VolumetricFog: 1
+    m_Colors:
+      _Blink: {r: 0.5, g: 1, b: 3, a: 0}
+      _Color: {r: 0.82444817, g: 0.910974, b: 0.9150943, a: 1}
+      _FogColor: {r: 0.67737633, g: 0.79508513, b: 0.8113208, a: 1}
+      _FogSpeed: {r: 0.02, g: -0.035, b: 0.015, a: -0.015}
+      _FogTiling: {r: 0.005, g: 0.005, b: 0.008, a: 0.008}
+      _LowFogSpeed: {r: 0.01, g: -0.01, b: 0.01, a: -0.01}
+      _MaskChannel: {r: 1, g: 0.5, b: 0, a: 0}
+      _NoiseColor: {r: 0.44482023, g: 0.55319995, b: 0.6415094, a: 1}
+      _Speed: {r: 0.05, g: 0.03, b: 0.03, a: 0.1}
+      _Tiling: {r: 5, g: 10, b: 10, a: 10}
+  m_BuildTextureStacks: []
