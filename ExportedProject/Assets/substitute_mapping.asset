@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e757e0080bcd5de206b031e99d4692d, type: 3}
+  m_Name: substitute_mapping
+  m_EditorClassIdentifier:
+  datas:
+  - substitute: scene/battle/explore_battlemap_01.prefab
+    assets:
+    - scene/battle/explore_battlemap_02.prefab
+    - scene/battle/explore_battlemap_03.prefab
+    - scene/battle/explore_battlemap_04.prefab
+  - substitute: ui/panel/login/bg/loginbg_default.prefab
+    assets:
+    - ui/panel/login/bg/loginbg_2026worldcup.prefab
+    - ui/panel/login/bg/loginbg_anniversary.prefab
+    - ui/panel/login/bg/loginbg_christmas2024.prefab
+    - ui/panel/login/bg/loginbg_citylv26.prefab
+    - ui/panel/login/bg/loginbg_citylv30.prefab
+    - ui/panel/login/bg/loginbg_citylv7.prefab
+    - ui/panel/login/bg/loginbg_mediumcity.prefab
+    - ui/panel/login/bg/loginbg_whitebear2026.prefab
+    - ui/panel/login/bg/loginbg_easter2025.prefab
+  - substitute: ui/panel/launch/bg/launchbg_default.prefab
+    assets:
+    - ui/panel/launch/bg/launchbg_2026worldcup.prefab
+    - ui/panel/launch/bg/launchbg_anniversary.prefab
+    - ui/panel/launch/bg/launchbg_christmas2024.prefab
+    - ui/panel/launch/bg/launchbg_citylv26.prefab
+    - ui/panel/launch/bg/launchbg_citylv30.prefab
+    - ui/panel/launch/bg/launchbg_citylv7.prefab
+    - ui/panel/launch/bg/launchbg_mediumcity.prefab
+    - ui/panel/launch/bg/launchbg_whitebear2026.prefab
+    - ui/panel/launch/bg/launchbg_easter2025.prefab
+  sounds:
+  - substitute: city_bgm_guide
+    assets:
+    - city_bgm_001
