@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: world_eagle_dark
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: 79119fa6f61c6f34cbe14855f31d1ada, type: 3}
+  clips:
+  - name: fly_02
+    duration: 0.5
+    xOffset: 0.0061728396
+    yOffset: 0.055555556
+    yLength: 0.4074074
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: fly_01
+    duration: 0.56666666
+    xOffset: 0.0061728396
+    yOffset: 0.5
+    yLength: 0.4814815
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  bones:
+  - Arm left hand
+  - Arm right hand
+  - Bip001 L Calf
+  - Bip001 L Forearm
+  - Bip001 L Hand
+  - Bip001 L HorseLink
+  - Bip001 L Thigh
+  - Bip001 L Toe0
+  - Bip001 L Toe1
+  - Bip001 L Toe2
+  - Bip001 Neck
+  - Bip001 Pelvis
+  - Bip001 R Calf
+  - Bip001 R Forearm
+  - Bip001 R Hand
+  - Bip001 R HorseLink
+  - Bip001 R Thigh
+  - Bip001 R Toe0
+  - Bip001 R Toe1
+  - Bip001 R Toe2
+  - Body01
+  - Head
+  - Left foot
+  - Nail
+  - Nail2
+  - Right foot
+  - Tail
+  binePosesOffsets: []
+  transitions: []
+  offsets: []

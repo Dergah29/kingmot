@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: td_npc_yuangcheng
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: f48a723440165ed4290c47b149f932e1, type: 3}
+  clips:
+  - name: attack
+    duration: 1.4000001
+    xOffset: 0.007936508
+    yOffset: 0.07591623
+    yLength: 0.17277487
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: die
+    duration: 1.8000001
+    xOffset: 0.007936508
+    yOffset: 0.2539267
+    yLength: 0.22513089
+    bind: 0
+    loop: 0
+    autoPlayNext: 0
+  - name: idle
+    duration: 1.6000001
+    xOffset: 0.007936508
+    yOffset: 0.4842932
+    yLength: 0.19895288
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: run
+    duration: 0.6666667
+    xOffset: 0.007936508
+    yOffset: 0.6884817
+    yLength: 0.07853403
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: win
+    duration: 1.8000001
+    xOffset: 0.007936508
+    yOffset: 0.7722513
+    yLength: 0.22513089
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  bones:
+  - Arm left hand
+  - Arm right hand
+  - Bip002
+  - Bip002 L Calf
+  - Bip002 L Clavicle
+  - Bip002 L Forearm
+  - Bip002 L Thigh
+  - Bip002 L UpperArm
+  - Bip002 Neck
+  - Bip002 Pelvis
+  - Bip002 R Calf
+  - Bip002 R Clavicle
+  - Bip002 R Forearm
+  - Bip002 R Thigh
+  - Bip002 R UpperArm
+  - Body01
+  - Bone001
+  - Head
+  - Left foot
+  - Right foot
+  - v_lhand
+  binePosesOffsets: []
+  transitions: []
+  offsets: []
