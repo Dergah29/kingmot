@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7533f97fbced8a5f7db2473bdb907d82, type: 3}
+  m_Name: game_setting
+  m_EditorClassIdentifier:
+  HttpConnectTimeout: 20
+  HttpDownloadTimeout: 60
+  EnableHTTP2Connections: 0
+  HttpContentStreamMaxBuffered: 2097152
+  EnableFileCheck: 1
+  EnableContinueTransferring: 1
+  ForceHttpAll: 0
+  ForceHttpTime: 2
+  RetryCount: 5
+  LoadRetryCount: 10
+  RetryPreCDN: 2
+  MiniDownLoadSpeed: 204800
+  MusicInitVolume: 0.5
+  SoundInitVolume: 0.5
+  MarchDistanceCheckTime: 0.1
+  HotTipSize: 50
+  MissingIconRange: {x: 0, y: 300, z: 0.8, w: 1.2}
+  DefaultFrameRate: 60
+  LowPowerFrameRate: 30
+  LowPowerQualityLevel: 2
+  LightingQualityLevel: 2
+  MinResolution: {x: 640, y: 1136}
+  EnableMinResolution: 1
+  EnableBoneJobSystem: 1
+  EnableVisibleController: 1
+  EnableLocalDeviceLevel: 1
+  BackupQuality:
+    QualityLevel: 2
+    ShaderLod: 200
+    ResolutionScaleAndroid: 0.8
+    ResolutionScaleIOS: 0.8
+    EnablePostprocess: 0
+    TargetFrameRate: 30
+  Qualities:
+  - QualityLevel: 0
+    ShaderLod: 100
+    ResolutionScaleAndroid: 0.1
+    ResolutionScaleIOS: 0.1
+    EnablePostprocess: 0
+    TargetFrameRate: 30
+  - QualityLevel: 1
+    ShaderLod: 100
+    ResolutionScaleAndroid: 0.6
+    ResolutionScaleIOS: 0.6
+    EnablePostprocess: 0
+    TargetFrameRate: 30
+  - QualityLevel: 2
+    ShaderLod: 200
+    ResolutionScaleAndroid: 0.65
+    ResolutionScaleIOS: 0.65
+    EnablePostprocess: 0
+    TargetFrameRate: 60
+  - QualityLevel: 3
+    ShaderLod: 300
+    ResolutionScaleAndroid: 0.7
+    ResolutionScaleIOS: 0.85
+    EnablePostprocess: 1
+    TargetFrameRate: 60
+  - QualityLevel: 3
+    ShaderLod: 300
+    ResolutionScaleAndroid: 1
+    ResolutionScaleIOS: 1
+    EnablePostprocess: 1
+    TargetFrameRate: 60
+  LocalDeviceLevels:
+  - level: 1
+    datas: []
+    devices: []
+    memory: 4096
+  - level: 2
+    datas:
+    - vendor: Qualcomm
+      devices: []
+      patterns:
+      - ^.*Adreno.*((6[0-3]|7[0-1])[0-9])
+    - vendor: ARM
+      devices:
+      - G52
+      - G57
+      - G68
+      - G71
+      - G72
+      - G76
+      - G510
+      - G620
+      patterns: []
+    - vendor: Apple
+      devices:
+      - A11
+      - A12
+      - A13
+      patterns: []
+    devices: []
+    memory: 6144
+  - level: 3
+    datas:
+    - vendor: Qualcomm
+      devices: []
+      patterns:
+      - ^.*Adreno.*((6[4-9]|7[2-9])[0-9])
+    - vendor: ARM
+      devices:
+      - G77
+      - G78
+      - G610
+      - G615
+      - G710
+      - G715
+      - G720
+      - G725
+      - G925
+      patterns:
+      - ^.*(Mali|Immortalis)-G((7|9)\d{2})
+    - vendor: Apple
+      devices:
+      - A14
+      - A15
+      - A16
+      - M1
+      - M2
+      patterns:
+      - ^.*Apple.*(A1[4-9]|A[2-9][0-9]|M)
+    devices: []
+    memory: 102400
+  BenchmarkData:
+    iOSMemoryMax: 8000
+    benchmarkMapping:
+  devices:
+  - level: 1
+    devices: []
+  - level: 2
+    devices: []
+  - level: 3
+    devices: []
+  AssetGroups:
+  - data
+  - patch
+  - sound
+  - video
+  - world
+  - arsenal
+  - minewar
+  - garden
+  SoundDistanceAisacs:
+  - category: DistantAmbi
+    control: AisacDistance
+  - category: Distant3D
+    control: AisacDistance
+  - category: DistantCustom
+    control: AisacDistance
+  - category: Ambi_Distant
+    control: AisacAmbiDistance

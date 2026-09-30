@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: garden_ocean_02
+  m_Shader: {fileID: 4800000, guid: 7ed8e00404f6e694c9d34640dc636029, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2010
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _DeepColor:
+        m_Texture: {fileID: 2800000, guid: c20151dd15afa9f4385ec3a010f9611e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 25f87eda74886df468d273db99cb5937, type: 3}
+        m_Scale: {x: 30, y: 50}
+        m_Offset: {x: 25, y: 55}
+      _NormalTex:
+        m_Texture: {fileID: 2800000, guid: 289c68adf030f8a45a4541e7e5c904cf, type: 3}
+        m_Scale: {x: 0.05, y: 0.03}
+        m_Offset: {x: 1, y: 1}
+    m_Ints: {}
+    m_Floats:
+      _BumpScale: 1
+      _BumpWeight: 1
+      _CausticEdge: 0.468
+      _CausticRange: 0.777
+      _CausticSpeed: 0.68
+      _CausticStrength: 10
+      _CausticUVScale: 0.723
+      _Cutoff: 0.5
+      _DeepEdge: 1
+      _DeepRange: 0.127
+      _DetailNormalMapScale: 1
+      _DstBlend: 0
+      _FresnelPower: 7
+      _GlossMapScale: 1
+      _Glossiness: 0.5
+      _GlossyReflections: 1
+      _Metallic: 0
+      _Mode: 0
+      _NLStrength: 0.2
+      _NormalStrength: 0.1
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _ReflectionStrength: 0
+      _RefractiveIndexOfAir: 1
+      _RefractiveIndexOfWater: 1.2
+      _ShadowStrength: 0
+      _SkyDirectionality: 0
+      _SmoothnessTextureChannel: 0
+      _Specular: 0.7
+      _SpecularHighlights: 1
+      _SpecularNormalStrength: 0.093
+      _SpecularPower: 413
+      _SpecularStrength: 0.357
+      _Speed: 0.5
+      _SpeedA: 1
+      _SpeedB: 0.3
+      _SpeedC: 1.3
+      _SrcBlend: 1
+      _Stencil: 1
+      _UVSec: 0
+      _WaveCrest: 0.745
+      _WaveEdge: 0.077
+      _WaveRange: 0.725
+      _WaveRange2: 0
+      _ZWrite: 1
+    m_Colors:
+      _CausticCol: {r: 1, g: 0.9814269, b: 0.7688679, a: 1}
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _DeepColor: {r: 0.107714266, g: 0.32685703, b: 0.52, a: 1}
+      _DeepColor2: {r: 0, g: 0.63931274, b: 1, a: 0.011764706}
+      _DeepTilingAndOffset: {r: 0.1, g: 0.1, b: -0.1, a: -0.74}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _FoamColor: {r: 1, g: 1, b: 1, a: 1}
+      _FoamMove: {r: 0.3, g: 0.15, b: 1.2, a: 0.1}
+      _FoamParam: {r: 0.01, g: -0.02, b: 0.8, a: 1.02}
+      _LayerOffset: {r: 0, g: 0.1, b: 0, a: 1}
+      _LightDir: {r: 10.16, g: 11.2, b: 5.34, a: 0}
+      _NoiseSpeed: {r: -0.1, g: -0.3, b: 0.01, a: 0}
+      _NoiseSpeed2: {r: -0.2, g: -0.2, b: 0.015, a: 0}
+      _NormalUVParam: {r: 0.01, g: 0.01, b: 0.02, a: -0.01}
+      _SSSColor: {r: 0.15747362, g: 0.4688421, b: 0.748, a: 1}
+      _SSSParam: {r: 0, g: 1, b: 1, a: 1}
+      _ShallowColor: {r: 0.72043985, g: 0.7647059, b: 0.53333336, a: 1}
+      _ShallowColor2: {r: 0.032707363, g: 0.05848491, b: 0.1981132, a: 1}
+      _SkyAwayFromSun: {r: 3.3725872, g: 2.3524592, b: 1.224949, a: 1}
+      _SkyBase: {r: 0.552, g: 0.8524235, b: 1, a: 1}
+      _Speed: {r: 0.5, g: 0.6, b: 0.3, a: 1}
+      _WaveParamA: {r: 0, g: 1, b: 0.12, a: 20}
+      _WaveParamB: {r: 0.6, g: 0.4, b: 0.08, a: 12}
+      _WaveParamC: {r: -0.6, g: -0.3, b: 0.03, a: 5}
+  m_BuildTextureStacks: []
