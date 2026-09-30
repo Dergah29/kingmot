@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--EXPORTED BY TOOL, DON'T MODIFY IT!-->
+<!--Source File: Skill\hero_50028_activeskillxp.xml-->
+<behavior name="Skill/hero_50028_activeskillxp" agenttype="behaviac::TDSkillAgent" version="5">
+  <node class="Sequence" id="0">
+    <node class="Action" id="29">
+      <property Method="Self.behaviac::TDSkillAgent::NewTargets_GetCreator()" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="1">
+      <property Method="Self.behaviac::TDSkillAgent::SkillEffect_SetupSkillAction(&quot;skillxp&quot;)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="2">
+      <property Method="Self.behaviac::TDSkillAgent::SkillEffect_SelectAtkTargetSkillPoint()" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="3">
+      <property Method="Self.behaviac::TDSkillAgent::NewTargets_GetCreatorAtkTarget()" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="4">
+      <property Method="Self.behaviac::TDSkillAgent::GetTargets_GetCircleTargets(107,108,109,110)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="5">
+      <property Method="Self.behaviac::TDSkillAgent::GetTargets_GetCampTargets(true)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="6">
+      <property Method="Self.behaviac::TDSkillAgent::GetTargets_GetHighPriorityCloseTargets(1:6)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="7">
+      <property Method="Self.behaviac::TDSkillAgent::SkillEffect_ForceToTargetDir()" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="8">
+      <property Method="Self.behaviac::TDSkillAgent::GetTargets_MarkCurTargets(true)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="10">
+      <property Method="Self.behaviac::TDSkillAgent::CreateCreatorEffect(144,true)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="9">
+      <property Method="Self.behaviac::TDSkillAgent::SkillEffect_DoPreSkill()" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="11">
+      <property Method="Self.behaviac::TDSkillAgent::NewTargets_GetCreator()" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="12">
+      <property Method="Self.behaviac::TDSkillAgent::CreateSkillObjFromTargets(33)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="14">
+      <property Method="Self.behaviac::TDSkillAgent::NewTargets_MarkCurTargets()" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="15">
+      <property Method="Self.behaviac::TDSkillAgent::SkillEffect_LetTheSkillObjFlyTo(33,117,1,false,0)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Assignment" id="24">
+      <property CastRight="false" />
+      <property Opl="int Self.behaviac::TDSkillAgent::SkillWaitTime" />
+      <property Opr="const int 400" />
+    </node>
+    <node class="Action" id="25">
+      <property Method="Self.behaviac::TDSkillAgent::SkillEffect_WaitTime()" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="26">
+      <property Method="Self.behaviac::TDSkillAgent::NewTargets_GetCreator()" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="27">
+      <property Method="Self.behaviac::TDSkillAgent::CreateSkillObjFromTargets(34)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="28">
+      <property Method="Self.behaviac::TDSkillAgent::NewTargets_MarkCurTargets()" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="13">
+      <property Method="Self.behaviac::TDSkillAgent::SkillEffect_LetTheSkillObjFlyTo(34,117,1,false,0)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Assignment" id="17">
+      <property CastRight="false" />
+      <property Opl="int Self.behaviac::TDSkillAgent::SkillWaitTime" />
+      <property Opr="const int 2100" />
+    </node>
+    <node class="Action" id="16">
+      <property Method="Self.behaviac::TDSkillAgent::SkillEffect_WaitTime()" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="18">
+      <property Method="Self.behaviac::TDSkillAgent::NewTargets_GetCreator()" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="19">
+      <property Method="Self.behaviac::TDSkillAgent::CreateSkillObjFromTargets(35)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="20">
+      <property Method="Self.behaviac::TDSkillAgent::NewTargets_MarkCurTargets()" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="21">
+      <property Method="Self.behaviac::TDSkillAgent::SkillEffect_LetTheSkillObjFlyTo(35,117,1,false,0)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="23">
+      <property Method="Self.behaviac::TDSkillAgent::SkillDone()" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+  </node>
+</behavior>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--EXPORTED BY TOOL, DON'T MODIFY IT!-->
+<!--Source File: Skill\hero_50021_activeskkill3.xml-->
+<behavior name="Skill/hero_50021_activeskkill3" agenttype="behaviac::TDSkillAgent" version="5">
+  <node class="Sequence" id="0">
+    <node class="Action" id="1">
+      <property Method="Self.behaviac::TDSkillAgent::NewTargets_GetAllCampTargets(true,false)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="5">
+      <property Method="Self.behaviac::TDSkillAgent::GetTargets_TypeTargets(107,108)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="2">
+      <property Method="Self.behaviac::TDSkillAgent::AddBuffToTarget(1045)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="4">
+      <property Method="Self.behaviac::TDSkillAgent::CreateTargetsEffect(87,true)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="3">
+      <property Method="Self.behaviac::TDSkillAgent::SkillDone()" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+  </node>
+</behavior>

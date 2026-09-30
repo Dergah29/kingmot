@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--EXPORTED BY TOOL, DON'T MODIFY IT!-->
+<!--Source File: Skill\hero50008_activeskillobj.xml-->
+<behavior name="Skill/hero50008_activeskillobj" agenttype="behaviac::TDSkillAgent" version="5">
+  <node class="Sequence" id="0">
+    <node class="Action" id="1">
+      <property Method="Self.behaviac::TDSkillAgent::SkillEffect_RecordSkillObjPosition(7)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="2">
+      <property Method="Self.behaviac::TDSkillAgent::CreateSkillPointEffect(53)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="5">
+      <property Method="Self.behaviac::TDSkillAgent::CreateNormalDamage(2)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="6">
+      <property Method="Self.behaviac::TDSkillAgent::SkillDone()" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+  </node>
+</behavior>

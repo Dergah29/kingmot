@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--EXPORTED BY TOOL, DON'T MODIFY IT!-->
+<!--Source File: Check\soldier_62201_activeskillxp.xml-->
+<behavior name="Check/soldier_62201_activeskillxp" agenttype="behaviac::TDSkillAgent" version="5">
+  <node class="Sequence" id="0">
+    <node class="Action" id="1">
+      <property Method="Self.behaviac::TDSkillAgent::NewTargets_GetCreator()" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="2">
+      <property Method="Self.behaviac::TDSkillAgent::SkillEffect_DoPreSkill()" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="3">
+      <property Method="Self.behaviac::TDSkillAgent::CreateCreatorEffect(10075,true)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="4">
+      <property Method="Self.behaviac::TDSkillAgent::AddBuffToTarget(1164)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="5">
+      <property Method="Self.behaviac::TDSkillAgent::SkillEffect_DoAfterSkill()" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+  </node>
+</behavior>

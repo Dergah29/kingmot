@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--EXPORTED BY TOOL, DON'T MODIFY IT!-->
+<!--Source File: Check\check_hero_50010_activeskill3obj.xml-->
+<behavior name="Check/check_hero_50010_activeskill3obj" agenttype="behaviac::TDSkillAgent" version="5">
+  <node class="Sequence" id="0">
+    <node class="Action" id="1">
+      <property Method="Self.behaviac::TDSkillAgent::Check_Probability(113)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="3">
+      <property Method="Self.behaviac::TDSkillAgent::NewTargets_FromLastFrameHurt()" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="5">
+      <property Method="Self.behaviac::TDSkillAgent::GetTargets_HurtFromCreater()" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="6">
+      <property Method="Self.behaviac::TDSkillAgent::GetTargets_HurtFromType(2)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="7">
+      <property Method="Self.behaviac::TDSkillAgent::CheckTarget_HasNumTarget(112)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="4">
+      <property Method="Self.behaviac::TDSkillAgent::SkillDone()" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+  </node>
+</behavior>

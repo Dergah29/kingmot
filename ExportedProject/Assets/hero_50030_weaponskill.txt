@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--EXPORTED BY TOOL, DON'T MODIFY IT!-->
+<!--Source File: Skill\hero_50030_weaponskill.xml-->
+<behavior name="Skill/hero_50030_weaponskill" agenttype="behaviac::TDSkillAgent" version="5">
+  <node class="Sequence" id="0">
+    <node class="Action" id="1">
+      <property Method="Self.behaviac::TDSkillAgent::NewTargets_GetCreatorAtkTarget()" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="3">
+      <property Method="Self.behaviac::TDSkillAgent::AddBuffToTarget(1114)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="7">
+      <property Method="Self.behaviac::TDSkillAgent::AddBuffToTarget(1115)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="4">
+      <property Method="Self.behaviac::TDSkillAgent::CreateTargetsEffect(190,true)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Assignment" id="2">
+      <property CastRight="false" />
+      <property Opl="int Self.behaviac::TDSkillAgent::SkillWaitTime" />
+      <property Opr="const int 1100" />
+    </node>
+    <node class="Action" id="6">
+      <property Method="Self.behaviac::TDSkillAgent::SkillEffect_WaitTime()" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="5">
+      <property Method="Self.behaviac::TDSkillAgent::AddBuffToTarget(1114)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="8">
+      <property Method="Self.behaviac::TDSkillAgent::NewTargets_GetAllCampTargets(false,true)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="9">
+      <property Method="Self.behaviac::TDSkillAgent::AddBuffToTarget(1115)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="10">
+      <property Method="Self.behaviac::TDSkillAgent::SkillDone()" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+  </node>
+</behavior>

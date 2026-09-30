@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--EXPORTED BY TOOL, DON'T MODIFY IT!-->
+<!--Source File: Skill\proactive_71201_activityskillxpobj.xml-->
+<behavior name="Skill/proactive_71201_activityskillxpobj" agenttype="behaviac::TDSkillAgent" version="5">
+  <node class="Sequence" id="0">
+    <node class="Action" id="4">
+      <property Method="Self.behaviac::TDSkillAgent::SkillEffect_RecordSkillObjPosition(1020)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="1">
+      <property Method="Self.behaviac::TDSkillAgent::NewTargets_GetCircleTargetBySkillPoint(107,108,109,110)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="2">
+      <property Method="Self.behaviac::TDSkillAgent::GetTargets_GetCampTargets(true)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="6">
+      <property Method="Self.behaviac::TDSkillAgent::CreateTargetsEffect(10078,true)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="3">
+      <property Method="Self.behaviac::TDSkillAgent::CreateSkillPointEffect(10077)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="5">
+      <property Method="Self.behaviac::TDSkillAgent::CreateNormalDamage(2)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Assignment" id="15">
+      <property CastRight="false" />
+      <property Opl="int Self.behaviac::TDSkillAgent::SkillWaitTime" />
+      <property Opr="const int 1000" />
+    </node>
+    <node class="Action" id="7">
+      <property Method="Self.behaviac::TDSkillAgent::SkillEffect_WaitTime()" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="14">
+      <property Method="Self.behaviac::TDSkillAgent::NewTargets_GetCircleTargetBySkillPoint(107,108,109,110)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="17">
+      <property Method="Self.behaviac::TDSkillAgent::GetTargets_GetCampTargets(true)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="9">
+      <property Method="Self.behaviac::TDSkillAgent::CreateTargetsEffect(10078,true)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="8">
+      <property Method="Self.behaviac::TDSkillAgent::CreateNormalDamage(2)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Assignment" id="16">
+      <property CastRight="false" />
+      <property Opl="int Self.behaviac::TDSkillAgent::SkillWaitTime" />
+      <property Opr="const int 1000" />
+    </node>
+    <node class="Action" id="10">
+      <property Method="Self.behaviac::TDSkillAgent::SkillEffect_WaitTime()" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="18">
+      <property Method="Self.behaviac::TDSkillAgent::NewTargets_GetCircleTargetBySkillPoint(107,108,109,110)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="19">
+      <property Method="Self.behaviac::TDSkillAgent::GetTargets_GetCampTargets(true)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="11">
+      <property Method="Self.behaviac::TDSkillAgent::CreateNormalDamage(2)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="12">
+      <property Method="Self.behaviac::TDSkillAgent::CreateTargetsEffect(10078,true)" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+    <node class="Action" id="13">
+      <property Method="Self.behaviac::TDSkillAgent::SkillDone()" />
+      <property ResultOption="BT_INVALID" />
+    </node>
+  </node>
+</behavior>
