@@ -1,0 +1,2364 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f8fa45764ca3b58e92e7d613dca93cf, type: 3}
+  m_Name: bezier_path
+  m_EditorClassIdentifier:
+  curves:
+  - name: curve_1
+    curve:
+      Loop: 1
+      Mode: 3
+      AutoControlLength: 0.3
+      CurvePointCount: 252
+      Points:
+      - Position: {x: 0, y: 5, z: 0}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 2.1681204, y: 5.3667045, z: -1.841524}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 7.1509657, y: 5.2760434, z: -0.3813511}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 9.465263, y: 5.3005524, z: 1.3127136}
+        Angle: 24
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 10.6943, y: 5.313568, z: 2.212368}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 12.61858, y: 5.343587, z: 4.7254887}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 11.650688, y: 5.2173176, z: 5.8948135}
+        Angle: 39.2
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 10.874168, y: 5.1160145, z: 6.8329387}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 8.575591, y: 5.03788, z: 5.720963}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 7.719692, y: 5, z: 4.8495693}
+        Angle: 15
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 7.145861, y: 4.9746037, z: 4.26535}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 6.697591, y: 5, z: 2.9319098}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 7.063143, y: 5, z: 2.19869}
+        Angle: 15
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 7.5997, y: 5, z: 1.1224705}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 9.584342, y: 5, z: 0.33290413}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 10.750498, y: 5, z: 0.62654066}
+        Angle: 20.6
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 11.852594, y: 5, z: 0.9040471}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 13.089959, y: 4.982583, z: 2.4493964}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 13.116127, y: 5, z: 3.5854588}
+        Angle: 17.9
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 13.146802, y: 5.0204167, z: 4.9171677}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 11.739809, y: 5.139622, z: 6.675478}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 10.505707, y: 5.108227, z: 7.1762886}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 8.82342, y: 5.065429, z: 7.8589773}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 6.174214, y: 4.774596, z: 6.9594765}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 4.554241, y: 4.7187634, z: 6.140602}
+        Angle: 27.8
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 2.8583922, y: 4.6603155, z: 5.283373}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 0.71059626, y: 4.604376, z: 3.5071363}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -0.025268555, y: 4.753908, z: 1.7606239}
+        Angle: 0
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: -0.23172456, y: 4.7958612, z: 1.2706182}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -0.40319118, y: 4.9318066, z: 0.34245616}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+    subCurves: []
+    CenterPosition: {x: 6.545429, y: 5.009658, z: 3.5881443}
+  - name: curve_2
+    curve:
+      Loop: 1
+      Mode: 3
+      AutoControlLength: 0.3
+      CurvePointCount: 199
+      Points:
+      - Position: {x: 0, y: 4.7, z: 0}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 0.11271984, y: 4.7, z: 2.0745075}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 2.0572546, y: 4.7, z: 4.5751843}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 3.6893997, y: 4.7, z: 5.8606377}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 4.5870624, y: 4.7, z: 6.567623}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 6.265717, y: 4.7, z: 7.5668626}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 7.2984505, y: 4.7, z: 7.077896}
+        Angle: -32.3
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 9.664268, y: 4.7, z: 5.9577565}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 10.492338, y: 4.7, z: 1.5305274}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 10.381157, y: 4.7, z: -1.0847054}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 10.288997, y: 4.7, z: -3.2525208}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 9.159963, y: 4.7, z: -6.5602045}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 7.260807, y: 4.7, z: -7.6095505}
+        Angle: -35.8
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 6.265237, y: 4.7, z: -8.159636}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 4.422622, y: 4.7, z: -7.831427}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 3.4944725, y: 4.7, z: -7.1739388}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 1.5410149, y: 4.7, z: -5.7901363}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -0.12988436, y: 4.7, z: -2.3904052}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+    subCurves: []
+    CenterPosition: {x: 5.1905785, y: 4.7, z: -0.26582718}
+  - name: curve_3
+    curve:
+      Loop: 1
+      Mode: 0
+      AutoControlLength: 0.15
+      CurvePointCount: 98
+      Points:
+      - Position: {x: 0, y: 5, z: 0}
+        Angle: -24.2
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 0.39963058, y: 5, z: 0.38655725}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 1.024804, y: 5, z: -0.113881454}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 1.1800575, y: 5, z: -0.20425415}
+        Angle: -12.5
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 2.1062317, y: 5, z: -0.7433777}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 3.6824665, y: 5, z: -6.0433416}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 3.703354, y: 5, z: -7.1518936}
+        Angle: -21.5
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 3.7169495, y: 5, z: -7.8734474}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 3.2361183, y: 5, z: -8.252527}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 3.0616646, y: 5, z: -8.360741}
+        Angle: -28.7
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 2.9762154, y: 5, z: -8.413745}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 2.4836402, y: 5, z: -8.41967}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 2.3915634, y: 5, z: -8.379261}
+        Angle: -17
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 1.8119991, y: 5, z: -8.124913}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 0.10866165, y: 5, z: -6.637127}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -0.37817, y: 5, z: -5.196106}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: -0.90180784, y: 5, z: -3.6461387}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -0.52948, y: 5, z: -1.944149}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -0.47151947, y: 5, z: -1.3908539}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: -0.3303889, y: 5, z: -0.9823276}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -0.3220749, y: 5, z: -0.3115387}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+    subCurves: []
+    CenterPosition: {x: 1.6159172, y: 5, z: -4.1896305}
+  - name: curve_4
+    curve:
+      Loop: 1
+      Mode: 3
+      AutoControlLength: 0.3
+      CurvePointCount: 470
+      Points:
+      - Position: {x: 0, y: 5, z: 0}
+        Angle: -0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: -5.7120857, y: 5, z: 5.9408293}
+        Angle: -0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -1.050837, y: 5, z: 22.17494}
+        Angle: -0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 5.723412, y: 5, z: 26.868652}
+        Angle: -0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 11.31575, y: 5, z: 30.743446}
+        Angle: -0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 24.7051, y: 5, z: 29.367352}
+        Angle: -0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 28.150423, y: 5, z: 23.500664}
+        Angle: -24.2
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 31.387295, y: 5, z: 17.988926}
+        Angle: -0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 25.576544, y: 5, z: 7.6308784}
+        Angle: -0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 20.650257, y: 5, z: 3.5580063}
+        Angle: -0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 15.805323, y: 5, z: -0.44760752}
+        Angle: -0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 4.3570323, y: 5, z: -4.531512}
+        Angle: -0
+        Speed: 1
+        State: -1
+        CueName:
+    subCurves:
+    - Loop: 1
+      Mode: 3
+      AutoControlLength: 0.3
+      CurvePointCount: 491
+      Points:
+      - Position: {x: 1.1840668, y: 4.8999996, z: -1.6085472}
+        Angle: -22.4
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: -3.3179736, y: 4.8999996, z: 1.0776432}
+        Angle: -0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -4.4001727, y: 4.8999996, z: 10.293079}
+        Angle: -0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -3.0250292, y: 4.8999996, z: 15.352028}
+        Angle: -0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -1.7270079, y: 4.8999996, z: 20.127254}
+        Angle: -0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 3.7746997, y: 4.8999996, z: 25.696768}
+        Angle: -0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 8.505909, y: 4.8999996, z: 27.147049}
+        Angle: -0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 13.944056, y: 4.8999996, z: 28.814032}
+        Angle: -0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 24.00443, y: 4.8999996, z: 28.130447}
+        Angle: -0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 27.080715, y: 4.8999996, z: 23.34623}
+        Angle: -49.3
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 30.318527, y: 4.8999996, z: 18.310802}
+        Angle: -0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 26.78642, y: 4.8999996, z: 8.18566}
+        Angle: -0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 22.607697, y: 4.8999996, z: 3.898796}
+        Angle: -0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 17.975615, y: 4.8999996, z: -0.85315704}
+        Angle: -0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 6.882817, y: 4.8999996, z: -5.008767}
+        Angle: -0
+        Speed: 1
+        State: -1
+        CueName:
+    - Loop: 1
+      Mode: 3
+      AutoControlLength: 0.3
+      CurvePointCount: 456
+      Points:
+      - Position: {x: 1.5380249, y: 4.8, z: 0.4347191}
+        Angle: -22.4
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: -2.0921264, y: 4.8, z: 3.0849445}
+        Angle: -0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -1.4426923, y: 4.8, z: 11.014341}
+        Angle: -0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -0.15569496, y: 4.8, z: 15.32077}
+        Angle: -0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 1.4863478, y: 4.8, z: 20.81522}
+        Angle: -0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 6.6137323, y: 4.8, z: 28.255463}
+        Angle: -0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 12.07225, y: 4.8, z: 30.01326}
+        Angle: -0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 16.538708, y: 4.8, z: 31.451586}
+        Angle: -0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 24.99258, y: 4.8, z: 30.22261}
+        Angle: -0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 27.213062, y: 4.8, z: 26.08891}
+        Angle: -49.3
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 30.52459, y: 4.8, z: 19.924091}
+        Angle: -0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 24.89616, y: 4.8, z: 8.634191}
+        Angle: -0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 19.625282, y: 4.8, z: 4.0310364}
+        Angle: -0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 15.458259, y: 4.8, z: 0.39189792}
+        Angle: -0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 6.006344, y: 4.8, z: -2.8274183}
+        Angle: -0
+        Speed: 1
+        State: -1
+        CueName:
+    CenterPosition: {x: 14.075212, y: 5, z: 13.434326}
+  - name: curve_5
+    curve:
+      Loop: 1
+      Mode: 3
+      AutoControlLength: 0.3
+      CurvePointCount: 441
+      Points:
+      - Position: {x: 0, y: 5.1, z: 0}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 2.428326, y: 5.1, z: 0.89307415}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 6.0595274, y: 5.1, z: 1.9397874}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 8.540031, y: 5.1, z: 1.2039566}
+        Angle: -33.3
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 9.983331, y: 5.1, z: 0.7758082}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 11.848035, y: 5.1, z: -0.6644403}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 12.323296, y: 5.1, z: -2.0929184}
+        Angle: -7.2
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 13.137753, y: 5.1, z: -4.54091}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 12.955105, y: 5.1, z: -9.657297}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 10.516975, y: 5.1, z: -10.500818}
+        Angle: -21.7
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 9.499212, y: 5.1, z: -10.852935}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 8.244974, y: 5.1, z: -9.166564}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 7.755226, y: 5.1, z: -8.207411}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 6.332427, y: 5.1, z: -5.420912}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 6.385868, y: 5.1, z: -0.8558531}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 7.063143, y: 5.1, z: 2.19869}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 7.3767138, y: 5.1, z: 3.6129098}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 8.19228, y: 5.1, z: 5.614813}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 9.389946, y: 5.1, z: 6.429638}
+        Angle: -11.6
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 10.37579, y: 5.1, z: 7.100351}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 12.356631, y: 5.090899, z: 7.6173496}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 13.332584, y: 5.1, z: 6.9323845}
+        Angle: -47.5
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 15.687536, y: 5.1219597, z: 5.279579}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 16.432411, y: 5.2045727, z: 0.2686913}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 15.425247, y: 5.2082267, z: -2.426426}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 14.184034, y: 5.21273, z: -5.7478476}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 9.204518, y: 5.1167707, z: -8.120829}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 5.9142914, y: 5.1, z: -9.442417}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 3.1892695, y: 5.08611, z: -10.53698}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -1.3074534, y: 5.1, z: -12.2575}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -3.7940903, y: 5.1, z: -10.695245}
+        Angle: -12.5
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: -5.6275873, y: 5.1, z: -9.543332}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -6.7961636, y: 5.1, z: -5.884628}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -6.068516, y: 5.1, z: -3.84523}
+        Angle: -28.7
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: -5.344249, y: 5.1, z: -1.815309}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -2.022797, y: 5.1, z: -0.74393135}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+    subCurves:
+    - Loop: 1
+      Mode: 3
+      AutoControlLength: 0.3
+      CurvePointCount: 446
+      Points:
+      - Position: {x: 0.03, y: 5.2, z: -0.76}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 2.4361296, y: 5.2, z: 0.15616822}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 6.1386213, y: 5.2, z: 0.9362006}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 8.57003, y: 5.2, z: 0.08939922}
+        Angle: -33.3
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 9.877101, y: 5.2, z: -0.36582214}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 11.355478, y: 5.2, z: -1.8411603}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 11.88406, y: 5.2, z: -3.120325}
+        Angle: -7.2
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 12.817243, y: 5.2, z: -5.378621}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 13.784629, y: 5.2, z: -9.92595}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 11.740089, y: 5.2, z: -11.264078}
+        Angle: -21.7
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 10.48065, y: 5.2, z: -12.088367}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 7.9984493, y: 5.2, z: -10.550719}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 7.1073036, y: 5.2, z: -9.337666}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 5.185426, y: 5.2, z: -6.721549}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 5.1280313, y: 5.2, z: -1.6490386}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 6.129833, y: 5.2, z: 1.4386902}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 6.619, y: 5.2, z: 2.9463885}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 8.207895, y: 5.2, z: 4.6703024}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 9.605457, y: 5.2, z: 5.4181385}
+        Angle: -11.6
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 10.477207, y: 5.2, z: 5.884613}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 12.041336, y: 5.1929936, z: 6.3786345}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 12.873436, y: 5.2, z: 5.844681}
+        Angle: -47.5
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 15.394979, y: 5.221231, z: 4.2266235}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 16.832323, y: 5.3050427, z: -0.8746257}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 15.82399, y: 5.3082266, z: -3.6959724}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 14.627982, y: 5.3120027, z: -7.042446}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 9.2765665, y: 5.216671, z: -8.996034}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 5.94429, y: 5.2, z: -10.230936}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 3.1115801, y: 5.1858277, z: -11.2807045}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -1.6286623, y: 5.2, z: -13.301656}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -4.046623, y: 5.2, z: -11.4906}
+        Angle: -12.5
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: -5.73785, y: 5.2, z: -10.223868}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -5.9722915, y: 5.2, z: -6.490061}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -5.166359, y: 5.2, z: -4.5367737}
+        Angle: -28.7
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: -4.431315, y: 5.2, z: -2.7552953}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -1.7710224, y: 5.2, z: -1.445765}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+    - Loop: 1
+      Mode: 3
+      AutoControlLength: 0.3
+      CurvePointCount: 461
+      Points:
+      - Position: {x: -1.34, y: 4.8, z: 0.88}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 1.0661296, y: 4.8, z: 1.7961682}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 4.768621, y: 4.8, z: 2.5762005}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 7.2000303, y: 4.8, z: 1.7293992}
+        Angle: -33.3
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 8.507101, y: 4.8, z: 1.2741778}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 9.985478, y: 4.8, z: -0.20116031}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 10.51406, y: 4.8, z: -1.4803251}
+        Angle: -7.2
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 11.447243, y: 4.8, z: -3.7386208}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 12.111057, y: 4.8, z: -7.909505}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 10.37009, y: 4.8, z: -9.624078}
+        Angle: -21.7
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 9.556892, y: 4.8, z: -10.424946}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 7.405962, y: 4.8, z: -10.405528}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 6.5656013, y: 4.8, z: -9.633211}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 3.7504082, y: 4.8, z: -7.0459633}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 4.5482383, y: 4.8, z: -0.62825525}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 5.5225067, y: 4.8, z: 3.0690365}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 5.891285, y: 4.8, z: 4.468528}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 7.0028963, y: 4.8, z: 6.299609}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 8.235457, y: 4.8, z: 7.058139}
+        Angle: -11.6
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 9.077491, y: 4.8, z: 7.576334}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 10.64806, y: 4.792555, z: 7.9804854}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 11.503436, y: 4.8, z: 7.484681}
+        Angle: -47.5
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 13.855429, y: 4.8204727, z: 6.1213894}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 15.626799, y: 4.9017425, z: 1.7382159}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 14.951286, y: 4.908227, z: -0.89512634}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 13.957834, y: 4.9177637, z: -4.767887}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 8.303582, y: 4.817044, z: -7.815671}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 4.574291, y: 4.8, z: -9.256994}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 1.7736503, y: 4.7872005, z: -10.339406}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -3.074191, y: 4.8, z: -11.728997}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -5.4166236, y: 4.8, z: -9.850599}
+        Angle: -12.5
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: -7.0650864, y: 4.8, z: -8.528696}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -7.342292, y: 4.8, z: -4.8500605}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -6.5363593, y: 4.8, z: -2.8967738}
+        Angle: -28.7
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: -5.8013153, y: 4.8, z: -1.1152952}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -3.1410224, y: 4.8, z: 0.19423497}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+    CenterPosition: {x: 4.6783657, y: 5.1541133, z: -1.8814301}
+  - name: curve_6
+    curve:
+      Loop: 1
+      Mode: 3
+      AutoControlLength: 0.3
+      CurvePointCount: 247
+      Points:
+      - Position: {x: 0, y: 4.6, z: 0}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 1.2707179, y: 4.6, z: 0.11911291}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 2.4395182, y: 4.6, z: -1.8600566}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 3.6893997, y: 4.6, z: -2.1183357}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 5.967681, y: 4.6, z: -2.589126}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 9.309633, y: 4.6, z: -0.20573938}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 11.394081, y: 4.6, z: -1.2388344}
+        Angle: -32.3
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 12.014479, y: 4.6, z: -1.5463161}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 12.422464, y: 4.6, z: -2.546669}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 12.5745125, y: 4.6, z: -3.2221832}
+        Angle: -20.6
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 12.983115, y: 4.6, z: -5.0375032}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 12.7464695, y: 4.6, z: -7.696339}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 11.991913, y: 4.6, z: -9.397217}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 11.701624, y: 4.6, z: -10.051569}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 11.096974, y: 4.6, z: -11.16474}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 10.381157, y: 4.6, z: -11.157696}
+        Angle: -26.9
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 8.9637165, y: 4.6, z: -11.143747}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 8.576124, y: 4.6, z: -8.138012}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 7.260807, y: 4.6, z: -7.6095505}
+        Angle: 15.2
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 4.397272, y: 4.6, z: -6.459053}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 0.027050018, y: 4.6, z: -9.142922}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -2.9884224, y: 4.6, z: -8.486872}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: -3.8868322, y: 4.6, z: -8.291412}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -5.269362, y: 4.6, z: -7.814001}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -5.6574097, y: 4.6, z: -6.9804764}
+        Angle: -40.3
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: -5.985294, y: 4.6, z: -6.276183}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -5.5684667, y: 4.6, z: -5.1079335}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -5.1796913, y: 4.6, z: -4.4353333}
+        Angle: -15.2
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: -4.155925, y: 4.6, z: -2.6641676}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -2.036829, y: 4.6, z: -0.19092564}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+    subCurves: []
+    CenterPosition: {x: 3.4585514, y: 4.6, z: -5.578848}
+  - name: curve_7
+    curve:
+      Loop: 1
+      Mode: 3
+      AutoControlLength: 0.3
+      CurvePointCount: 302
+      Points:
+      - Position: {x: 0, y: 4.801738, z: 0}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 1.917334, y: 4.875292, z: -0.24082845}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 1.881572, y: 5.1276813, z: -4.5880084}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 3.6893997, y: 5.2, z: -5.270729}
+        Angle: 20.6
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 4.1371193, y: 5.21791, z: -5.439809}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 4.8082795, y: 5.2, z: -5.101088}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 5.241314, y: 5.2, z: -4.896534}
+        Angle: 10.7
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 6.889455, y: 5.2, z: -4.117995}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 8.270304, y: 5.2, z: -1.2130821}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 10.092892, y: 5.2, z: -1.2388344}
+        Angle: -9
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 11.045839, y: 5.2, z: -1.2522991}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 12.197262, y: 5.2, z: -2.3469849}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 12.5745125, y: 5.2, z: -3.2221832}
+        Angle: -20.6
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 12.930151, y: 5.2, z: -4.047242}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 12.667818, y: 5.2, z: -5.3752947}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 12.327503, y: 5.2, z: -6.206791}
+        Angle: -7.2
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 11.154637, y: 5.2, z: -9.072469}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 7.571437, y: 5.1745358, z: -11.654375}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 5.722706, y: 5.2, z: -14.138176}
+        Angle: -26.9
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 5.010859, y: 5.2098045, z: -15.094554}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 4.6133823, y: 5.222482, z: -16.960127}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 3.5274277, y: 5.2652655, z: -17.450386}
+        Angle: 15.2
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 1.7281299, y: 5.336152, z: -18.262686}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -1.9312148, y: 5.5526323, z: -18.214851}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -2.9884262, y: 5.557132, z: -16.546135}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: -4.3739915, y: 5.563029, z: -14.359141}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 0.33058506, y: 5.347262, z: -10.792695}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -0.41308212, y: 5.2, z: -8.317207}
+        Angle: 23.3
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: -0.9435583, y: 5.094954, z: -6.5513806}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -5.1584096, y: 4.9661283, z: -6.2797194}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -5.1796913, y: 4.8746367, z: -4.4353333}
+        Angle: -15.2
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: -5.2032676, y: 4.7732816, z: -2.3921068}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -2.0284555, y: 4.723921, z: 0.25478595}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+    subCurves: []
+    CenterPosition: {x: 3.6974106, y: 5.179435, z: -8.725193}
+  - name: curve_8
+    curve:
+      Loop: 1
+      Mode: 3
+      AutoControlLength: 0.3
+      CurvePointCount: 157
+      Points:
+      - Position: {x: 0, y: 4.4, z: 0}
+        Angle: -24.2
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 0.8266322, y: 4.4, z: 0.085272536}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 2.082323, y: 4.4, z: 0.34525666}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 2.7672234, y: 4.4, z: -0.12538528}
+        Angle: -15.2
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 3.3094425, y: 4.4, z: -0.4979813}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 3.8810356, y: 4.4, z: -1.5207031}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 3.6452942, y: 4.4, z: -2.1349144}
+        Angle: -21.5
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 2.3774605, y: 4.4, z: -5.438186}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -3.5742903, y: 4.4, z: -6.6578093}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -7.095188, y: 4.4, z: -7.0075016}
+        Angle: -12.5
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: -8.058604, y: 4.4, z: -7.103187}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -9.723892, y: 4.4, z: -7.0981455}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -10.238922, y: 4.4, z: -6.278347}
+        Angle: -17
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: -10.657073, y: 4.4, z: -5.6127563}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -10.1542425, y: 4.4, z: -4.336768}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -9.664482, y: 4.4, z: -3.7219543}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: -8.504529, y: 4.4, z: -2.2658248}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -5.8169403, y: 4.4, z: -1.6783658}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -4.0673027, y: 4.4, z: -1.042305}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: -2.8834834, y: 4.4, z: -0.61194086}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -1.2529707, y: 4.4, z: -0.12925215}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+    subCurves: []
+    CenterPosition: {x: -3.296814, y: 4.4, z: -3.5037508}
+  - name: curve_9
+    curve:
+      Loop: 1
+      Mode: 3
+      AutoControlLength: 0.3
+      CurvePointCount: 247
+      Points:
+      - Position: {x: 0, y: 4.5, z: 0}
+        Angle: -24.2
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 0.8605597, y: 4.5, z: -1.7360799}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 2.5959346, y: 4.5, z: -3.905979}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 2.7672234, y: 4.5, z: -5.8360558}
+        Angle: -8.1
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 2.9120288, y: 4.5, z: -7.467719}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 2.6926126, y: 4.5, z: -10.190603}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 1.3332748, y: 4.5, z: -11.104656}
+        Angle: -21.5
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 0.39782596, y: 4.5, z: -11.733676}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -1.5016625, y: 4.5, z: -11.335928}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -2.396759, y: 4.5, z: -10.650703}
+        Angle: 0.9
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: -8.6171, y: 4.5, z: -5.888837}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -13.529148, y: 4.5, z: 5.82724}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -12.207642, y: 4.5, z: 13.548744}
+        Angle: -17
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: -12.013376, y: 4.5, z: 14.683827}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -10.814873, y: 4.5, z: 16.371572}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -9.664482, y: 4.5, z: 16.42405}
+        Angle: -32.2
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: -8.729946, y: 4.5, z: 16.46668}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -7.9579687, y: 4.5, z: 15.032777}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -7.394432, y: 4.5, z: 14.286049}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: -4.4873877, y: 4.5, z: 10.433999}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -2.1432858, y: 4.5, z: 4.3238316}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+    subCurves: []
+    CenterPosition: {x: -4.720209, y: 4.5, z: 2.6596966}
+  - name: curve_10
+    curve:
+      Loop: 1
+      Mode: 3
+      AutoControlLength: 0.3
+      CurvePointCount: 312
+      Points:
+      - Position: {x: 0, y: 5.5, z: 0}
+        Angle: -24.2
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 1.2003008, y: 5.5217137, z: -1.7983357}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 3.1345372, y: 5.530607, z: -4.288184}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 3.2191849, y: 5.5, z: -6.448532}
+        Angle: -11.7
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 3.278204, y: 5.4786596, z: -7.954795}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 2.631947, y: 5.403017, z: -10.339706}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 1.3332748, y: 5.3703327, z: -11.104656}
+        Angle: -21.5
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 0.36217248, y: 5.3458924, z: -11.67666}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -1.7262213, y: 5.332475, z: -11.5568905}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -2.396759, y: 5.337927, z: -10.650703}
+        Angle: -8.1
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: -6.9414005, y: 5.374876, z: -4.5089254}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 3.533967, y: 5.740824, z: 6.926712}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 2.054264, y: 5.7269115, z: 14.422501}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 1.8524628, y: 5.725014, z: 15.444774}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 0.9951793, y: 5.700862, z: 16.690184}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 0.19340897, y: 5.662073, z: 17.354584}
+        Angle: 19.7
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: -0.5239972, y: 5.6273656, z: 17.949076}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -1.7603601, y: 5.5433254, z: 18.459602}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -2.6907997, y: 5.5, z: 18.500845}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: -4.870596, y: 5.398499, z: 18.597466}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -8.080647, y: 5.3097477, z: 17.926647}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -9.664482, y: 5.2403355, z: 16.42405}
+        Angle: 9
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: -10.33633, y: 5.2108912, z: 15.786662}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -10.792172, y: 5.1783, z: 14.437372}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -10.700878, y: 5.175419, z: 13.515327}
+        Angle: 12.5
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: -10.570569, y: 5.1713066, z: 12.199248}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -9.211749, y: 5.219844, z: 10.804691}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -8.436081, y: 5.24329, z: 9.73378}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: -6.1692324, y: 5.3118095, z: 6.604101}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -2.1455505, y: 5.461186, z: 3.214544}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+    subCurves: []
+    CenterPosition: {x: -3.7408466, y: 5.451165, z: 3.6980944}
+  - name: curve_11
+    curve:
+      Loop: 1
+      Mode: 3
+      AutoControlLength: 0.3
+      CurvePointCount: 299
+      Points:
+      - Position: {x: 0, y: 4.7, z: 0}
+        Angle: -24.2
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: -2.4824998, y: 4.7, z: -2.1515057}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -6.9064794, y: 4.7, z: -5.2364645}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -6.8770714, y: 4.7, z: -8.521418}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: -6.8680243, y: 4.7, z: -9.532003}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -5.6245413, y: 4.7, z: -10.664482}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -4.7148094, y: 4.7, z: -11.104656}
+        Angle: 17
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: -3.7060347, y: 4.7, z: -11.5927515}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -1.8185499, y: 4.7, z: -11.951266}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -0.98070145, y: 4.7, z: -11.207039}
+        Angle: 1.8
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 4.491672, y: 4.7, z: -6.34615}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -2.5327618, y: 4.7, z: 6.8135347}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 1.2317085, y: 4.7, z: 13.090786}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 1.7936434, y: 4.7, z: 14.027812}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 3.1897788, y: 4.7, z: 14.969882}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 4.2757225, y: 4.7, z: 15.090359}
+        Angle: -15.2
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 5.569489, y: 4.7, z: 15.233892}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 7.3610024, y: 4.7, z: 14.423099}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 8.336254, y: 4.7, z: 13.56094}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 9.115397, y: 4.7, z: 12.8721485}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 9.795177, y: 4.7, z: 11.5201}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 9.946739, y: 4.7, z: 10.491253}
+        Angle: -17
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 10.119127, y: 4.7, z: 9.321032}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 9.79234, y: 4.7, z: 7.6434746}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 9.199604, y: 4.7, z: 6.619854}
+        Angle: -5.4
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 8.347287, y: 4.7, z: 5.147952}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 6.2865515, y: 4.7, z: 3.9108696}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 4.9062614, y: 4.7, z: 2.917019}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 3.5166283, y: 4.7, z: 1.9164411}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 1.2940235, y: 4.7, z: 1.12149}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+    subCurves:
+    - Loop: 1
+      Mode: 3
+      AutoControlLength: 0.3
+      CurvePointCount: 341
+      Points:
+      - Position: {x: -0.6, y: 4.7, z: 0.95}
+        Angle: -24.2
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: -3.5712838, y: 4.7, z: -0.7930899}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -8.392699, y: 4.7, z: -4.12792}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -8.296738, y: 4.7, z: -7.571419}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: -8.261668, y: 4.7, z: -8.829884}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -6.4954658, y: 4.7, z: -10.087133}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -5.314808, y: 4.7, z: -10.524181}
+        Angle: 17
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: -4.261559, y: 4.7, z: -10.914065}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -2.3774786, y: 4.7, z: -11.04855}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -1.5807015, y: 4.7, z: -10.257039}
+        Angle: 1.8
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 3.5127506, y: 4.7, z: -5.1972528}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -3.697568, y: 4.7, z: 7.628239}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 0.28528214, y: 4.7, z: 13.601646}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 0.9190415, y: 4.7, z: 14.552147}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 2.543891, y: 4.7, z: 15.180338}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 3.675724, y: 4.7, z: 15.335442}
+        Angle: -15.2
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 4.9072328, y: 4.7, z: 15.504205}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 6.6418147, y: 4.7, z: 15.100259}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 7.736254, y: 4.7, z: 14.51094}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 8.774683, y: 4.7, z: 13.95178}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 10.009162, y: 4.7, z: 12.792778}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 10.510117, y: 4.7, z: 11.725052}
+        Angle: -17
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 11.057806, y: 4.7, z: 10.557716}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 11.379365, y: 4.7, z: 8.64856}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 10.914146, y: 4.7, z: 7.4459763}
+        Angle: -5.4
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 10.084645, y: 4.7, z: 5.3017273}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 7.2841363, y: 4.7, z: 3.3524475}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 5.2465973, y: 4.7, z: 2.287407}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 3.6520143, y: 4.7, z: 1.4539036}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 0.9519415, y: 4.7, z: 1.8604393}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+    - Loop: 1
+      Mode: 3
+      AutoControlLength: 0.3
+      CurvePointCount: 276
+      Points:
+      - Position: {x: 0.6, y: 4.7, z: 0.95}
+        Angle: -24.2
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: -1.6930212, y: 4.7, z: -1.3485208}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -5.943311, y: 4.7, z: -4.327238}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -6.0715256, y: 4.7, z: -7.571419}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: -6.113491, y: 4.7, z: -8.6332655}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -5.0769367, y: 4.7, z: -10.072974}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -4.114808, y: 4.7, z: -10.524181}
+        Angle: 17
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: -2.8435416, y: 4.7, z: -11.120364}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -0.4249903, y: 4.7, z: -11.039014}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 0.5380516, y: 4.7, z: -10.0172}
+        Angle: 1.8
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 4.727106, y: 4.7, z: -5.572501}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: -0.16957581, y: 4.7, z: 4.4539514}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 1.541954, y: 4.7, z: 10.316902}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 1.8420887, y: 4.7, z: 11.345032}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 2.4411254, y: 4.7, z: 12.793855}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 3.3119507, y: 4.7, z: 13.417389}
+        Angle: -15.2
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 3.8945646, y: 4.7, z: 13.834556}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 4.962296, y: 4.7, z: 14.045122}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 5.6571884, y: 4.7, z: 13.870216}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 6.644946, y: 4.7, z: 13.621595}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 7.7829013, y: 4.7, z: 12.609056}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 8.288879, y: 4.7, z: 11.725052}
+        Angle: -17
+        Speed: 1
+        State: 1
+        CueName:
+      - Position: {x: 8.91577, y: 4.7, z: 10.6298}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 9.387431, y: 4.7, z: 8.743341}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 8.929199, y: 4.7, z: 7.567505}
+        Angle: -5.4
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 8.254525, y: 4.7, z: 5.83627}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 5.5486007, y: 4.7, z: 4.8531127}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 4.093033, y: 4.7, z: 3.6982613}
+        Angle: 0
+        Speed: 1
+        State: 0
+        CueName:
+      - Position: {x: 3.0484915, y: 4.7, z: 2.8695192}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+      - Position: {x: 1.5417061, y: 4.7, z: 1.8939648}
+        Angle: 0
+        Speed: 1
+        State: -1
+        CueName:
+    CenterPosition: {x: 1.5348339, y: 4.7, z: 1.9416599}

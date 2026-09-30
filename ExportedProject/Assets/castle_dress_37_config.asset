@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: castle_dress_37_config
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: e4a76680c6c432843803d78e53677dbd, type: 3}
+  clips:
+  - name: happyidle
+    duration: 26.666666
+    xOffset: 0.0064102565
+    yOffset: 0.0023400937
+    yLength: 0.9968799
+    bind: 1
+    loop: 1
+    autoPlayNext: 1
+  bones:
+  - Bone004
+  - Bone005
+  - Bone007
+  - Bone008
+  - Guitar
+  binePosesOffsets:
+  - name: castle_dress_37
+    bindPoses: {x: 0.0064102565, y: 0.0007800312}
+  transitions: []
+  offsets:
+  - {x: 0.033333335, y: 0.00078125, z: 0.9984375}

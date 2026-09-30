@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: castle_dress_41_config
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: d9809f6cb54913a418116ea4171b20e6, type: 3}
+  clips:
+  - name: 3d_world_march_anim_skin_2026WhiteBear@ani
+    duration: 10.566667
+    xOffset: 0.00877193
+    yOffset: 0.0058823535
+    yLength: 0.9921569
+    bind: 1
+    loop: 1
+    autoPlayNext: 1
+  bones:
+  - Body01
+  - garden_hero_shadow_01
+  - model_4
+  - model_5
+  - model_6
+  - model_7
+  binePosesOffsets:
+  - name: castle_dress_41
+    bindPoses: {x: 0.00877193, y: 0.0019607844}
+  transitions: []
+  offsets:
+  - {x: 0.027777778, y: 0.001968504, z: 0.996063}

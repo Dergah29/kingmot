@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: castle_dress_11
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: 1e856d204ca3dad4d8cb946e1eab32d3, type: 3}
+  clips:
+  - name: idle
+    duration: 16.666668
+    xOffset: 0.015151516
+    yOffset: 0.0037313432
+    yLength: 0.99502486
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  bones:
+  - Bone01
+  - Bone03
+  - Bone05
+  - Bone06
+  - Bone07
+  - Bone09
+  - Bone11
+  - Bone13
+  - Dummy001
+  - group2
+  - paopao (1)
+  binePosesOffsets: []
+  transitions: []
+  offsets: []

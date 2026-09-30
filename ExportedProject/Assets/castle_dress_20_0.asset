@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: castle_dress_20
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: c78ab781e66a94a4da4a41a0566dba8b, type: 3}
+  clips:
+  - name: idle
+    duration: 12.666667
+    xOffset: 0.015151516
+    yOffset: 0.004918033
+    yLength: 0.9934426
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  bones:
+  - bone_root
+  - Cactus01
+  - Cactus03
+  - Cactus04
+  - Cactus05
+  - Cactus07
+  - Cactus08
+  - Cactus09
+  - Cactus11
+  - Cactus13
+  - Cactus15
+  binePosesOffsets: []
+  transitions: []
+  offsets: []

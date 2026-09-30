@@ -1,0 +1,926 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ShaderVariants
+  m_Shaders:
+  - first: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+      - keywords: UNITY_UI_ALPHACLIP
+        passType: 0
+  - first: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 67, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _EMISSION
+        passType: 4
+      - keywords:
+        passType: 8
+  - first: {fileID: 6, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords:
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 30, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: INSTANCING_ON LIGHTPROBE_SH
+        passType: 4
+      - keywords: LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 5
+  - first: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: _SUNDISK_SIMPLE
+        passType: 0
+  - first: {fileID: 9000, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 9001, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 9002, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 9003, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 9004, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 9007, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 9101, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 9103, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 10708, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords:
+        passType: 1
+  - first: {fileID: 10755, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: db28e6c21f3ae0e438f6f08916a1b7bb, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 8
+  - first: {fileID: 4800000, guid: 73f056fbcd23a1146a03719c845b76ed, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 4
+      - keywords: _DISSOLVE_ON
+        passType: 4
+      - keywords: _DISSOLVE_ON _DISTORT_ON
+        passType: 4
+      - keywords: _DISSOLVE_ON _DISTORT_ON _DIURNAL_ON _MASK_ON
+        passType: 4
+      - keywords: _DISSOLVE_ON _DISTORT_ON _MASK_ON
+        passType: 4
+      - keywords: _DISSOLVE_ON _DISTORT_ON _MASK_ON _SHADECOLOR_ON
+        passType: 4
+      - keywords: _DISSOLVE_ON _DIURNAL_ON
+        passType: 4
+      - keywords: _DISSOLVE_ON _DIURNAL_ON _MASK_ON
+        passType: 4
+      - keywords: _DISSOLVE_ON _GAMMAALPHA_ON
+        passType: 4
+      - keywords: _DISSOLVE_ON _MASK_ON
+        passType: 4
+      - keywords: _DISSOLVE_ON _MASK_ON _SHADECOLOR_ON
+        passType: 4
+      - keywords: _DISTORT_ON
+        passType: 4
+      - keywords: _DISTORT_ON _DIURNAL_ON
+        passType: 4
+      - keywords: _DISTORT_ON _DIURNAL_ON _MASK_ON
+        passType: 4
+      - keywords: _DISTORT_ON _MASK_ON
+        passType: 4
+      - keywords: _DISTORT_ON _MASK_ON _SHADECOLOR_ON
+        passType: 4
+      - keywords: _DIURNAL_ON
+        passType: 4
+      - keywords: _DIURNAL_ON _FOG_ON
+        passType: 4
+      - keywords: _DIURNAL_ON _MASK_ON
+        passType: 4
+      - keywords: _FRESNEL_ON
+        passType: 4
+      - keywords: _FRESNEL_ON _MASK_ON
+        passType: 4
+      - keywords: _GAMMAALPHA_ON
+        passType: 4
+      - keywords: _GAMMAALPHA_ON _MASK_ON
+        passType: 4
+      - keywords: _MASK_ON
+        passType: 4
+      - keywords: _MASK_ON _SHADECOLOR_ON
+        passType: 4
+      - keywords: _SHADECOLOR_ON
+        passType: 4
+      - keywords: _UI_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: 3130f3878c307584a8e75cac97a3ca7c, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN _SHADOWMODE_MULTIPLY _USERIM_ON _USESPECULAR_NONE
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN _SHADOWMODE_MULTIPLY _USERIM_ON _USESPECULAR_SIMPLE
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN _SHADOWMODE_MULTIPLY _USESPECULAR_GGX
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN _SHADOWMODE_MULTIPLY _USESPECULAR_NONE
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN _SHADOWMODE_MULTIPLY _USESPECULAR_SIMPLE
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _SHADOWMODE_MULTIPLY _USERIM_ON _USESPECULAR_NONE
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _SHADOWMODE_MULTIPLY _USERIM_ON _USESPECULAR_SIMPLE
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _SHADOWMODE_MULTIPLY _USESPECULAR_GGX
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _SHADOWMODE_MULTIPLY _USESPECULAR_NONE
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _SHADOWMODE_MULTIPLY _USESPECULAR_SIMPLE
+        passType: 4
+  - first: {fileID: 4800000, guid: 7ab50699f589c0741865f6917ce25878, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _ENVGRADIANT_ON _SHADOW_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: d2a368ce2ce7afb4a84ac1567f7386c3, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _ALPHARED_ON
+        passType: 4
+      - keywords: LIGHTPROBE_SH
+        passType: 4
+      - keywords: LIGHTPROBE_SH _ALPHARED_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: 99cfca704ec931c49afa30e739b84448, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _NORMALMAP_ON _REFLECTIONS_ON _USERIM_MATCAP
+        passType: 4
+      - keywords:
+        passType: 8
+  - first: {fileID: 4800000, guid: 658ddfaabb51fc3419c8984decaaa346, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN _NORMALMAP_ON _REFLECTIONS_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN _NORMALMAP_ON _REFLECTIONS_ON _USERIM_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _NORMALMAP_ON _REFLECTIONS_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _NORMALMAP_ON _REFLECTIONS_ON _USERIM_ON
+        passType: 4
+      - keywords:
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 4800000, guid: 6ea0dbebe6685ec45aca01782eb3775e, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN
+        passType: 4
+  - first: {fileID: 4800000, guid: f151225a5cf875641996883452d336d5, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH _POINTLIGHT_ON _SHADOWMODE_MULTIPLY _USESPECULAR_NONE
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH _SHADOWMODE_MULTIPLY _USESPECULAR_NONE
+        passType: 4
+      - keywords: INSTANCING_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: 5740466f1b907784ba9bef7dc43bacb1, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: f104f2347120e6543aa7992b551ca144, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+      - keywords: INSTANCING_ON _MASKMAP_ON _NORMALMAP_OFF _POINTLIGHT_ON _REFLECTIONS_ON
+        passType: 4
+      - keywords: _ALPHATEST_ON _MASKMAP_ON _NORMALMAP_ON _POINTLIGHT_ON
+        passType: 4
+      - keywords: _MASKMAP_ON _NORMALMAP_NORMALMAPNONE
+        passType: 4
+      - keywords: _MASKMAP_ON _NORMALMAP_ON _POINTLIGHT_ON
+        passType: 4
+      - keywords: _MASKMAP_ON _NORMALMAP_ON _POINTLIGHT_ON _REFLECTIONS_ON
+        passType: 4
+      - keywords: _NORMALMAP_NORMALMAPNONE _POINTLIGHT_ON _REFLECTIONS_ON
+        passType: 4
+      - keywords: _NORMALMAP_OFF _POINTLIGHT_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: 9da7cc46e58eafd438d5782b943d56ce, type: 3}
+    second:
+      variants:
+      - keywords: _SHADOWMODE_MULTIPLY
+        passType: 4
+  - first: {fileID: 4800000, guid: 54cea09ce1e852f4faa408685d993ddc, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: 744876d1ff34bac4b9f63b47c19f38a3, type: 3}
+    second:
+      variants:
+      - keywords: INSTANCING_ON _SHADOWMODE_MULTIPLY
+        passType: 4
+  - first: {fileID: 4800000, guid: b89a23e8cf90a7e40a369205d32a3006, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _ALPHAPREMULTIPLY_ON
+        passType: 4
+      - keywords:
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: _ALPHAPREMULTIPLY_ON
+        passType: 8
+  - first: {fileID: 4800000, guid: a0b3fbf1bab1dd44495eb712d0aabe2b, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: LIGHTPROBE_SH
+        passType: 4
+  - first: {fileID: 4800000, guid: 4bcb61e2ee1bec64f994b2bd966eb74f, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 203, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: 538b9532321d93844937903103ca98cc, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _DISSOLVE_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _DISSOLVE_ON _DISTORTIONTODISSOLVE_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _DISSOLVE_ON _MAINTEXTOCUSTOM_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _DISTORTIONTOALPHA_ON _MAINTEXTOCUSTOM_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _MAINTEXTOCUSTOM_ON
+        passType: 4
+      - keywords: LIGHTPROBE_SH
+        passType: 4
+      - keywords: LIGHTPROBE_SH _DISSOLVE_ON
+        passType: 4
+      - keywords: LIGHTPROBE_SH _DISTORTIONTOALPHA_ON _MAINTEXTOCUSTOM_ON
+        passType: 4
+      - keywords: LIGHTPROBE_SH _MAINTEXTOCUSTOM_ON
+        passType: 4
+  - first: {fileID: 200, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: 20801a5ca6c5999479380b23cde6836c, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _POINTLIGHT_ON _SELFSHADOW_ON _SHADOWMODE_MULTIPLY _USESPECULAR_NONE
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _POINTLIGHT_ON _SHADOWMODE_MULTIPLY _USESPECULAR_NONE
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _POINTLIGHT_ON _SHADOWMODE_MULTIPLY _USESPECULAR_SIMPLE
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _SHADOWMODE_MULTIPLY _USESPECULAR_NONE
+        passType: 4
+  - first: {fileID: 10750, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: cf0cee96b16512d4f94b53e749919a8a, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN _NORMALMAP_ON _REFLECTIONS_ON _USERIM_MATCAP
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN _NORMALMAP_ON _USERIM_NONE
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN _USERIM_NONE
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _EMISSION_ON _NORMALMAP_ON _REFLECTIONS_ON _USERIM_MATCAP
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _NORMALMAP_ON _REFLECTIONS_ON _USERIM_MATCAP
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _NORMALMAP_ON _USERIM_NONE
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _USERIM_NONE
+        passType: 4
+      - keywords:
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 4800000, guid: acb764a92e75ef84e86fb40cf3f4db31, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: bb21f3344f695e74b840384566e02b7e, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: fdd685a8a64305c42984c6c29c8b77db, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _ALPHARED_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _ALPHARED_ON _DISSOLVECUSTOM_ON _DISTORTIONINALPHA_ON _DISTORTIONINDISSOLVE_ON _SOFTDISSOLVESWITCH_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _DISSOLVECUSTOM_ON _DISTORTIONINALPHA_ON _DISTORTIONINDISSOLVE_ON _SOFTDISSOLVESWITCH_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _DISSOLVECUSTOM_ON _DISTORTIONINDISSOLVE_ON _SOFTDISSOLVESWITCH_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _DISSOLVECUSTOM_ON _SOFTDISSOLVESWITCH_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _DISTORTIONINALPHA_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _DISTORTIONINDISSOLVE_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _DISTORTIONINDISSOLVE_ON _SOFTDISSOLVESWITCH_ON
+        passType: 4
+      - keywords: LIGHTPROBE_SH _DISTORTIONINALPHA_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: 811a9533ce908814caaaf51de68573a7, type: 3}
+    second:
+      variants:
+      - keywords: ANIM_IS_PLAYING DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH SHADOWS_SCREEN _SHADOWMODE_MULTIPLY _USESPECULAR_SIMPLE
+        passType: 4
+      - keywords: ANIM_IS_PLAYING DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH _SHADOWMODE_MULTIPLY _USESPECULAR_SIMPLE
+        passType: 4
+      - keywords: ANIM_IS_PLAYING INSTANCING_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: 95f1f23e17bc7694aa0b2da0111b5427, type: 3}
+    second:
+      variants:
+      - keywords: ANIM_IS_PLAYING INSTANCING_ON
+        passType: 0
+      - keywords: ANIM_IS_PLAYING INSTANCING_ON _POINTLIGHT_ON _REFLECTIONS_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: 7acc2f191c5972341bc166ca0af4d049, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 5
+  - first: {fileID: 4800000, guid: ee3934f0ce5dc9c4faedab7f6cb16a80, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _ALPHARED_ON
+        passType: 4
+      - keywords: LIGHTPROBE_SH
+        passType: 4
+  - first: {fileID: 4800000, guid: 17282054dd385754ab4292e2942222e0, type: 3}
+    second:
+      variants:
+      - keywords: INSTANCING_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: 5463917aa8e0af74c9d641e986345a65, type: 3}
+    second:
+      variants:
+      - keywords: LIGHTPROBE_SH
+        passType: 4
+  - first: {fileID: 4800000, guid: 6d02633297fbb0348b77f6fb1a203396, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: 30a8e65bda989df4d8be51df8fe19aa9, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH _POINTLIGHT_ON _SHADOWMODE_MULTIPLY _USESPECULAR_NONE
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH _SHADOWMODE_MULTIPLY _USESPECULAR_NONE
+        passType: 4
+  - first: {fileID: 4800000, guid: 1ef56f2bd77ce764a822a91c914cd755, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN _POINTLIGHT_ON _SHADOWMODE_MULTIPLY _USESPECULAR_NONE
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _POINTLIGHT_ON _SHADOWMODE_COLOR _USESPECULAR_NONE
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _POINTLIGHT_ON _SHADOWMODE_MULTIPLY _USESPECULAR_NONE
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _POINTLIGHT_ON _SHADOWMODE_MULTIPLY _USESPECULAR_SIMPLE
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _SHADOWMODE_MULTIPLY _USESPECULAR_NONE
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _SHADOWMODE_MULTIPLY _USESPECULAR_SIMPLE
+        passType: 4
+  - first: {fileID: 4800000, guid: 56a5448b129eb334185be72ed5269617, type: 3}
+    second:
+      variants:
+      - keywords: AO_ON ETC1_EXTERNAL_ALPHA
+        passType: 4
+      - keywords: ETC1_EXTERNAL_ALPHA
+        passType: 4
+  - first: {fileID: 4800000, guid: 74aa0c5b4a3425d419c5d14796de5e79, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _POINTLIGHT_ON _SHADOWMODE_MULTIPLY
+        passType: 4
+  - first: {fileID: 4800000, guid: 5d19d2e2f0f0feb4c9eb6ef79210e9bc, type: 3}
+    second:
+      variants:
+      - keywords: ANIM_IS_PLAYING INSTANCING_ON _POINTLIGHT_ON _REFLECTIONS_ON
+        passType: 4
+      - keywords: ANIM_IS_PLAYING INSTANCING_ON _REFLECTIONS_ON
+        passType: 4
+  - first: {fileID: 7, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 5
+  - first: {fileID: 4800000, guid: a854515f2bf92a2418046772898134e7, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: LIGHTPROBE_SH
+        passType: 4
+  - first: {fileID: 4800000, guid: 824e88e2636606441b4b1ad3998318b6, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+      - keywords: INSTANCING_ON
+        passType: 0
+  - first: {fileID: 4800000, guid: df76837909b541c46a771258757bb7a9, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _DISTORTIONINALPHA1_ON
+        passType: 4
+      - keywords: LIGHTPROBE_SH
+        passType: 4
+      - keywords: LIGHTPROBE_SH _DISTORTIONINALPHA1_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: 74891c9bbfe43bc44a9a6f8501e0dab2, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 4
+  - first: {fileID: 4800000, guid: ae2570a4b6367cf46aa5c5354b1c5c88, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: ee3a732db13b9de4e8ea5130abc071f5, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: 7c9d0d32fff63254b8c3439833dd81ed, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+      - keywords: INSTANCING_ON _MASKMAP_ON _NORMALMAP_NORMALMAPNONE _POINTLIGHT_ON _REFLECTIONS_ON
+        passType: 4
+      - keywords: INSTANCING_ON _MASKMAP_ON _NORMALMAP_OFF _POINTLIGHT_ON _REFLECTIONS_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: 2e0b0fa0c14e889498014f6fdc6f54e5, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 4
+  - first: {fileID: 4800000, guid: e90143e6304b85244861f230424f9d48, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: 637a235c2197519489e5b8a693b863f4, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 5
+  - first: {fileID: 4800000, guid: 5856f28b32006884f9b29be8b1f25996, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 4
+      - keywords: _VOLUMETRICFOG_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: 0e283acd46e1cde48a89edbb5dd1f27f, type: 3}
+    second:
+      variants:
+      - keywords: _MASKMAP_ON _NORMALMAP_ON _POINTLIGHT_ON
+        passType: 4
+      - keywords: _MASKMAP_ON _NORMALMAP_ON _POINTLIGHT_ON _REFLECTIONS_ON
+        passType: 4
+      - keywords: _NORMALMAP_NORMALMAPNONE _POINTLIGHT_ON _REFLECTIONS_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: 9b7d8ab7de0be154faf084e217d00df4, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 4
+  - first: {fileID: 4800000, guid: 75de14b7104c79740bdb7c5672005584, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 4
+  - first: {fileID: 4800000, guid: eab44afadb6d9a54bb119069c80361c1, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: 1692631e5b77fe247861de2df3f78ec9, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _POINTLIGHT_ON _SHADOWMODE_MULTIPLY
+        passType: 4
+  - first: {fileID: 4800000, guid: e0185cce52acf0e439a74cf399393916, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 4
+      - keywords: _DISTORT_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: 2bdf374b4b525844ea5282070fa75774, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: 98d11163c89b6fd4481110418973eaea, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 4
+  - first: {fileID: 4800000, guid: 680444aba85d3ae459701ea18df18307, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+  - first: {fileID: 4800000, guid: 2a2e486d5a81a114aac602550938933d, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: 23c0b230e65f7f349b9aea930ca140a8, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN _POINTLIGHT_ON _SHADOWMODE_MULTIPLY _USESPECULAR_NONE
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _POINTLIGHT_ON _SHADOWMODE_MULTIPLY _USESPECULAR_NONE
+        passType: 4
+  - first: {fileID: 4800000, guid: 59a1b17c7cad6bd49b17b02c4135d6c1, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _NORMALMAP_ON _REFLECTIONS_ON _USERIM_MATCAP
+        passType: 4
+  - first: {fileID: 4800000, guid: 228026a755ab0874fb612fc53a383894, type: 3}
+    second:
+      variants:
+      - keywords: INSTANCING_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: 78fa4e142e485104281ad0be4fa361dd, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _POINTLIGHT_ON _SHADOWMODE_MULTIPLY
+        passType: 4
+  - first: {fileID: 4800000, guid: 8bed3109a44962745ac543629bb25252, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN _POINTLIGHT_ON _SHADOWMODE_COLOR
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _POINTLIGHT_ON _SHADOWMODE_COLOR
+        passType: 4
+  - first: {fileID: 4800000, guid: e60fc1c760e51a44cb2f95601371d61d, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: 751a4a3cf71259a488bc997d530da454, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: 4137ce78bcbdc8f488e6779ff6a2a092, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _DISSOLVECUSTOM_ON _SOFTDISSOLVESWITCH_ON
+        passType: 4
+      - keywords: LIGHTPROBE_SH _DISSOLVECUSTOM_ON _SOFTDISSOLVESWITCH_ON
+        passType: 4
+  - first: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: ETC1_EXTERNAL_ALPHA
+        passType: 0
+  - first: {fileID: 4800000, guid: 85b04361f6ca7324f96096e24a65fc2e, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 4
+      - keywords: _EDGE_ON
+        passType: 4
+      - keywords: _EDGE_ON _SAND_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: 65e3a6aa5fd31d043a18145798f5575c, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords:
+        passType: 8
+  - first: {fileID: 4800000, guid: ade257eaf47f5e843908961ba5ac194f, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN _POINTLIGHT_ON _SHADOWMODE_COLOR
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _POINTLIGHT_ON _SHADOWMODE_COLOR
+        passType: 4
+  - first: {fileID: 4800000, guid: 0ed2042570fc551449e691c36b7332ec, type: 3}
+    second:
+      variants:
+      - keywords: ETC1_EXTERNAL_ALPHA
+        passType: 0
+  - first: {fileID: 4800000, guid: f6297c91455eeef4f9979094e9696162, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN _POINTLIGHT_ON _SHADOWMODE_COLOR
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN _POINTLIGHT_ON _SHADOWMODE_MULTIPLY
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _POINTLIGHT_ON _SHADOWMODE_COLOR
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _POINTLIGHT_ON _SHADOWMODE_MULTIPLY
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _SHADOWMODE_MULTIPLY
+        passType: 4
+  - first: {fileID: 4800000, guid: 314f65f8d249bd84b957dd099cbfaa3d, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: 15e8710eef2155e4ba24230bf2acc935, type: 3}
+    second:
+      variants:
+      - keywords: ETC1_EXTERNAL_ALPHA
+        passType: 0
+  - first: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: f73b6c474bee13d4ab4058f5797e73e3, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 4
+  - first: {fileID: 4800000, guid: b5d42ce8ed3367740b811bdcf3190e82, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: 71d49afc6658f3a4781252e25337fc5a, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+      - keywords: _ALPHATEST_ON _MASKMAP_ON _NORMALMAP_ON _POINTLIGHT_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: be01a6e3ddc8d254cad9e4fa044ab638, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _POINTLIGHT_ON _SHADOWMODE_MULTIPLY
+        passType: 4
+  - first: {fileID: 4800000, guid: e0c9151431b2fb6479b136503280b37b, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _SHADOWMODE_MULTIPLY
+        passType: 4
+  - first: {fileID: 4800000, guid: f2696265a639b2941be5d37c9fb8d264, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _POINTLIGHT_ON _SHADOWMODE_MULTIPLY
+        passType: 4
+  - first: {fileID: 4800000, guid: d3da4439d0b0b214d9d6af8a6254283e, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 4
+  - first: {fileID: 4800000, guid: 8ebeb26c49f2e3b46833ab2ab4de3f36, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: 05c67b5837e4482419cd6af2282673b0, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords:
+        passType: 8
+  - first: {fileID: 4800000, guid: 1cfb83585998d214aae39f3240a3a2bb, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: b8b797778bdf9fa439879735354f82a0, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 4
+  - first: {fileID: 4800000, guid: a2845f5008dcbe44993a648f84265d74, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 4
+  - first: {fileID: 4800000, guid: 4ed1c96277456ba44928e65ef44575da, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+      - keywords:
+        passType: 4
+  - first: {fileID: 4800000, guid: c2488fdea64fe36418569d57e3ec63b1, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 4
+  - first: {fileID: 4800000, guid: 5a3cd5f485a85b243b033773b3f92edd, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: eeb3c80bece1581439ce8662abc99110, type: 3}
+    second:
+      variants:
+      - keywords: _CUSTOMDISS_ON _ZHENGFANG_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: d9820effba32acf47a479fa97a3a6724, type: 3}
+    second:
+      variants:
+      - keywords: INSTANCING_ON _FLOWMASK_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: 76a6ccb489f5f0a4997355c4d202d0ea, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+  - first: {fileID: 4800000, guid: ed2e3cbdb1e4f5140aacd25f10f113bd, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 4
+  - first: {fileID: 4800000, guid: ccc2682a3dfb0244a9e8d0a8ea08898b, type: 3}
+    second:
+      variants:
+      - keywords: ISMOBILE LUMINANCE_GREEN
+        passType: 0
+  - first: {fileID: 4800000, guid: dc46717288304024eb6bbf0c3f573f69, type: 3}
+    second:
+      variants:
+      - keywords: _STRAIGHT_ALPHA_INPUT
+        passType: 0
+  - first: {fileID: 4800000, guid: 82b908e6fff81384c8ae7d4a770784e9, type: 3}
+    second:
+      variants:
+      - keywords: _CANVAS_GROUP_COMPATIBLE
+        passType: 0
+  - first: {fileID: 4800000, guid: 2b4a1fb34d124de45ab93a4ab8713c2b, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 4800000, guid: 8dae091b3f8c52b49a1cb64183d0ff1d, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _SHADOWMODE_MULTIPLY _USESPECULAR_NONE
+        passType: 4
+  - first: {fileID: 4800000, guid: 8546ef609e7e99040a89140540e6ecc7, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: b6420414a426a8f478c118bad7e2702e, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 4
+  - first: {fileID: 4800000, guid: a931daab35397794ba5a1912b9423c0f, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _POINTLIGHT_ON _SHADOWMODE_MULTIPLY _USERIM_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: 5801d987ca2404c45a93c35fe6612cdb, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN
+        passType: 4
+  - first: {fileID: 4800000, guid: 41549e403766c034a9c7fe6e385881b3, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _POINTLIGHT_ON _SHADOWMODE_MULTIPLY _USESPECULAR_NONE
+        passType: 4
+  - first: {fileID: 4800000, guid: 05b13a2abb279484589916247cd6bdba, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN
+        passType: 4
+  - first: {fileID: 4800000, guid: 6921ed87ab27b01479c5074c4d8ebf51, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _POINTLIGHT_ON _SHADOWMODE_MULTIPLY _USESPECULAR_NONE
+        passType: 4
+  - first: {fileID: 4800000, guid: 98f781a27db69b74cbda7d1eb754e5e7, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _SHADOWMODE_MULTIPLY
+        passType: 4
