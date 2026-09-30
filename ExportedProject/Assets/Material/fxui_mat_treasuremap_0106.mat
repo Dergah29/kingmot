@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: fxui_mat_treasuremap_0106
+  m_Shader: {fileID: 4800000, guid: 36eeaa22a35558d48ba83454d14279c5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - 
+  - 
+  - 
+  - _DISSOLVEUSEDISTORT_ON
+  - _DISSOLVE_ON
+  - _DISTORTTEXISNORMAL_ON
+  - _DISTORT_ON
+  - _MAINUSEDISTORT_ON
+  - _MASKUSEDISTORT_ON
+  - _MASK_ON
+  - _UI_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0.06}
+    - _DissolveTex:
+        m_Texture: {fileID: 2800000, guid: f4e522fa4601f594690d72da0f5f96dc, type: 3}
+        m_Scale: {x: 1, y: 7.2}
+        m_Offset: {x: 0.39, y: 0}
+    - _DistortTex:
+        m_Texture: {fileID: 2800000, guid: f4e522fa4601f594690d72da0f5f96dc, type: 3}
+        m_Scale: {x: 1, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 3acd688c7562b204eb7c74351b7890bb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 2800000, guid: b3414afa1cb52a34ab42f200e25cc191, type: 3}
+        m_Scale: {x: 1, y: 11.75}
+        m_Offset: {x: 0, y: 0}
+    - _VertexOffsetTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BlendOp: 0
+    - _ClipDiscard: 0
+    - _ClipVal: 0
+    - _ColorMask: 15
+    - _CullMode: 0
+    - _DissolveMaskStrength: 0.16
+    - _DissolveMaskStrengthCustomData: 4
+    - _DissolvePolar: 0
+    - _DissolveSoftClip: 0.61
+    - _DissolveSpeed_U: 0.2
+    - _DissolveSpeed_V: 0
+    - _DissolveTexOffsetCustomData: 0
+    - _DissolveUseDistort: 1
+    - _DistortNormalScale: 0.1
+    - _DistortNormalScaleCustomData: 4
+    - _DistortPolar: 0
+    - _DistortSpeed: 0.098
+    - _DistortSpeed_U: 0.317
+    - _DistortSpeed_V: 0.284
+    - _DistortTexIsNormal: 1
+    - _Diurnal: 0
+    - _DstBlend: 1
+    - _FinalAlphaIndensity: 5.8
+    - _FinalAlphaPow: 1.1
+    - _FinalRGBIndensity: 1.7
+    - _FinalRGBPow: 1
+    - _Fog: 0
+    - _FresnelPow: 1
+    - _GammaFactor: 1
+    - _KSAlpha: 0.75
+    - _KSUseMainTex: 1
+    - _MainPolar: 0
+    - _MainPolarRot: 0
+    - _MainTexAngle: 90
+    - _MainTexOffsetCustomData: 0
+    - _MainTexSpeed_U: 0.08
+    - _MainTexSpeed_V: 0
+    - _MainTexStrength: 1
+    - _MainTwoSide: 0
+    - _MainUseDistort: 1
+    - _MaskPolar: 0
+    - _MaskTexAngle: 90
+    - _MaskTexCustomData: 0
+    - _MaskTexSpeed_U: 0
+    - _MaskTexSpeed_V: 0
+    - _MaskUseDistort: 1
+    - _MoveZ: 0
+    - _OffVertexColor: 0
+    - _SetGray: 0
+    - _ShadeRange: 1
+    - _SrcBlend: 5
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UI: 1
+    - _UseUIAddAlpha: 0
+    - _ZBias: 0
+    - _ZTest: 4
+    - _ZWrite: 1
+    - _ZWriteHide: 0
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DissolveMaskRGBAStrength: {r: 2, g: 0, b: 0, a: 0}
+    - _DissolveRGBAStrength: {r: 1, g: 0, b: 0, a: 0}
+    - _DistortRGBAStrength: {r: 1, g: 0, b: 0, a: 0}
+    - _FresnelInsideCol: {r: 0, g: 0, b: 0, a: 0}
+    - _FresnelOutsideCol: {r: 1, g: 1, b: 1, a: 1}
+    - _GammaChanelRGBA: {r: 1, g: 1, b: 1, a: 1}
+    - _MainCol: {r: 1, g: 1, b: 1, a: 1}
+    - _MainCol2: {r: 1, g: 1, b: 1, a: 1}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MaskRGBAStrength: {r: 1, g: 0, b: 0, a: 0}
+    - _ShadeCol: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _VertexOffsetParam: {r: -1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []

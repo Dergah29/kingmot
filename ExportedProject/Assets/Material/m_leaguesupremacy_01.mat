@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: m_leaguesupremacy_01
+  m_Shader: {fileID: 4800000, guid: cf0cee96b16512d4f94b53e749919a8a, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _NORMALMAP_ON
+  - _REFLECTIONS_ON
+  - _USERIM_MATCAP
+  m_InvalidKeywords:
+  - _ALPHATEST_ON
+  - _EMISSION_OFF
+  - _MASKMAP_ON
+  - _NOTSCREENSHADOW_ON
+  - _USERIM_OFF
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 09d1f1a4ff12d3141b16072ca109438e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _BumpMap:
+        m_Texture: {fileID: 2800000, guid: ca439cba2e4da2c4e85d568010573c30, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DissolveMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MaskMap:
+        m_Texture: {fileID: 2800000, guid: 22973b7c490124c49b96ffae9bb7495c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MatCapMap:
+        m_Texture: {fileID: 2800000, guid: 957ae203e1575c8448a205794bfca902, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _OutlineMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _RimMatCapMap:
+        m_Texture: {fileID: 2800000, guid: 11a2246822237c24d80cccbf40584f04, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _ShadowRamp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _AlphaTest: 1
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _DissolvePow: 1
+      _DissolveRange: 0.1
+      _DissolveValue: 0
+      _DstBlend: 0
+      _Emission: 0
+      _GlossMapScale: 1
+      _Glossiness: 1
+      _GlossyReflections: 1
+      _MaskMap: 1
+      _MatCapStrength: 1
+      _Metallic: 1
+      _MiddleEdge: 0.157
+      _MiddleRange: 0.565
+      _Mode: 0
+      _NormalMap: 1
+      _NormalStrength: 1
+      _NotScreenShadow: 1
+      _OcclusionStrength: 1
+      _OutlineStrength: 1
+      _OutlineWidth: 1
+      _Parallax: 0.02
+      _Reflections: 1
+      _RimEdge: 0
+      _RimRange: 0.333
+      _RimStrength: 1
+      _ShadowSmoothness: 0.43
+      _ShadowStrength: 0.8
+      _Smoothness: 1
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _Stencil: 1
+      _UVSec: 0
+      _UseDissolve: 0
+      _UseRim: 2
+      _ZWrite: 1
+    m_Colors:
+      _BaseColor: {r: 0.8867924, g: 0.83684266, b: 0.7654859, a: 1}
+      _Color: {r: 0.588, g: 0.588, b: 0.588, a: 1}
+      _DissolveColor: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 1, g: 1, b: 1, a: 0}
+      _MainCol: {r: 1, g: 1, b: 1, a: 1}
+      _MiddleColor: {r: 0.7830189, g: 0.6678642, b: 0.5577163, a: 1}
+      _RimColor: {r: 1, g: 1, b: 1, a: 1}
+      _ShadowCol: {r: 0.023529414, g: 0.09411766, b: 0.27450982, a: 1}
+      _ShadowColor: {r: 0.15956461, g: 0.15205589, b: 0.4811321, a: 1}
+      _ShadowDark: {r: 0.3018868, g: 0.21502315, b: 0.21502315, a: 1}
+      _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

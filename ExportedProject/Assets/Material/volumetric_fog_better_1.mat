@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: volumetric_fog_better_1
+  m_Shader: {fileID: 4800000, guid: 5856f28b32006884f9b29be8b1f25996, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _VOLUMETRICFOG_OFF
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 4000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: 9c741a232e55f1f459a23798252b7659, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 1dc391b66453b2e4e8d5b126d2797f37, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _AlphaDensity: 0
+      _ColorDensity: 1
+      _FogDensity: 0.96
+      _FogEnd: 15
+      _FogStart: 0
+      _HighPower: 1
+      _Level: 0
+      _VolumetricFog: 0
+    m_Colors:
+      _FogColor: {r: 0.70033824, g: 0.80123144, b: 0.8113208, a: 1}
+      _FogSpeed: {r: 0.02, g: -0.035, b: 0.015, a: -0.015}
+      _FogTiling: {r: 0.005, g: 0.005, b: 0.008, a: 0.008}
+      _LowFogSpeed: {r: 0.01, g: -0.01, b: 0.01, a: -0.01}
+      _NoiseColor: {r: 0.44482023, g: 0.55319995, b: 0.6415094, a: 1}
+  m_BuildTextureStacks: []

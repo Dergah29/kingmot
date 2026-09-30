@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: fxui_mat_bearfestival_002
+  m_Shader: {fileID: 4800000, guid: 36eeaa22a35558d48ba83454d14279c5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - _DISSOLVEUSEDISTORT_ON
+  - _DISSOLVE_ON
+  - _DISTORTTEXISNORMAL_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveTex:
+        m_Texture: {fileID: 2800000, guid: e87451e6b688cbb4ca341a93ce01fa8b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortTex:
+        m_Texture: {fileID: 2800000, guid: e760c73838e333e4abd960870aff69fe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: c05d91ce613258045933310f2d82b0f8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 2800000, guid: 617f6ddbaa1bc8648b4110e5cb3cefa6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexOffsetTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaRed: 0
+    - _AlphaU: 0.12
+    - _AlphaV: -0.01
+    - _BlendOp: 0
+    - _ClipDiscard: 0
+    - _ClipVal: 0
+    - _ColorMask: 15
+    - _CullMode: 0
+    - _DepthFade1: 0
+    - _Desaturate: 0
+    - _DissolveMaskStrength: 1
+    - _DissolveMaskStrengthCustomData: 0
+    - _DissolvePolar: 0
+    - _DissolveSoftClip: 14
+    - _DissolveSpeed_U: 0
+    - _DissolveSpeed_V: 0
+    - _DissolveTexOffsetCustomData: 0
+    - _DissolveUseDistort: 1
+    - _DistortNormalScale: 0.21
+    - _DistortNormalScaleCustomData: 4
+    - _DistortPolar: 0
+    - _DistortSpeed: 0.2
+    - _DistortSpeed_U: 0.14
+    - _DistortSpeed_V: 0.11
+    - _DistortTexIsNormal: 1
+    - _DistortionInAlpha1: 0
+    - _DistortionIndensity: 0.3
+    - _DistortionU: 0.04
+    - _DistortionV: 0.04
+    - _Diurnal: 0
+    - _Dst: 1
+    - _DstBlend: 10
+    - _FinalAlphaIndensity: 1
+    - _FinalAlphaPow: 1
+    - _FinalRGBIndensity: 3.8
+    - _FinalRGBPow: 1
+    - _Fog: 0
+    - _FresnelPow: 1
+    - _GammaFactor: 1
+    - _Indensity: 5
+    - _Indensity_Power: 1
+    - _KSAlpha: 0.75
+    - _KSUseMainTex: 1
+    - _MainPolar: 0
+    - _MainPolarRot: 0
+    - _MainTexAngle: 0
+    - _MainTexOffsetCustomData: 0
+    - _MainTexSpeed_U: 0
+    - _MainTexSpeed_V: 0
+    - _MainTexStrength: 2.82
+    - _MainTwoSide: 0
+    - _MainU: 0.5
+    - _MainUseDistort: 0
+    - _MainV: 0
+    - _MaskPolar: 0
+    - _MaskTexAngle: 0
+    - _MaskTexCustomData: 0
+    - _MaskTexSpeed_U: 0
+    - _MaskTexSpeed_V: -0.75
+    - _MaskUseDistort: 0
+    - _MoveZ: 0
+    - _OffVertexColor: 0
+    - _Opacity: 2
+    - _Opacity_Power: 3.95
+    - _SetGray: 0
+    - _ShadeRange: 1
+    - _SrcBlend: 5
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UI: 0
+    - _UseUIAddAlpha: 0
+    - _ZBias: 0
+    - _ZTest: 4
+    - _ZTestMode: 2
+    - _ZWrite: 1
+    - _ZWriteHide: 0
+    - __dirty: 0
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DissolveMaskRGBAStrength: {r: 1, g: 0, b: 0, a: 0}
+    - _DissolveRGBAStrength: {r: 1, g: 0, b: 0, a: 0}
+    - _DistortRGBAStrength: {r: 1, g: 0, b: 0, a: 0}
+    - _FresnelInsideCol: {r: 0, g: 0, b: 0, a: 0}
+    - _FresnelOutsideCol: {r: 1, g: 1, b: 1, a: 1}
+    - _GammaChanelRGBA: {r: 0, g: 0, b: 0, a: 1}
+    - _MainCol: {r: 1, g: 1, b: 1, a: 1}
+    - _MainCol2: {r: 1, g: 1, b: 1, a: 1}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MaskRGBAStrength: {r: 1, g: 0, b: 0, a: 0}
+    - _ShadeCol: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _VertexOffsetParam: {r: -1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []

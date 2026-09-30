@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: terrain_color_4_3
+  m_Shader: {fileID: 4800000, guid: 85b04361f6ca7324f96096e24a65fc2e, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _SAND_ON
+  m_InvalidKeywords:
+  - _APPEND_OFF
+  - _EDGE_OFF
+  - _SAND_OFF
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 1997
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _ControlMap:
+        m_Texture: {fileID: 2800000, guid: 7ccf7b5e78eab804592075e29292e244, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _EdgeTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SandTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _Append: 0
+      _Edge: 0
+      _OffsetFactor: 4
+      _OffsetUnits: 0
+      _Sand: 1
+      _SpecularPower: 16
+      _SpecularStrength: 0
+      _TerrainLerp: 0
+      _Width: 1200
+    m_Colors:
+      _AppendColor: {r: 1, g: 1, b: 1, a: 1}
+      _Color1: {r: 0.30588236, g: 0.60784316, b: 0.38823533, a: 1}
+      _Color2: {r: 0.2901961, g: 0.5647059, b: 0.3647059, a: 1}
+      _Color3: {r: 0.6666667, g: 0.59607846, b: 0.42352945, a: 1}
+      _Color4: {r: 0.3137255, g: 0.6117647, b: 0.39607847, a: 1}
+      _EdgeChannel1: {r: 1, g: 0, b: 0, a: 0}
+      _EdgeChannel2: {r: 1, g: 0, b: 0, a: 0}
+      _Tiling1: {r: 10, g: 8, b: 1, a: 0}
+      _Tiling2: {r: 3, g: 2, b: 1, a: 0}
+  m_BuildTextureStacks: []

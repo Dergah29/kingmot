@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: fxui_mat_mission_bingrongjie_lxy
+  m_Shader: {fileID: 4800000, guid: eeb3c80bece1581439ce8662abc99110, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _CUSTOMDISS_ON
+  - _ZHENGFANG_ON
+  m_InvalidKeywords:
+  - _CUSTOMDISS_KEY1
+  - _CUSTOMDISS_OFF
+  - _DISSOLVE_ON
+  - _SHADECOLOR_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: a2a36299b60797a4eac2e6e911c16c3e, type: 3}
+        m_Scale: {x: 1.3, y: 0.65}
+        m_Offset: {x: 0.82, y: 0.25}
+      _maintexture:
+        m_Texture: {fileID: 2800000, guid: 4e7d6877b71e9044e9d2e46e63fdebd5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _ramp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _SoftDissolveSoft2: 1
+      _SoftDissolveSoft3: 0.1
+      _customDiss: 1
+      _edgpow: 5.8
+      _power: 300
+      _rongjie: 1
+      _rongjiefanwei: 1.6
+      _toumdu: 0.166
+      _zhengfang: 1
+    m_Colors:
+      _Color0: {r: 3.5648696, g: 2.657924, b: 1.4965726, a: 1}
+      _bianyuancolor: {r: 1, g: 0.57400495, b: 0.514151, a: 1}
+      _rongjieweizhi: {r: 0.5, g: 0.5, b: 0, a: 0}
+  m_BuildTextureStacks: []
