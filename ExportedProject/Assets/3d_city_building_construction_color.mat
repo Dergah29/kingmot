@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 3d_city_building_construction_color
+  m_Shader: {fileID: 4800000, guid: 11da46fef78043e44819ae0fbc26f451, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _ALPHATEST_OFF
+  - _INDARK_OFF
+  - _MASKMAP_OFF
+  - _NORMALMAP_OFF
+  - _POINTLIGHT_ON
+  - _REFLECTIONS_OFF
+  - _SHADOWMODE_COLOR
+  - _USERIM_OFF
+  - _USESHADOW_ON
+  - _USESPECULAR_NONE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: dd0a337130d3c224985c9f3c68bc714c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MiddleMap:
+        m_Texture: {fileID: 2800000, guid: 5dad22a720d35c649b743c8a962151e4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaTest: 0
+    - _BaseMetallicLerp: 1
+    - _Cutoff: 0.5
+    - _DarkEdge: 0
+    - _DarkRange: 0.323
+    - _Glossiness: 0
+    - _InDark: 0
+    - _MaskMap: 0
+    - _Metallic: 0
+    - _MiddleEdge: 0
+    - _MiddleRange: 0.85
+    - _NormalMap: 0
+    - _OcclusionStrength: 1
+    - _PointDarkEdge: 0
+    - _PointDarkRange: 0.373
+    - _PointId: 0
+    - _PointLight: 1
+    - _PointMiddleEdge: 0.392
+    - _PointMiddleRange: 0.225
+    - _PointPowInv: 0.0001
+    - _Reflections: 0
+    - _RimEdge: 0
+    - _RimRange: 0.5
+    - _ShadowMode: 1
+    - _ShadowStrength: 0
+    - _SimpleEdge: 0
+    - _Smoothness: 0.5
+    - _UseRim: 0
+    - _UseSpecular: 0
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DarkColor: {r: 0.023529414, g: 0.227451, b: 0.32941177, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _MainCol: {r: 1, g: 1, b: 1, a: 1}
+    - _MiddleColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ShadowColor: {r: 0.15686275, g: 0.3019608, b: 0.38823533, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

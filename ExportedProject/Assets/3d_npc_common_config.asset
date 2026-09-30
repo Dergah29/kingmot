@@ -1,0 +1,669 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: 3d_npc_common_config
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: d0e17497e3e55e84daa1f30a78111b00, type: 3}
+  clips:
+  - name: idle1
+    duration: 1.0666667
+    xOffset: 0.0009469697
+    yOffset: 0.044698544
+    yLength: 0.051975053
+    bind: 1
+    loop: 1
+    autoPlayNext: 1
+  - name: idle2
+    duration: 3.0000002
+    xOffset: 0.0009469697
+    yOffset: 0.0987526
+    yLength: 0.14968815
+    bind: 2
+    loop: 1
+    autoPlayNext: 1
+  - name: idle3
+    duration: 4.2000003
+    xOffset: 0.0009469697
+    yOffset: 0.25051975
+    yLength: 0.20790021
+    bind: 3
+    loop: 1
+    autoPlayNext: 1
+  - name: idle4
+    duration: 4.8
+    xOffset: 0.0009469697
+    yOffset: 0.46049896
+    yLength: 0.23908524
+    bind: 4
+    loop: 1
+    autoPlayNext: 1
+  - name: run1
+    duration: 0.73333335
+    xOffset: 0.0009469697
+    yOffset: 0.7016632
+    yLength: 0.035343036
+    bind: 5
+    loop: 1
+    autoPlayNext: 1
+  - name: walk1
+    duration: 1.0666667
+    xOffset: 0.0009469697
+    yOffset: 0.73908526
+    yLength: 0.051975053
+    bind: 6
+    loop: 1
+    autoPlayNext: 1
+  - name: walk2
+    duration: 1.0666667
+    xOffset: 0.0009469697
+    yOffset: 0.7931393
+    yLength: 0.051975053
+    bind: 7
+    loop: 1
+    autoPlayNext: 1
+  - name: walk3
+    duration: 1.2666668
+    xOffset: 0.0009469697
+    yOffset: 0.84719336
+    yLength: 0.062370062
+    bind: 8
+    loop: 1
+    autoPlayNext: 1
+  - name: walk4
+    duration: 1.0666667
+    xOffset: 0.0009469697
+    yOffset: 0.91164243
+    yLength: 0.051975053
+    bind: 9
+    loop: 1
+    autoPlayNext: 1
+  - name: walk5
+    duration: 1.8666668
+    xOffset: 0.12594697
+    yOffset: 0.001039501
+    yLength: 0.09147609
+    bind: 10
+    loop: 1
+    autoPlayNext: 1
+  - name: eat1
+    duration: 1
+    xOffset: 0.12594697
+    yOffset: 0.0945946
+    yLength: 0.047817048
+    bind: 11
+    loop: 0
+    autoPlayNext: 1
+  - name: eat2
+    duration: 1.6666667
+    xOffset: 0.12594697
+    yOffset: 0.14449064
+    yLength: 0.081081085
+    bind: 12
+    loop: 1
+    autoPlayNext: 1
+  - name: eat3
+    duration: 0.86666673
+    xOffset: 0.12594697
+    yOffset: 0.22765073
+    yLength: 0.041580044
+    bind: 13
+    loop: 0
+    autoPlayNext: 1
+  - name: freeze
+    duration: 1.0666667
+    xOffset: 0.12594697
+    yOffset: 0.27130976
+    yLength: 0.051975053
+    bind: 14
+    loop: 1
+    autoPlayNext: 1
+  - name: happy
+    duration: 1
+    xOffset: 0.12594697
+    yOffset: 0.3253638
+    yLength: 0.047817048
+    bind: 15
+    loop: 1
+    autoPlayNext: 1
+  - name: hungry
+    duration: 2
+    xOffset: 0.12594697
+    yOffset: 0.37525988
+    yLength: 0.0977131
+    bind: 16
+    loop: 0
+    autoPlayNext: 1
+  - name: angry
+    duration: 1
+    xOffset: 0.12594697
+    yOffset: 0.47505197
+    yLength: 0.047817048
+    bind: 17
+    loop: 0
+    autoPlayNext: 1
+  - name: ill
+    duration: 3.0000002
+    xOffset: 0.12594697
+    yOffset: 0.524948
+    yLength: 0.14968815
+    bind: 18
+    loop: 1
+    autoPlayNext: 1
+  - name: sleep
+    duration: 10.000001
+    xOffset: 0.25094697
+    yOffset: 0.001039501
+    yLength: 0.4989605
+    bind: 19
+    loop: 1
+    autoPlayNext: 1
+  - name: talk
+    duration: 4.8
+    xOffset: 0.12594697
+    yOffset: 0.6767152
+    yLength: 0.23908524
+    bind: 20
+    loop: 0
+    autoPlayNext: 1
+  - name: treat
+    duration: 10.000001
+    xOffset: 0.37594697
+    yOffset: 0.001039501
+    yLength: 0.4989605
+    bind: 21
+    loop: 1
+    autoPlayNext: 1
+  - name: fetch
+    duration: 1.6666667
+    xOffset: 0.12594697
+    yOffset: 0.9178794
+    yLength: 0.081081085
+    bind: 22
+    loop: 1
+    autoPlayNext: 1
+  - name: treatment
+    duration: 2.5000002
+    xOffset: 0.25094697
+    yOffset: 0.502079
+    yLength: 0.124740124
+    bind: 23
+    loop: 1
+    autoPlayNext: 1
+  - name: treatment1
+    duration: 2.5000002
+    xOffset: 0.25094697
+    yOffset: 0.62889814
+    yLength: 0.124740124
+    bind: 24
+    loop: 1
+    autoPlayNext: 1
+  - name: cook
+    duration: 1
+    xOffset: 0.25094697
+    yOffset: 0.7557173
+    yLength: 0.047817048
+    bind: 25
+    loop: 1
+    autoPlayNext: 1
+  - name: forge1
+    duration: 0.7666667
+    xOffset: 0.25094697
+    yOffset: 0.80561334
+    yLength: 0.03742204
+    bind: 26
+    loop: 1
+    autoPlayNext: 1
+  - name: cuttree1
+    duration: 1.1333334
+    xOffset: 0.25094697
+    yOffset: 0.84511435
+    yLength: 0.056133058
+    bind: 27
+    loop: 1
+    autoPlayNext: 1
+  - name: cuttree3
+    duration: 1.1333334
+    xOffset: 0.25094697
+    yOffset: 0.9033264
+    yLength: 0.056133058
+    bind: 28
+    loop: 1
+    autoPlayNext: 1
+  - name: find1
+    duration: 1.6666667
+    xOffset: 0.37594697
+    yOffset: 0.502079
+    yLength: 0.081081085
+    bind: 29
+    loop: 1
+    autoPlayNext: 1
+  - name: find2
+    duration: 1.6666667
+    xOffset: 0.37594697
+    yOffset: 0.5852391
+    yLength: 0.081081085
+    bind: 30
+    loop: 1
+    autoPlayNext: 1
+  - name: poo
+    duration: 1.5000001
+    xOffset: 0.37594697
+    yOffset: 0.66839916
+    yLength: 0.07484408
+    bind: 31
+    loop: 1
+    autoPlayNext: 1
+  - name: washhand
+    duration: 3.0000002
+    xOffset: 0.37594697
+    yOffset: 0.7453222
+    yLength: 0.14968815
+    bind: 32
+    loop: 0
+    autoPlayNext: 1
+  - name: desksitend
+    duration: 1.0000002
+    xOffset: 0.37594697
+    yOffset: 0.8970894
+    yLength: 0.04989605
+    bind: 33
+    loop: 0
+    autoPlayNext: 1
+  - name: desksitloop
+    duration: 2.3333335
+    xOffset: 0.500947
+    yOffset: 0.001039501
+    yLength: 0.11642411
+    bind: 34
+    loop: 1
+    autoPlayNext: 1
+  - name: desksitstart
+    duration: 1
+    xOffset: 0.37594697
+    yOffset: 0.94906443
+    yLength: 0.047817048
+    bind: 35
+    loop: 0
+    autoPlayNext: 1
+  - name: mattock
+    duration: 1.5333334
+    xOffset: 0.500947
+    yOffset: 0.11954262
+    yLength: 0.07484408
+    bind: 36
+    loop: 1
+    autoPlayNext: 1
+  - name: mattock2
+    duration: 2
+    xOffset: 0.500947
+    yOffset: 0.1964657
+    yLength: 0.0977131
+    bind: 37
+    loop: 1
+    autoPlayNext: 1
+  - name: idle5
+    duration: 1.9333334
+    xOffset: 0.500947
+    yOffset: 0.2962578
+    yLength: 0.095634095
+    bind: 38
+    loop: 1
+    autoPlayNext: 1
+  - name: idle6
+    duration: 4.2000003
+    xOffset: 0.500947
+    yOffset: 0.3939709
+    yLength: 0.20790021
+    bind: 39
+    loop: 1
+    autoPlayNext: 1
+  - name: take_meat
+    duration: 1.0666667
+    xOffset: 0.500947
+    yOffset: 0.6039501
+    yLength: 0.051975053
+    bind: 40
+    loop: 1
+    autoPlayNext: 1
+  - name: hunt1
+    duration: 1.0666667
+    xOffset: 0.500947
+    yOffset: 0.65800416
+    yLength: 0.051975053
+    bind: 41
+    loop: 1
+    autoPlayNext: 1
+  - name: hunt2
+    duration: 1.0666667
+    xOffset: 0.500947
+    yOffset: 0.71205825
+    yLength: 0.051975053
+    bind: 42
+    loop: 1
+    autoPlayNext: 1
+  - name: hunt3
+    duration: 1.0666667
+    xOffset: 0.500947
+    yOffset: 0.76611227
+    yLength: 0.051975053
+    bind: 43
+    loop: 1
+    autoPlayNext: 1
+  - name: hunt4
+    duration: 1.0666667
+    xOffset: 0.500947
+    yOffset: 0.82016635
+    yLength: 0.051975053
+    bind: 44
+    loop: 1
+    autoPlayNext: 1
+  - name: hunt5
+    duration: 1.0666667
+    xOffset: 0.500947
+    yOffset: 0.8742204
+    yLength: 0.051975053
+    bind: 45
+    loop: 1
+    autoPlayNext: 1
+  - name: farm
+    duration: 2.4
+    xOffset: 0.625947
+    yOffset: 0.001039501
+    yLength: 0.118503116
+    bind: 46
+    loop: 1
+    autoPlayNext: 1
+  - name: run2
+    duration: 0.73333335
+    xOffset: 0.25094697
+    yOffset: 0.9615385
+    yLength: 0.035343036
+    bind: 47
+    loop: 1
+    autoPlayNext: 1
+  - name: build
+    duration: 0.7666667
+    xOffset: 0.500947
+    yOffset: 0.92827445
+    yLength: 0.03742204
+    bind: 48
+    loop: 1
+    autoPlayNext: 1
+  - name: walk7
+    duration: 1.0666667
+    xOffset: 0.625947
+    yOffset: 0.12162162
+    yLength: 0.051975053
+    bind: 49
+    loop: 1
+    autoPlayNext: 1
+  - name: dance
+    duration: 5.0000005
+    xOffset: 0.625947
+    yOffset: 0.17567568
+    yLength: 0.24948025
+    bind: 50
+    loop: 1
+    autoPlayNext: 1
+  - name: dance02
+    duration: 2.6666667
+    xOffset: 0.625947
+    yOffset: 0.42723492
+    yLength: 0.13097714
+    bind: 51
+    loop: 1
+    autoPlayNext: 1
+  - name: dance03
+    duration: 3.6666667
+    xOffset: 0.625947
+    yOffset: 0.56029105
+    yLength: 0.18087319
+    bind: 52
+    loop: 1
+    autoPlayNext: 1
+  - name: run3
+    duration: 2.2
+    xOffset: 0.625947
+    yOffset: 0.7432433
+    yLength: 0.10810811
+    bind: 53
+    loop: 1
+    autoPlayNext: 1
+  - name: sing
+    duration: 3.5000002
+    xOffset: 0.750947
+    yOffset: 0.001039501
+    yLength: 0.17463617
+    bind: 54
+    loop: 1
+    autoPlayNext: 1
+  - name: think
+    duration: 1.6666667
+    xOffset: 0.625947
+    yOffset: 0.85343033
+    yLength: 0.081081085
+    bind: 55
+    loop: 1
+    autoPlayNext: 1
+  - name: camera_idie01
+    duration: 6.1000004
+    xOffset: 0.750947
+    yOffset: 0.17775469
+    yLength: 0.3035343
+    bind: 56
+    loop: 1
+    autoPlayNext: 1
+  - name: camera_idie02
+    duration: 2
+    xOffset: 0.750947
+    yOffset: 0.48336798
+    yLength: 0.0977131
+    bind: 57
+    loop: 1
+    autoPlayNext: 1
+  - name: camera_walk
+    duration: 1.0666667
+    xOffset: 0.625947
+    yOffset: 0.93659043
+    yLength: 0.051975053
+    bind: 58
+    loop: 1
+    autoPlayNext: 1
+  - name: lute_idle
+    duration: 1.6666667
+    xOffset: 0.750947
+    yOffset: 0.5831601
+    yLength: 0.081081085
+    bind: 59
+    loop: 1
+    autoPlayNext: 1
+  - name: lute_play
+    duration: 2
+    xOffset: 0.750947
+    yOffset: 0.66632015
+    yLength: 0.0977131
+    bind: 60
+    loop: 1
+    autoPlayNext: 1
+  - name: lute_walk
+    duration: 1.2666668
+    xOffset: 0.750947
+    yOffset: 0.76611227
+    yLength: 0.062370062
+    bind: 61
+    loop: 1
+    autoPlayNext: 1
+  - name: broom_walk1
+    duration: 1.2
+    xOffset: 0.750947
+    yOffset: 0.83056134
+    yLength: 0.058212057
+    bind: 62
+    loop: 1
+    autoPlayNext: 1
+  - name: broom_walk
+    duration: 2
+    xOffset: 0.750947
+    yOffset: 0.8908524
+    yLength: 0.0977131
+    bind: 63
+    loop: 1
+    autoPlayNext: 1
+  - name: broom_idle2
+    duration: 4.666667
+    xOffset: 0.875947
+    yOffset: 0.001039501
+    yLength: 0.23284823
+    bind: 64
+    loop: 1
+    autoPlayNext: 1
+  - name: talk1
+    duration: 5.0000005
+    xOffset: 0.875947
+    yOffset: 0.23596674
+    yLength: 0.24948025
+    bind: 65
+    loop: 1
+    autoPlayNext: 1
+  - name: talk2
+    duration: 4
+    xOffset: 0.875947
+    yOffset: 0.487526
+    yLength: 0.1975052
+    bind: 66
+    loop: 1
+    autoPlayNext: 1
+  - name: talk3
+    duration: 5.0000005
+    xOffset: 0.875947
+    yOffset: 0.6871102
+    yLength: 0.24948025
+    bind: 67
+    loop: 1
+    autoPlayNext: 1
+  bones:
+  - Head
+  - v_hip
+  - v_lhand
+  - v_rhand
+  binePosesOffsets:
+  - name: npc_chef_man
+    bindPoses: {x: 0.0009469697, y: 0.001039501}
+  - name: npc_chef_woman
+    bindPoses: {x: 0.0009469697, y: 0.0031185031}
+  - name: npc_citizen_11
+    bindPoses: {x: 0.0009469697, y: 0.0051975055}
+  - name: npc_citizen_12
+    bindPoses: {x: 0.0009469697, y: 0.007276507}
+  - name: npc_citizen_13
+    bindPoses: {x: 0.0009469697, y: 0.00935551}
+  - name: npc_citizen_14
+    bindPoses: {x: 0.0009469697, y: 0.011434511}
+  - name: npc_citizen_15
+    bindPoses: {x: 0.0009469697, y: 0.013513514}
+  - name: npc_citizen_18
+    bindPoses: {x: 0.0009469697, y: 0.0155925155}
+  - name: npc_citizen_19
+    bindPoses: {x: 0.0009469697, y: 0.017671518}
+  - name: npc_citizen_20
+    bindPoses: {x: 0.0009469697, y: 0.01975052}
+  - name: npc_citizen_22
+    bindPoses: {x: 0.0009469697, y: 0.021829521}
+  - name: npc_citizen_23
+    bindPoses: {x: 0.0009469697, y: 0.023908524}
+  - name: npc_citizen_24
+    bindPoses: {x: 0.0009469697, y: 0.025987526}
+  - name: npc_citizen_25
+    bindPoses: {x: 0.0009469697, y: 0.028066529}
+  - name: npc_citizen_26
+    bindPoses: {x: 0.0009469697, y: 0.03014553}
+  - name: npc_citizen_27
+    bindPoses: {x: 0.0009469697, y: 0.032224532}
+  - name: npc_citizen_28
+    bindPoses: {x: 0.0009469697, y: 0.034303535}
+  - name: npc_citizen_29
+    bindPoses: {x: 0.0009469697, y: 0.036382537}
+  - name: npc_citizen_30
+    bindPoses: {x: 0.0009469697, y: 0.03846154}
+  - name: npc_doc_man
+    bindPoses: {x: 0.0009469697, y: 0.040540542}
+  - name: npc_doc_woman
+    bindPoses: {x: 0.0009469697, y: 0.04261954}
+  transitions: []
+  offsets:
+  - {x: 0.0027777778, y: 0.0019305019, z: 0.096525095}
+  - {x: 0.0027777778, y: 0.1023166, z: 0.27799228}
+  - {x: 0.0027777778, y: 0.38416988, z: 0.38610038}
+  - {x: 0.06944445, y: 0.0019305019, z: 0.44401544}
+  - {x: 0.0027777778, y: 0.77413124, z: 0.06563707}
+  - {x: 0.0027777778, y: 0.8436293, z: 0.096525095}
+  - {x: 0.06944445, y: 0.44980693, z: 0.096525095}
+  - {x: 0.06944445, y: 0.550193, z: 0.115830116}
+  - {x: 0.06944445, y: 0.66988415, z: 0.096525095}
+  - {x: 0.06944445, y: 0.7702702, z: 0.16988416}
+  - {x: 0.13611111, y: 0.0019305019, z: 0.08880309}
+  - {x: 0.13611111, y: 0.09459459, z: 0.15057915}
+  - {x: 0.13611111, y: 0.24903475, z: 0.077220075}
+  - {x: 0.13611111, y: 0.33011582, z: 0.096525095}
+  - {x: 0.13611111, y: 0.4305019, z: 0.08880309}
+  - {x: 0.13611111, y: 0.523166, z: 0.18146718}
+  - {x: 0.13611111, y: 0.7084942, z: 0.08880309}
+  - {x: 0.20277779, y: 0.0019305019, z: 0.27799228}
+  - {x: 0.26944447, y: 0.0019305019, z: 0.9266409}
+  - {x: 0.20277779, y: 0.28378376, z: 0.44401544}
+  - {x: 0.33611113, y: 0.0019305019, z: 0.9266409}
+  - {x: 0.13611111, y: 0.8011583, z: 0.15057915}
+  - {x: 0.20277779, y: 0.73166025, z: 0.23166023}
+  - {x: 0.4027778, y: 0.0019305019, z: 0.23166023}
+  - {x: 0.4027778, y: 0.23745173, z: 0.08880309}
+  - {x: 0.4027778, y: 0.33011582, z: 0.06949807}
+  - {x: 0.4027778, y: 0.4034749, z: 0.1042471}
+  - {x: 0.4027778, y: 0.51158303, z: 0.1042471}
+  - {x: 0.4027778, y: 0.61969113, z: 0.15057915}
+  - {x: 0.4027778, y: 0.77413124, z: 0.15057915}
+  - {x: 0.46944445, y: 0.0019305019, z: 0.13899614}
+  - {x: 0.46944445, y: 0.14478764, z: 0.27799228}
+  - {x: 0.46944445, y: 0.42664093, z: 0.09266409}
+  - {x: 0.46944445, y: 0.523166, z: 0.2162162}
+  - {x: 0.46944445, y: 0.7432432, z: 0.08880309}
+  - {x: 0.46944445, y: 0.83590734, z: 0.13899614}
+  - {x: 0.5361111, y: 0.0019305019, z: 0.18146718}
+  - {x: 0.5361111, y: 0.18725869, z: 0.17760618}
+  - {x: 0.5361111, y: 0.36872587, z: 0.38610038}
+  - {x: 0.5361111, y: 0.75868726, z: 0.096525095}
+  - {x: 0.5361111, y: 0.85907334, z: 0.096525095}
+  - {x: 0.6027778, y: 0.0019305019, z: 0.096525095}
+  - {x: 0.6027778, y: 0.1023166, z: 0.096525095}
+  - {x: 0.6027778, y: 0.2027027, z: 0.096525095}
+  - {x: 0.6027778, y: 0.30308878, z: 0.096525095}
+  - {x: 0.6027778, y: 0.4034749, z: 0.22007722}
+  - {x: 0.26944447, y: 0.9324324, z: 0.06563707}
+  - {x: 0.4027778, y: 0.9285714, z: 0.06949807}
+  - {x: 0.6027778, y: 0.6274131, z: 0.096525095}
+  - {x: 0.66944444, y: 0.0019305019, z: 0.46332046}
+  - {x: 0.6027778, y: 0.72779924, z: 0.24324323}
+  - {x: 0.66944444, y: 0.46911195, z: 0.33590734}
+  - {x: 0.7361111, y: 0.0019305019, z: 0.2007722}
+  - {x: 0.7361111, y: 0.2065637, z: 0.3243243}
+  - {x: 0.66944444, y: 0.80888027, z: 0.15057915}
+  - {x: 0.8027778, y: 0.0019305019, z: 0.5637066}
+  - {x: 0.7361111, y: 0.53474903, z: 0.18146718}
+  - {x: 0.7361111, y: 0.7200772, z: 0.096525095}
+  - {x: 0.7361111, y: 0.8204633, z: 0.15057915}
+  - {x: 0.8027778, y: 0.56949806, z: 0.18146718}
+  - {x: 0.8027778, y: 0.75482625, z: 0.115830116}
+  - {x: 0.8027778, y: 0.8745174, z: 0.1081081}
+  - {x: 0.8694445, y: 0.0019305019, z: 0.18146718}
+  - {x: 0.8694445, y: 0.18725869, z: 0.4324324}
+  - {x: 0.93611115, y: 0.0019305019, z: 0.46332046}
+  - {x: 0.8694445, y: 0.6235521, z: 0.36679536}
+  - {x: 0.93611115, y: 0.46911195, z: 0.46332046}

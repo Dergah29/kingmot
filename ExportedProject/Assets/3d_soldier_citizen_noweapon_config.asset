@@ -1,0 +1,350 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: 3d_soldier_citizen_noweapon_config
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: d0c4e3d8e1467a04bbfd09d1ea30154d, type: 3}
+  clips:
+  - name: bounce
+    duration: 0.33333334
+    xOffset: 0.00877193
+    yOffset: 0.0013799447
+    yLength: 0.006439742
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: bounce_loop
+    duration: 0.16666669
+    xOffset: 0.00877193
+    yOffset: 0.00873965
+    yLength: 0.0036798527
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: bow
+    duration: 1.6666667
+    xOffset: 0.00877193
+    yOffset: 0.013339466
+    yLength: 0.035878565
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: cheer
+    duration: 1.3333334
+    xOffset: 0.00877193
+    yOffset: 0.050137993
+    yLength: 0.02851886
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: cheer2
+    duration: 2
+    xOffset: 0.00877193
+    yOffset: 0.07957681
+    yLength: 0.04323827
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: depress
+    duration: 2
+    xOffset: 0.00877193
+    yOffset: 0.12373505
+    yLength: 0.04323827
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: depress2
+    duration: 3.0000002
+    xOffset: 0.00877193
+    yOffset: 0.16789328
+    yLength: 0.066237345
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: fall
+    duration: 1.3333334
+    xOffset: 0.00877193
+    yOffset: 0.23505059
+    yLength: 0.02851886
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: fall_2_idle
+    duration: 0.8333334
+    xOffset: 0.00877193
+    yOffset: 0.2644894
+    yLength: 0.0174793
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: fall_idle
+    duration: 1.0000001
+    xOffset: 0.00877193
+    yOffset: 0.28288868
+    yLength: 0.022079116
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: head_smash
+    duration: 0.4666667
+    xOffset: 0.00877193
+    yOffset: 0.30588776
+    yLength: 0.010119595
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: hit
+    duration: 0.8000001
+    xOffset: 0.00877193
+    yOffset: 0.3169273
+    yLength: 0.0174793
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: idle
+    duration: 1.0666667
+    xOffset: 0.00877193
+    yOffset: 0.33532658
+    yLength: 0.02299908
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: idle_fail
+    duration: 1
+    xOffset: 0.00877193
+    yOffset: 0.35924563
+    yLength: 0.021159153
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: idle_noweapon
+    duration: 1.0666667
+    xOffset: 0.00877193
+    yOffset: 0.38132474
+    yLength: 0.02299908
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: kick_loop
+    duration: 0.4666667
+    xOffset: 0.00877193
+    yOffset: 0.40524378
+    yLength: 0.010119595
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: look
+    duration: 2.1666667
+    xOffset: 0.00877193
+    yOffset: 0.41628334
+    yLength: 0.04691812
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: look_L
+    duration: 1.6666667
+    xOffset: 0.00877193
+    yOffset: 0.46412143
+    yLength: 0.035878565
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: look_R
+    duration: 1.3333334
+    xOffset: 0.00877193
+    yOffset: 0.50091994
+    yLength: 0.02851886
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: nod
+    duration: 1
+    xOffset: 0.00877193
+    yOffset: 0.5303588
+    yLength: 0.021159153
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: pillar_hand
+    duration: 2.3333335
+    xOffset: 0.00877193
+    yOffset: 0.5524379
+    yLength: 0.051517937
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: pillar_idle
+    duration: 1.1666667
+    xOffset: 0.00877193
+    yOffset: 0.6048758
+    yLength: 0.025758969
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: pillar_kick
+    duration: 1.2
+    xOffset: 0.00877193
+    yOffset: 0.6315547
+    yLength: 0.025758969
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: pillar_point
+    duration: 1.5000002
+    xOffset: 0.00877193
+    yOffset: 0.65823364
+    yLength: 0.033118673
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: pillar_start
+    duration: 1.5000001
+    xOffset: 0.00877193
+    yOffset: 0.6922723
+    yLength: 0.033118673
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: push
+    duration: 0.40000004
+    xOffset: 0.00877193
+    yOffset: 0.7263109
+    yLength: 0.008279668
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: push2
+    duration: 0.4666667
+    xOffset: 0.00877193
+    yOffset: 0.7355106
+    yLength: 0.010119595
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: push_hit
+    duration: 0.4666667
+    xOffset: 0.00877193
+    yOffset: 0.74655014
+    yLength: 0.010119595
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: roll01
+    duration: 0.26666668
+    xOffset: 0.00877193
+    yOffset: 0.7575897
+    yLength: 0.005519779
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: roll02
+    duration: 0.26666668
+    xOffset: 0.00877193
+    yOffset: 0.76402944
+    yLength: 0.005519779
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: rush
+    duration: 0.5666667
+    xOffset: 0.00877193
+    yOffset: 0.7704692
+    yLength: 0.011959521
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: rush_con
+    duration: 0.5666667
+    xOffset: 0.00877193
+    yOffset: 0.7833486
+    yLength: 0.011959521
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: shoot
+    duration: 1.6666667
+    xOffset: 0.00877193
+    yOffset: 0.7962281
+    yLength: 0.035878565
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: slide_con
+    duration: 1.2666668
+    xOffset: 0.00877193
+    yOffset: 0.83302665
+    yLength: 0.027598895
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: slide_con_loop
+    duration: 0.4000001
+    xOffset: 0.00877193
+    yOffset: 0.8615455
+    yLength: 0.008279668
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: slide_con2
+    duration: 1.2666668
+    xOffset: 0.00877193
+    yOffset: 0.8707451
+    yLength: 0.027598895
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: slide_con2_loop
+    duration: 0.4000001
+    xOffset: 0.00877193
+    yOffset: 0.899264
+    yLength: 0.008279668
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: slide_loop
+    duration: 0.4666667
+    xOffset: 0.00877193
+    yOffset: 0.90846366
+    yLength: 0.010119595
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: walk
+    duration: 1.0666667
+    xOffset: 0.00877193
+    yOffset: 0.9195032
+    yLength: 0.02299908
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: walk_l
+    duration: 1.2666668
+    xOffset: 0.00877193
+    yOffset: 0.94342226
+    yLength: 0.027598895
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: walk_r
+    duration: 1.2666668
+    xOffset: 0.00877193
+    yOffset: 0.9719411
+    yLength: 0.027598895
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  bones: []
+  binePosesOffsets:
+  - name: 3d_soldier_citizen_noweapon
+    bindPoses: {x: 0.00877193, y: 0.0004599816}
+  transitions: []
+  offsets: []

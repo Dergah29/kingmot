@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: 3d_castle_dress_26_config
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: 74ad4cfef876e2040b455040fff7fa07, type: 3}
+  clips:
+  - name: idle02
+    duration: 31.5
+    xOffset: 0.0069444445
+    yOffset: 0.0019815061
+    yLength: 0.997358
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  bones: []
+  binePosesOffsets:
+  - name: 3d_castle_dress_26
+    bindPoses: {x: 0.0069444445, y: 0.000660502}
+  transitions: []
+  offsets: []

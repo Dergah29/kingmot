@@ -1,0 +1,194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: 3d_soldier_citizen_noweapon_podium_config
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: ff76189f1e336dc47969c10735904d0c, type: 3}
+  clips:
+  - name: idle_noweapon
+    duration: 1
+    xOffset: 0.00877193
+    yOffset: 0.0014285714
+    yLength: 0.021904761
+    bind: 1
+    loop: 1
+    autoPlayNext: 1
+  - name: bow
+    duration: 1.6666667
+    xOffset: 0.00877193
+    yOffset: 0.024285713
+    yLength: 0.037142858
+    bind: 2
+    loop: 0
+    autoPlayNext: 1
+  - name: clap
+    duration: 2.9333334
+    xOffset: 0.00877193
+    yOffset: 0.06238095
+    yLength: 0.06666666
+    bind: 3
+    loop: 0
+    autoPlayNext: 1
+  - name: get
+    duration: 2.3333335
+    xOffset: 0.00877193
+    yOffset: 0.13
+    yLength: 0.053333335
+    bind: 4
+    loop: 0
+    autoPlayNext: 1
+  - name: hands_up
+    duration: 3.0333347
+    xOffset: 0.00877193
+    yOffset: 0.18428572
+    yLength: 0.068571426
+    bind: 5
+    loop: 0
+    autoPlayNext: 1
+  - name: idle_2_sit01
+    duration: 3.0000002
+    xOffset: 0.00877193
+    yOffset: 0.2538095
+    yLength: 0.068571426
+    bind: 6
+    loop: 0
+    autoPlayNext: 1
+  - name: sit01_to_sit02
+    duration: 2
+    xOffset: 0.00877193
+    yOffset: 0.32333332
+    yLength: 0.044761904
+    bind: 7
+    loop: 0
+    autoPlayNext: 1
+  - name: sit03_to_idle
+    duration: 1.1333351
+    xOffset: 0.00877193
+    yOffset: 0.3690476
+    yLength: 0.025714286
+    bind: 8
+    loop: 0
+    autoPlayNext: 1
+  - name: sit02_to_sit01
+    duration: 0.6666665
+    xOffset: 0.00877193
+    yOffset: 0.39571428
+    yLength: 0.014285714
+    bind: 9
+    loop: 0
+    autoPlayNext: 1
+  - name: sit02_loop
+    duration: 1.5000005
+    xOffset: 0.00877193
+    yOffset: 0.4109524
+    yLength: 0.034285713
+    bind: 10
+    loop: 1
+    autoPlayNext: 1
+  - name: sit01_to_sit03
+    duration: 1.1000004
+    xOffset: 0.00877193
+    yOffset: 0.44619048
+    yLength: 0.024761904
+    bind: 11
+    loop: 0
+    autoPlayNext: 1
+  - name: sit01_loop
+    duration: 1.3333335
+    xOffset: 0.00877193
+    yOffset: 0.47190475
+    yLength: 0.03047619
+    bind: 12
+    loop: 1
+    autoPlayNext: 1
+  - name: sit01_to_idle
+    duration: 2.4333334
+    xOffset: 0.00877193
+    yOffset: 0.50333333
+    yLength: 0.055238094
+    bind: 13
+    loop: 0
+    autoPlayNext: 1
+  - name: look
+    duration: 2.1666667
+    xOffset: 0.00877193
+    yOffset: 0.5595238
+    yLength: 0.048571426
+    bind: 14
+    loop: 1
+    autoPlayNext: 1
+  - name: run
+    duration: 0.8000001
+    xOffset: 0.00877193
+    yOffset: 0.6090476
+    yLength: 0.018095238
+    bind: 15
+    loop: 1
+    autoPlayNext: 1
+  - name: sit01_loop 0
+    duration: 1.3333334
+    xOffset: 0.00877193
+    yOffset: 0.6280952
+    yLength: 0.029523809
+    bind: 16
+    loop: 1
+    autoPlayNext: 1
+  - name: sit03_loop
+    duration: 1.1000013
+    xOffset: 0.00877193
+    yOffset: 0.6585714
+    yLength: 0.024761904
+    bind: 17
+    loop: 1
+    autoPlayNext: 1
+  - name: talk_01
+    duration: 4.8333335
+    xOffset: 0.00877193
+    yOffset: 0.6842857
+    yLength: 0.10952381
+    bind: 18
+    loop: 0
+    autoPlayNext: 1
+  - name: talk_02
+    duration: 9
+    xOffset: 0.00877193
+    yOffset: 0.7947619
+    yLength: 0.20476191
+    bind: 19
+    loop: 0
+    autoPlayNext: 1
+  bones:
+  - v_fire03
+  binePosesOffsets:
+  - name: 3d_soldier_citizen_noweapon_podium
+    bindPoses: {x: 0.00877193, y: 0.00047619047}
+  transitions: []
+  offsets:
+  - {x: 0.16666667, y: 0.00047664443, z: 0.021925643}
+  - {x: 0.16666667, y: 0.023355577, z: 0.037178267}
+  - {x: 0.16666667, y: 0.06148713, z: 0.06673022}
+  - {x: 0.16666667, y: 0.12917064, z: 0.053384177}
+  - {x: 0.16666667, y: 0.18350811, z: 0.0686368}
+  - {x: 0.16666667, y: 0.2530982, z: 0.0686368}
+  - {x: 0.16666667, y: 0.32268828, z: 0.044804577}
+  - {x: 0.16666667, y: 0.36844614, z: 0.0257388}
+  - {x: 0.16666667, y: 0.39513823, z: 0.014299333}
+  - {x: 0.16666667, y: 0.41039085, z: 0.0343184}
+  - {x: 0.16666667, y: 0.44566256, z: 0.024785511}
+  - {x: 0.16666667, y: 0.47140133, z: 0.030505244}
+  - {x: 0.16666667, y: 0.5028599, z: 0.055290755}
+  - {x: 0.16666667, y: 0.5591039, z: 0.04861773}
+  - {x: 0.16666667, y: 0.60867494, z: 0.018112488}
+  - {x: 0.16666667, y: 0.62774074, z: 0.029551955}
+  - {x: 0.16666667, y: 0.658246, z: 0.024785511}
+  - {x: 0.16666667, y: 0.68398476, z: 0.10962822}
+  - {x: 0.16666667, y: 0.7945663, z: 0.20495711}

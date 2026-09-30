@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: 3d_world_march_skin_2026WhiteBear_qizi_config
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: dd49734a14524ed45ad0ea32942e20cd, type: 3}
+  clips:
+  - name: 3d_world_march_anim_skin_2026WhiteBear_qizi@ani
+    duration: 8.666667
+    xOffset: 0.055555556
+    yOffset: 0.0071770335
+    yLength: 0.9904306
+    bind: 1
+    loop: 1
+    autoPlayNext: 1
+  bones:
+  - 3d_world_march_skin_2026WhiteBear_qizi
+  binePosesOffsets:
+  - name: 3d_world_march_skin_2026WhiteBear_qizi
+    bindPoses: {x: 0.055555556, y: 0.0023923444}
+  transitions: []
+  offsets:
+  - {x: 0.16666667, y: 0.0024038462, z: 0.99519235}

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: 3d_castle_dress_14_02_config
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: 17ae18fbcc4574c4ba490a947ba7df8f, type: 3}
+  clips:
+  - name: idle
+    duration: 12
+    xOffset: 0.0046296297
+    yOffset: 0.0024711697
+    yLength: 0.47281712
+    bind: 1
+    loop: 1
+    autoPlayNext: 1
+  - name: change1
+    duration: 13.233334
+    xOffset: 0.0046296297
+    yOffset: 0.47693574
+    yLength: 0.5222405
+    bind: 2
+    loop: 0
+    autoPlayNext: 1
+  bones:
+  - Bone001
+  - men
+  - Stick01
+  - Tail03
+  binePosesOffsets:
+  - name: 3d_castle_dress_14_02
+    bindPoses: {x: 0.0046296297, y: 0.0008237232}
+  transitions:
+  - name: change1
+    destination: idle
+  - name: idle
+    destination: idle
+  offsets:
+  - {x: 0.041666668, y: 0.00082508253, z: 0.47359738}
+  - {x: 0.041666668, y: 0.4760726, z: 0.52310234}

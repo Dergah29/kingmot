@@ -1,0 +1,238 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: 3d_soldier_citizen_noweapon_war_machine_config
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: 4a9608dd5f9331f45b93333d083bbc44, type: 3}
+  clips:
+  - name: buff1
+    duration: 4
+    xOffset: 0.00877193
+    yOffset: 0.0010114633
+    yLength: 0.06405934
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: buff2
+    duration: 4
+    xOffset: 0.00877193
+    yOffset: 0.065745115
+    yLength: 0.06405934
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: buff3
+    duration: 4
+    xOffset: 0.00877193
+    yOffset: 0.13047877
+    yLength: 0.06405934
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: hit1
+    duration: 1.6666667
+    xOffset: 0.00877193
+    yOffset: 0.19521241
+    yLength: 0.026298046
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: hit2
+    duration: 2.3333335
+    xOffset: 0.00877193
+    yOffset: 0.22218476
+    yLength: 0.037761297
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: hit3
+    duration: 2.3333335
+    xOffset: 0.00877193
+    yOffset: 0.2606204
+    yLength: 0.037761297
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: jingya1
+    duration: 1
+    xOffset: 0.00877193
+    yOffset: 0.299056
+    yLength: 0.015509103
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: jingya1idle
+    duration: 2.6666667
+    xOffset: 0.00877193
+    yOffset: 0.3152394
+    yLength: 0.04248146
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: jingya2
+    duration: 1
+    xOffset: 0.00877193
+    yOffset: 0.35839516
+    yLength: 0.015509103
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: jingya2idle
+    duration: 2.6666667
+    xOffset: 0.00877193
+    yOffset: 0.37457857
+    yLength: 0.04248146
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: naotou
+    duration: 2
+    xOffset: 0.00877193
+    yOffset: 0.41773432
+    yLength: 0.031692516
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: pose1
+    duration: 1.1666667
+    xOffset: 0.00877193
+    yOffset: 0.45010117
+    yLength: 0.018880649
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: pose2
+    duration: 1.1666667
+    xOffset: 0.00877193
+    yOffset: 0.4696561
+    yLength: 0.018880649
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: pose3
+    duration: 1.1666667
+    xOffset: 0.00877193
+    yOffset: 0.48921108
+    yLength: 0.018880649
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: sit
+    duration: 1
+    xOffset: 0.00877193
+    yOffset: 0.50876606
+    yLength: 0.015509103
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: sitidle
+    duration: 2.6666667
+    xOffset: 0.00877193
+    yOffset: 0.52494943
+    yLength: 0.04248146
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: zuoyoukan
+    duration: 2.5000002
+    xOffset: 0.00877193
+    yOffset: 0.5681052
+    yLength: 0.04045853
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: cheer
+    duration: 1.3333334
+    xOffset: 0.00877193
+    yOffset: 0.609238
+    yLength: 0.020903574
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: cheer2
+    duration: 2
+    xOffset: 0.00877193
+    yOffset: 0.6308159
+    yLength: 0.031692516
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: idle
+    duration: 1.0666667
+    xOffset: 0.00877193
+    yOffset: 0.66318274
+    yLength: 0.01685772
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: look
+    duration: 2.1666667
+    xOffset: 0.00877193
+    yOffset: 0.6807148
+    yLength: 0.034389753
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: look_L
+    duration: 1.6666667
+    xOffset: 0.00877193
+    yOffset: 0.7157788
+    yLength: 0.026298046
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: look_R
+    duration: 1.3333334
+    xOffset: 0.00877193
+    yOffset: 0.7427512
+    yLength: 0.020903574
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: bow
+    duration: 1.6666667
+    xOffset: 0.00877193
+    yOffset: 0.7643291
+    yLength: 0.026298046
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: run
+    duration: 0.8000001
+    xOffset: 0.00877193
+    yOffset: 0.7913014
+    yLength: 0.012811868
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: paofei2
+    duration: 6.0000005
+    xOffset: 0.00877193
+    yOffset: 0.80478764
+    yLength: 0.097100474
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: paofei1
+    duration: 6.0000005
+    xOffset: 0.00877193
+    yOffset: 0.9025624
+    yLength: 0.097100474
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  bones: []
+  binePosesOffsets:
+  - name: 3d_soldier_citizen_noweapon_war_machine
+    bindPoses: {x: 0.00877193, y: 0.00033715443}
+  transitions: []
+  offsets: []
