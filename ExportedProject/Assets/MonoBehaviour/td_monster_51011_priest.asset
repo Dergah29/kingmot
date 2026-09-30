@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: td_monster_51011_priest
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: 5b7e7038d2d1d9042a422595d1d8b366, type: 3}
+  clips:
+  - name: attack
+    duration: 1.4000001
+    xOffset: 0.005376344
+    yOffset: 0.0072815535
+    yLength: 0.16019417
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: die
+    duration: 2.1666667
+    xOffset: 0.005376344
+    yOffset: 0.1723301
+    yLength: 0.24757282
+    bind: 0
+    loop: 0
+    autoPlayNext: 0
+  - name: idle
+    duration: 1.3333334
+    xOffset: 0.005376344
+    yOffset: 0.42475727
+    yLength: 0.15048544
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: run
+    duration: 0.73333335
+    xOffset: 0.005376344
+    yOffset: 0.5800971
+    yLength: 0.08252427
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: skillxp
+    duration: 1.5000001
+    xOffset: 0.005376344
+    yOffset: 0.66747576
+    yLength: 0.17475729
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: win
+    duration: 1.3333334
+    xOffset: 0.005376344
+    yOffset: 0.8470874
+    yLength: 0.15048544
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  bones:
+  - Arm left hand
+  - Arm right hand
+  - Bip001 L Calf
+  - Bip001 L Clavicle
+  - Bip001 L Finger0
+  - Bip001 L Finger1
+  - Bip001 L Forearm
+  - Bip001 L Thigh
+  - Bip001 L UpperArm
+  - Bip001 Pelvis
+  - Bip001 Prop1
+  - Bip001 R Calf
+  - Bip001 R Clavicle
+  - Bip001 R Finger0
+  - Bip001 R Finger1
+  - Bip001 R Forearm
+  - Bip001 R Thigh
+  - Bip001 R UpperArm
+  - Bip001 Spine
+  - Body01
+  - CloakL1
+  - CloakL2
+  - CloakM1
+  - CloakM2
+  - CloakR1
+  - CloakR2
+  - Hat1
+  - Head
+  - Left foot
+  - Right foot
+  - Weapon1
+  binePosesOffsets: []
+  transitions: []
+  offsets: []

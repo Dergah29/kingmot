@@ -1,0 +1,585 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4884547391421755}
+  - component: {fileID: 114099118695303065}
+  - component: {fileID: 114243736805655561}
+  - component: {fileID: 114061268324235159}
+  - component: {fileID: 114587765826080250}
+  - component: {fileID: 114709867586078768}
+  m_Layer: 24
+  m_Name: March_3D_ZhongZhuangMengMa
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1730242686860875
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4044625135789424}
+  m_Layer: 24
+  m_Name: 3d_world_march_skin_mammoth
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1724804207875695
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4589667821646929}
+  m_Layer: 24
+  m_Name: 3d_world_march_skin_mammoth
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1618682377417806
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4372920208702427}
+  - component: {fileID: 33025901758691103}
+  - component: {fileID: 23985305603660343}
+  - component: {fileID: 114705390221481576}
+  - component: {fileID: 114977153420339851}
+  m_Layer: 24
+  m_Name: 3d_world_march_skin_mammoth
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1703437598541787
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4336590748365959}
+  - component: {fileID: 114256069497284392}
+  m_Layer: 24
+  m_Name: world_exhibit_skin_mammoth_nyh_shuiji_Bone22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4884547391421755
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4044625135789424}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114099118695303065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11787a38e676e7c2f31660c72cda62c0, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  Config: {fileID: 11400000, guid: 458b0dc9d9f7ebd4883b452ffba30dba, type: 2}
+  BindPosesName:
+  Bindposes: {x: 0.006666667, y: 0.0013812155}
+  Renderers:
+  - {fileID: 23985305603660343}
+  Bones:
+  - {fileID: 4336590748365959}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  DefaultAnimName: Move
+  EnableJobSystem: 1
+  ReplayInEnable: 0
+--- !u!114 &114243736805655561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b6eaed01938ddcc8f30c74cab99aef7, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  avatar: {fileID: 114099118695303065}
+  animation: {fileID: 0}
+  animator: {fileID: 0}
+  clips:
+  - name: Move
+    items:
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 1
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 0
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 0
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 0
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 0
+  - name: Attack
+    items:
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 0
+      - time: 0.33333334
+        active: 1
+      - time: 2.8333333
+        active: 0
+      - time: 2.9333334
+        active: 1
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 0
+      - time: 3.4666667
+        active: 1
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 0
+      - time: 4.6
+        active: 1
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 0
+      - time: 3.7333333
+        active: 1
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 0
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 0
+      - time: 1
+        active: 1
+  - name: Move2
+    items:
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 0
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 0
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 0
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 1
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 0
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0.6
+        active: 0
+      - time: 0.73333335
+        active: 1
+      - time: 2.5333333
+        active: 0
+      - time: 2.6
+        active: 1
+--- !u!114 &114061268324235159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2431d63a8ee61deb3e5219482a0e117b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  animator: {fileID: 0}
+  animatorRig: {fileID: 114099118695303065}
+  DefaultAnimName: Move
+--- !u!114 &114587765826080250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d8fc2f27b42bd6127ac5c3f0d398a18, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  widgets:
+  - name: VisibleController
+    item: {fileID: 114705390221481576}
+    exportAsList: 0
+  effects: []
+  externals: []
+  exportAsList: 0
+--- !u!114 &114709867586078768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6f13b8768d0c25b35e031693a67ac4a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  IsGpuModel: 1
+  CurAvatarRig: {fileID: 114099118695303065}
+  CurAvatarRigCurve: {fileID: 114243736805655561}
+  Animator: {fileID: 0}
+  Animation: {fileID: 0}
+  VisibleController: {fileID: 114705390221481576}
+  EffectLoadDataList:
+  - Path: scene/world/effect/march/fx_world_exhibit_skin_mammoth_nyh_shuiji_Bone22_move.prefab
+    Name: fx_world_exhibit_skin_mammoth_nyh_shuiji_Bone22_move
+    EffectParentTf: {fileID: 4589667821646929}
+    FirstActiveTime: 0
+    AniName: Move
+  - Path: scene/world/effect/march/fx_world_exhibit_skin_mammoth_yjn_hit.prefab
+    Name: fx_world_exhibit_skin_mammoth_yjn_hit
+    EffectParentTf: {fileID: 4589667821646929}
+    FirstActiveTime: 3.7333333
+    AniName: Attack
+  - Path: scene/world/effect/march/fx_world_exhibit_skin_mammoth_nyh_shuibao_bjx.prefab
+    Name: fx_world_exhibit_skin_mammoth_nyh_shuibao_bjx
+    EffectParentTf: {fileID: 4589667821646929}
+    FirstActiveTime: 3.4666667
+    AniName: Attack
+  - Path: scene/world/effect/march/fx_world_exhibit_skin_mammoth_nyh_shuiyue_bjx.prefab
+    Name: fx_world_exhibit_skin_mammoth_nyh_shuiyue_bjx
+    EffectParentTf: {fileID: 4589667821646929}
+    FirstActiveTime: 4.6
+    AniName: Attack
+  - Path: scene/world/effect/march/fx_world_exhibit_skin_mammoth_nyh_yue_01.prefab
+    Name: fx_world_exhibit_skin_mammoth_nyh_yue_01
+    EffectParentTf: {fileID: 4589667821646929}
+    FirstActiveTime: 0
+    AniName: Move
+  - Path: scene/world/effect/march/fx_world_exhibit_skin_mammoth_nyh_yue.prefab
+    Name: fx_world_exhibit_skin_mammoth_nyh_yue
+    EffectParentTf: {fileID: 4589667821646929}
+    FirstActiveTime: 0.73333335
+    AniName: Move2
+  - Path: scene/world/effect/march/fx_world_exhibit_skin_mammoth_nyh_shuiji_Bone22.prefab
+    Name: fx_world_exhibit_skin_mammoth_nyh_shuiji_Bone22
+    EffectParentTf: {fileID: 4336590748365959}
+    FirstActiveTime: 1
+    AniName: Attack
+  AvatarRigBonesDataList:
+  - EffectRootName: fx_world_exhibit_skin_mammoth_nyh_yue
+    EffectNodeName: fx_world_exhibit_skin_mammoth_nyh_yue
+    EffectNodeBonesIndex: 1
+  - EffectRootName: fx_world_exhibit_skin_mammoth_nyh_shuiyue_bjx
+    EffectNodeName: fx_world_exhibit_skin_mammoth_nyh_shuiyue_bjx
+    EffectNodeBonesIndex: 2
+  - EffectRootName: fx_world_exhibit_skin_mammoth_nyh_shuiji_Bone22_move
+    EffectNodeName: fx_world_exhibit_skin_mammoth_nyh_shuiji_Bone22_move
+    EffectNodeBonesIndex: 3
+  AvatarRigCurveClipDataList:
+  - EffectRootName: fx_world_exhibit_skin_mammoth_nyh_shuiji_Bone22_move
+    ClipName: Move
+    EffectNodeName: fx_world_exhibit_skin_mammoth_nyh_shuiji_Bone22_move
+    EffectNodeClipIndex: 0
+  - EffectRootName: fx_world_exhibit_skin_mammoth_nyh_shuiyue_bjx
+    ClipName: Move
+    EffectNodeName: fx_world_exhibit_skin_mammoth_nyh_shuiyue_bjx
+    EffectNodeClipIndex: 1
+  - EffectRootName: fx_world_exhibit_skin_mammoth_nyh_shuibao_bjx
+    ClipName: Move
+    EffectNodeName: fx_world_exhibit_skin_mammoth_nyh_shuibao_bjx
+    EffectNodeClipIndex: 2
+  - EffectRootName: fx_world_exhibit_skin_mammoth_yjn_hit
+    ClipName: Move
+    EffectNodeName: fx_world_exhibit_skin_mammoth_yjn_hit
+    EffectNodeClipIndex: 3
+  - EffectRootName: fx_world_exhibit_skin_mammoth_nyh_yue_01
+    ClipName: Move
+    EffectNodeName: fx_world_exhibit_skin_mammoth_nyh_yue_01
+    EffectNodeClipIndex: 4
+  - EffectRootName: fx_world_exhibit_skin_mammoth_nyh_yue
+    ClipName: Attack
+    EffectNodeName: fx_world_exhibit_skin_mammoth_nyh_yue
+    EffectNodeClipIndex: 0
+  - EffectRootName: fx_world_exhibit_skin_mammoth_nyh_shuibao_bjx
+    ClipName: Attack
+    EffectNodeName: fx_world_exhibit_skin_mammoth_nyh_shuibao_bjx
+    EffectNodeClipIndex: 1
+  - EffectRootName: fx_world_exhibit_skin_mammoth_nyh_shuiyue_bjx
+    ClipName: Attack
+    EffectNodeName: fx_world_exhibit_skin_mammoth_nyh_shuiyue_bjx
+    EffectNodeClipIndex: 2
+  - EffectRootName: fx_world_exhibit_skin_mammoth_yjn_hit
+    ClipName: Attack
+    EffectNodeName: fx_world_exhibit_skin_mammoth_yjn_hit
+    EffectNodeClipIndex: 3
+  - EffectRootName: fx_world_exhibit_skin_mammoth_nyh_shuiji_Bone22_move
+    ClipName: Attack
+    EffectNodeName: fx_world_exhibit_skin_mammoth_nyh_shuiji_Bone22_move
+    EffectNodeClipIndex: 4
+  - EffectRootName: fx_world_exhibit_skin_mammoth_nyh_shuiji_Bone22
+    ClipName: Attack
+    EffectNodeName: fx_world_exhibit_skin_mammoth_nyh_shuiji_Bone22
+    EffectNodeClipIndex: 5
+  - EffectRootName: fx_world_exhibit_skin_mammoth_yjn_hit
+    ClipName: Move2
+    EffectNodeName: fx_world_exhibit_skin_mammoth_yjn_hit
+    EffectNodeClipIndex: 0
+  - EffectRootName: fx_world_exhibit_skin_mammoth_nyh_shuibao_bjx
+    ClipName: Move2
+    EffectNodeName: fx_world_exhibit_skin_mammoth_nyh_shuibao_bjx
+    EffectNodeClipIndex: 1
+  - EffectRootName: fx_world_exhibit_skin_mammoth_nyh_shuiyue_bjx
+    ClipName: Move2
+    EffectNodeName: fx_world_exhibit_skin_mammoth_nyh_shuiyue_bjx
+    EffectNodeClipIndex: 2
+  - EffectRootName: fx_world_exhibit_skin_mammoth_nyh_shuiji_Bone22_move
+    ClipName: Move2
+    EffectNodeName: fx_world_exhibit_skin_mammoth_nyh_shuiji_Bone22_move
+    EffectNodeClipIndex: 3
+  - EffectRootName: fx_world_exhibit_skin_mammoth_nyh_yue_01
+    ClipName: Move2
+    EffectNodeName: fx_world_exhibit_skin_mammoth_nyh_yue_01
+    EffectNodeClipIndex: 4
+  - EffectRootName: fx_world_exhibit_skin_mammoth_nyh_yue
+    ClipName: Move2
+    EffectNodeName: fx_world_exhibit_skin_mammoth_nyh_yue
+    EffectNodeClipIndex: 5
+--- !u!4 &4044625135789424
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730242686860875}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4589667821646929}
+  m_Father: {fileID: 4884547391421755}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &4589667821646929
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724804207875695}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4372920208702427}
+  - {fileID: 4336590748365959}
+  m_Father: {fileID: 4044625135789424}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &4372920208702427
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618682377417806}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4589667821646929}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!33 &33025901758691103
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618682377417806}
+  m_Mesh: {fileID: 4300000, guid: 09a30285c0612374f9b0153ac12ee155, type: 2}
+--- !u!23 &23985305603660343
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618682377417806}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9ecc946c80de8224ea9fd4666f18790c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &114705390221481576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618682377417806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a08ea801395f69d0c32fa953a5041a5, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  Targets:
+  - {fileID: 114099118695303065}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 114256069497284392}
+--- !u!114 &114977153420339851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618682377417806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a33c5152e3df7d4400d72fc9d63c62f1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!4 &4336590748365959
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703437598541787}
+  m_LocalRotation: {x: 0.40596542, y: -0.0056927395, z: 0.8472273, w: 0.34258673}
+  m_LocalPosition: {x: 0.10772705, y: -0.46435547, z: -0.31469727}
+  m_LocalScale: {x: 0.99991536, y: 0.99986756, z: 1.0001354}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4589667821646929}
+  m_LocalEulerAnglesHint: {x: 21.829615, y: 43.772007, z: -127.1077}
+--- !u!114 &114256069497284392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703437598541787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c91ebf18ff674a168fc94015f7b3b5d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:

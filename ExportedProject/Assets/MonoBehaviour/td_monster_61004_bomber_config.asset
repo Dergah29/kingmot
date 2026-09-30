@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: td_monster_61004_bomber_config
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: 68c4fd7271d02884e8bfe35e69d3d52a, type: 3}
+  clips:
+  - name: attack
+    duration: 1.2666668
+    xOffset: 0.0064102565
+    yOffset: 0.004373178
+    yLength: 0.110787176
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: die
+    duration: 1.9000001
+    xOffset: 0.0064102565
+    yOffset: 0.1180758
+    yLength: 0.16618076
+    bind: 0
+    loop: 0
+    autoPlayNext: 0
+  - name: idle
+    duration: 1.6666667
+    xOffset: 0.0064102565
+    yOffset: 0.28717202
+    yLength: 0.1457726
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: run
+    duration: 0.6
+    xOffset: 0.0064102565
+    yOffset: 0.43586007
+    yLength: 0.049562685
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: skillxp
+    duration: 2.4666667
+    xOffset: 0.0064102565
+    yOffset: 0.4883382
+    yLength: 0.212828
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: win
+    duration: 1.6666667
+    xOffset: 0.0064102565
+    yOffset: 0.70408165
+    yLength: 0.1457726
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: stun
+    duration: 1.6666667
+    xOffset: 0.0064102565
+    yOffset: 0.85276973
+    yLength: 0.1457726
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  bones: []
+  binePosesOffsets:
+  - name: td_monster_61004_bomber
+    bindPoses: {x: 0.0064102565, y: 0.001457726}
+  transitions: []
+  offsets: []

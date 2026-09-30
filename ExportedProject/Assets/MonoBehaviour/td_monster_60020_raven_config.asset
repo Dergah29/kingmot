@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: td_monster_60020_raven_config
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: 4dc8ce6efad617047b7d01bcbdb5ca37, type: 3}
+  clips:
+  - name: attack
+    duration: 1
+    xOffset: 0.0061728396
+    yOffset: 0.014150944
+    yLength: 0.2735849
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: die
+    duration: 1
+    xOffset: 0.0061728396
+    yOffset: 0.2971698
+    yLength: 0.2735849
+    bind: 0
+    loop: 0
+    autoPlayNext: 0
+  - name: idle
+    duration: 0.9333334
+    xOffset: 0.0061728396
+    yOffset: 0.5801887
+    yLength: 0.26415095
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: run
+    duration: 0.53333336
+    xOffset: 0.0061728396
+    yOffset: 0.8537736
+    yLength: 0.14150944
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  bones: []
+  binePosesOffsets:
+  - name: td_monster_60020_raven
+    bindPoses: {x: 0.0061728396, y: 0.004716981}
+  transitions: []
+  offsets: []

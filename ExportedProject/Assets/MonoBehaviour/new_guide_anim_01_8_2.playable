@@ -1,0 +1,2414 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddc288ee56768d9bdacabe3501a74d1d, type: 3}
+  m_Name: new_guide_anim_01_8_2
+  m_EditorClassIdentifier:
+  m_Version: 0
+  m_Tracks:
+  - {fileID: 114709254077376921}
+  - {fileID: 114730242686860875}
+  - {fileID: 114724804207875695}
+  - {fileID: 114618682377417806}
+  - {fileID: 114703437598541787}
+  - {fileID: 114884547391421755}
+  - {fileID: 114217368724061974}
+  - {fileID: 114089843903986396}
+  m_FixedDuration: 0
+  m_EditorSettings:
+    m_Framerate: 30
+    m_ScenePreview: 1
+  m_DurationMode: 0
+  m_MarkerTrack: {fileID: 0}
+--- !u!114 &114709254077376921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c1d367759f46f0f4113dd6c454880b, type: 3}
+  m_Name: camera
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 1
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 11400000, guid: badb69d7b8bc1e64a8cd44deeb0f272c, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &114730242686860875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c1d367759f46f0f4113dd6c454880b, type: 3}
+  m_Name: npc02
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 11400000, guid: 78ff293f54e9a8b4d9bdd69bfad2d2fc, type: 2}
+  - {fileID: 11400000, guid: b96613f6314b5af4aa374ada60c4d159, type: 2}
+  - {fileID: 11400000, guid: 615a5a17d3304144bae1faba717f28f5, type: 2}
+  - {fileID: 11400000, guid: 06f0b4fd9bb516b4897e03781985c4c0, type: 2}
+  - {fileID: 11400000, guid: eedc280e9f9d4cc4bb79920e222d9a5a, type: 2}
+  - {fileID: 11400000, guid: 88dc9b09f99605d47be779187ea965fd, type: 2}
+  - {fileID: 11400000, guid: abe240cfa7b816e45a4735f80e75aa26, type: 2}
+  - {fileID: 11400000, guid: 079623a7df5e4504bafdf43480cc4df7, type: 2}
+  - {fileID: 11400000, guid: a700db6b9fd319744ab0143b73c0f21f, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c1d367759f46f0f4113dd6c454880b, type: 3}
+  m_Name: king
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 11400000, guid: 260a75cd9e81eae45abef93ffa4dc9a3, type: 2}
+  - {fileID: 11400000, guid: daf05e658aff4ac4c878974841a9900c, type: 2}
+  - {fileID: 11400000, guid: c4dc54b6eea6eaf48abb4bdbd2a51984, type: 2}
+  - {fileID: 11400000, guid: a57aec26ebb224c46b197d3b058de0f6, type: 2}
+  - {fileID: 11400000, guid: 4fbae0937be8859468b0a5f13654370f, type: 2}
+  - {fileID: 11400000, guid: c8c1ab114ae6eb3439efe681ea8dc1b9, type: 2}
+  - {fileID: 11400000, guid: 8a8eee90da042c6498b96090d01bf319, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &114618682377417806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c1d367759f46f0f4113dd6c454880b, type: 3}
+  m_Name: nanpu
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 11400000, guid: fc1c045a35f86de4f9de3c5ae655a20e, type: 2}
+  - {fileID: 11400000, guid: 163b6c228c149a24bb844f2ef8d6f827, type: 2}
+  - {fileID: 11400000, guid: 28cf655c47782c84e94ce89f300779a1, type: 2}
+  - {fileID: 11400000, guid: b23859fff58d4f84ea0f52d8d534ddbf, type: 2}
+  - {fileID: 11400000, guid: ea09bba520e3c2c4a977b4bd962dfa83, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &114703437598541787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c1d367759f46f0f4113dd6c454880b, type: 3}
+  m_Name: nanmin
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 11400000, guid: 34416ce340f9849479501373b78b7dae, type: 2}
+  - {fileID: 11400000, guid: fcbf6a8c8efa34745b4954922ce267ce, type: 2}
+  - {fileID: 11400000, guid: a177fcd58aa13b04eb21cfbcab10724f, type: 2}
+  - {fileID: 11400000, guid: 385ea69053c7e9e4184d7b38d0a10fa0, type: 2}
+  - {fileID: 11400000, guid: 0e1ff082074ca06438cf322616f53599, type: 2}
+  - {fileID: 11400000, guid: f4a613755898e7b438b8bd456dd1b16b, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &114884547391421755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b25f4ca74be7ab994a0c4249790f7aec, type: 3}
+  m_Name: Timeline Simple Controller Notify Track
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips:
+  - m_Version: 1
+    m_Start: 1.5999999682108563
+    m_ClipIn: 0
+    m_Asset: {fileID: 114099118695303065}
+    m_Duration: 0.03333333333333333
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: 层顶去掉
+  - m_Version: 1
+    m_Start: 1.6666666348775228
+    m_ClipIn: 0
+    m_Asset: {fileID: 114243736805655561}
+    m_Duration: 0.03333333333333333
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: 层顶去掉
+  - m_Version: 1
+    m_Start: 1.73333330154419
+    m_ClipIn: 0
+    m_Asset: {fileID: 114061268324235159}
+    m_Duration: 0.2666666984558099
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: 层顶去掉
+  - m_Version: 1
+    m_Start: 7.75
+    m_ClipIn: 0
+    m_Asset: {fileID: 114587765826080250}
+    m_Duration: 0.633333333333324
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: 男仆气泡打开
+  - m_Version: 1
+    m_Start: 10.199999968210827
+    m_ClipIn: 0
+    m_Asset: {fileID: 114709867586078768}
+    m_Duration: 0.40000003178917254
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: 男仆气泡关闭
+  - m_Version: 1
+    m_Start: 15.516666412353514
+    m_ClipIn: 0
+    m_Asset: {fileID: 114044625135789424}
+    m_Duration: 0.38333333333333286
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: 女仆对话开
+  - m_Version: 1
+    m_Start: 19.133333333333333
+    m_ClipIn: 0
+    m_Asset: {fileID: 114589667821646929}
+    m_Duration: 0.5333332538604729
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: TimelineSimpleControllerNotifyAsset
+  - m_Version: 1
+    m_Start: 5
+    m_ClipIn: 0
+    m_Asset: {fileID: 114372920208702427}
+    m_Duration: 0.2666666666666666
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: npc_layer
+  - m_Version: 1
+    m_Start: 26.2
+    m_ClipIn: 0
+    m_Asset: {fileID: 114025901758691103}
+    m_Duration: 0.13333333333333286
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: TimelineSimpleControllerNotifyAsset
+  - m_Version: 1
+    m_Start: 26.666666666666664
+    m_ClipIn: 0
+    m_Asset: {fileID: 114985305603660343}
+    m_Duration: 0.20000000000000284
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: TimelineSimpleControllerNotifyAsset
+  - m_Version: 1
+    m_Start: 26.333333333333332
+    m_ClipIn: 0
+    m_Asset: {fileID: 114705390221481576}
+    m_Duration: 0.23333333333333073
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: TimelineSimpleControllerNotifyAsset
+  - m_Version: 1
+    m_Start: 27.066666666666666
+    m_ClipIn: 0
+    m_Asset: {fileID: 114977153420339851}
+    m_Duration: 0.3333333333333357
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: TimelineSimpleControllerNotifyAsset
+  - m_Version: 1
+    m_Start: 26.033333333333335
+    m_ClipIn: 0
+    m_Asset: {fileID: 114336590748365959}
+    m_Duration: 0.1666666666666643
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: 领主不耐烦关
+  - m_Version: 1
+    m_Start: 24.75
+    m_ClipIn: 0
+    m_Asset: {fileID: 114256069497284392}
+    m_Duration: 0.13333333333333286
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: 领主不耐烦
+  - m_Version: 1
+    m_Start: 36.11666666666667
+    m_ClipIn: 0
+    m_Asset: {fileID: 114161607090078389}
+    m_Duration: 0.11666666666666714
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: 等待
+  - m_Version: 1
+    m_Start: 28.566666666666666
+    m_ClipIn: 0
+    m_Asset: {fileID: 114002669891404536}
+    m_Duration: 0.10000000000000142
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: TimelineSimpleControllerNotifyAsset
+  - m_Version: 1
+    m_Start: 28.666666666666668
+    m_ClipIn: 0
+    m_Asset: {fileID: 114470112387431263}
+    m_Duration: 0.23333322207128404
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: TimelineSimpleControllerNotifyAsset
+  - m_Version: 1
+    m_Start: 28.899999888737952
+    m_ClipIn: 0
+    m_Asset: {fileID: 114313026266067498}
+    m_Duration: 0.26666677792871596
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: TimelineSimpleControllerNotifyAsset
+  - m_Version: 1
+    m_Start: 29.299999888737947
+    m_ClipIn: 0
+    m_Asset: {fileID: 114621510681728303}
+    m_Duration: 0.20000011126205308
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: TimelineSimpleControllerNotifyAsset
+  - m_Version: 1
+    m_Start: 29.5
+    m_ClipIn: 0
+    m_Asset: {fileID: 114632457200066912}
+    m_Duration: 0.2666667779287195
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: TimelineSimpleControllerNotifyAsset
+  - m_Version: 1
+    m_Start: 29.833333333333336
+    m_ClipIn: 0
+    m_Asset: {fileID: 114634108722742392}
+    m_Duration: 0.13333333333332575
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: TimelineSimpleControllerNotifyAsset
+  - m_Version: 1
+    m_Start: 35.266666666666666
+    m_ClipIn: 0
+    m_Asset: {fileID: 114302127217294661}
+    m_Duration: 0.36666666666666714
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: TimelineSimpleControllerNotifyAsset
+  - m_Version: 1
+    m_Start: 35.633333333333326
+    m_ClipIn: 0
+    m_Asset: {fileID: 114969106005120503}
+    m_Duration: 0.17743853231272055
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: TimelineSimpleControllerNotifyAsset
+  - m_Version: 1
+    m_Start: 33.3
+    m_ClipIn: 0
+    m_Asset: {fileID: 114642988549198181}
+    m_Duration: 0.1666666666666643
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: 难民气泡开
+  - m_Version: 1
+    m_Start: 18.033333333333335
+    m_ClipIn: 0
+    m_Asset: {fileID: 114946936116752871}
+    m_Duration: 0.38333333333333286
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: 女仆对话开
+  - m_Version: 1
+    m_Start: 23.7
+    m_ClipIn: 0
+    m_Asset: {fileID: 114711914853252429}
+    m_Duration: 0.18333333333333357
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: 领主感叹号开
+  - m_Version: 1
+    m_Start: 24.533333333333335
+    m_ClipIn: 0
+    m_Asset: {fileID: 114918264173551851}
+    m_Duration: 0.09999999999999787
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: 领主感叹号关
+  - m_Version: 1
+    m_Start: 2.8333333333333335
+    m_ClipIn: 0
+    m_Asset: {fileID: 114587397909062814}
+    m_Duration: 0.18333333333333313
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: 跳过
+  - m_Version: 1
+    m_Start: 32.83333333333333
+    m_ClipIn: 0
+    m_Asset: {fileID: 114875609422105747}
+    m_Duration: 0.09999999999999787
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: 暂停
+  - m_Version: 1
+    m_Start: 32.63333333333334
+    m_ClipIn: 0
+    m_Asset: {fileID: 114371939378208658}
+    m_Duration: 0.06666666666666288
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: 跳过
+  - m_Version: 1
+    m_Start: 32.7
+    m_ClipIn: 0
+    m_Asset: {fileID: 114694121525821480}
+    m_Duration: 0.13333333333333286
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: 难民对白开
+  - m_Version: 1
+    m_Start: 33.46666666666666
+    m_ClipIn: 0
+    m_Asset: {fileID: 114320256170494724}
+    m_Duration: 0.20000000000000284
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: 暂停
+  - m_Version: 1
+    m_Start: 2.6
+    m_ClipIn: 0
+    m_Asset: {fileID: 114017697238300914}
+    m_Duration: 0.19999999999999973
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: 女仆对白开
+  - m_Version: 1
+    m_Start: 4.166666666666667
+    m_ClipIn: 0
+    m_Asset: {fileID: 114733206282342372}
+    m_Duration: 0.10000000000000275
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114884547391421755}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: 女仆气泡关
+  m_Markers:
+    m_Objects: []
+--- !u!114 &114099118695303065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 10
+    param2: 308
+    param3: true
+    param4:
+    param5:
+--- !u!114 &114243736805655561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 10
+    param2: 309
+    param3: true
+    param4:
+    param5:
+--- !u!114 &114061268324235159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 10
+    param2: 306
+    param3: true
+    param4:
+    param5:
+--- !u!114 &114587765826080250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 12
+    param2: 1
+    param3: citizen01
+    param4: got_new_guide_plot_line_013
+    param5:
+--- !u!114 &114709867586078768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 12
+    param2: 0
+    param3: citizen01
+    param4: got_new_guide_plot_line_013
+    param5:
+--- !u!114 &114044625135789424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 12
+    param2: 1
+    param3: citizen02
+    param4: got_new_guide_plot_line_011
+    param5:
+--- !u!114 &114589667821646929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 12
+    param2: 0
+    param3: citizen02
+    param4: got_guide_plot_line_005
+    param5:
+--- !u!114 &114372920208702427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 17
+    param2: 1
+    param3: 3d_npc_citizen_35
+    param4:
+    param5:
+--- !u!114 &114025901758691103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 17
+    param2: 1
+    param3: 3d_npc_citizen_21
+    param4:
+    param5:
+--- !u!114 &114985305603660343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 17
+    param2: 1
+    param3: 3d_npc_citizen_34
+    param4:
+    param5:
+--- !u!114 &114705390221481576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 18
+    param2: 0
+    param3: Set_Scenario_Time
+    param4: 18
+    param5:
+--- !u!114 &114977153420339851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 17
+    param2: 1
+    param3: 3d_npc_citizen_23
+    param4:
+    param5:
+--- !u!114 &114336590748365959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 12
+    param2: 0
+    param3: citizen04
+    param4: got_guide_plot_line_007
+    param5:
+--- !u!114 &114256069497284392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 12
+    param2: 1
+    param3: citizen04
+    param4: got_new_guide_plot_dia_007
+    param5:
+--- !u!114 &114161607090078389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 8
+    param2: 0
+    param3:
+    param4:
+    param5:
+--- !u!114 &114002669891404536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 17
+    param2: 0
+    param3: 3d_npc_citizen_21
+    param4:
+    param5:
+--- !u!114 &114470112387431263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 17
+    param2: 0
+    param3: 3d_npc_citizen_34
+    param4:
+    param5:
+--- !u!114 &114313026266067498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 17
+    param2: 0
+    param3: 3d_npc_citizen_23
+    param4:
+    param5:
+--- !u!114 &114621510681728303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 17
+    param2: 0
+    param3: 3d_npc_citizen_35
+    param4:
+    param5:
+--- !u!114 &114632457200066912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 10
+    param2: 308
+    param3: false
+    param4:
+    param5:
+--- !u!114 &114634108722742392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 10
+    param2: 309
+    param3: false
+    param4:
+    param5:
+--- !u!114 &114302127217294661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 17
+    param2: 0
+    param3: citizen02
+    param4:
+    param5:
+--- !u!114 &114969106005120503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 10
+    param2: 306
+    param3: false
+    param4:
+    param5:
+--- !u!114 &114642988549198181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 3
+    param2: 1
+    param3: new_player_plot
+    param4: 1001052
+    param5: nanmin1
+--- !u!114 &114946936116752871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 12
+    param2: 0
+    param3: citizen02
+    param4: got_new_guide_plot_line_011
+    param5:
+--- !u!114 &114711914853252429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 21
+    param2: 1
+    param3: citizen04
+    param4: guide_icon_005
+    param5:
+--- !u!114 &114918264173551851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 21
+    param2: 0
+    param3: citizen04
+    param4: guide_icon_005
+    param5:
+--- !u!114 &114587397909062814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 13
+    param2: 979
+    param3: true
+    param4:
+    param5:
+--- !u!114 &114875609422105747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 0
+    param2: 0
+    param3:
+    param4:
+    param5:
+--- !u!114 &114371939378208658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 13
+    param2: 979
+    param3: false
+    param4:
+    param5:
+--- !u!114 &114694121525821480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 3
+    param2: 1
+    param3: new_player_plot
+    param4: 1001053
+    param5: nanmin2
+--- !u!114 &114320256170494724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 0
+    param2: 0
+    param3:
+    param4:
+    param5:
+--- !u!114 &114017697238300914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 12
+    param2: 1
+    param3: citizen02
+    param4: got_new_guide_plot_line_045
+    param5:
+--- !u!114 &114733206282342372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c75fcf104ae320e047e435204093110, type: 3}
+  m_Name: TimelineSimpleControllerNotifyAsset
+  m_EditorClassIdentifier:
+  template:
+    isActive: 1
+    isNotifyOnPlayStart: 0
+    isNotifyOnPlayEnd: 0
+    otherFlag:
+    type: 1
+    param1: 12
+    param2: 0
+    param3: citizen02
+    param4: got_new_guide_plot_line_045
+    param5:
+--- !u!114 &114217368724061974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c1d367759f46f0f4113dd6c454880b, type: 3}
+  m_Name: Sound
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 11400000, guid: 9964ddb47749ee2448baadcc680a045e, type: 2}
+  - {fileID: 11400000, guid: f97dd755f14a0dd479cc2fb94d8deb14, type: 2}
+  - {fileID: 11400000, guid: f6f7361392359d94abf96cc4fa791ca2, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &114089843903986396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f15a9a5384d8a8ac28c3d68de06160f1, type: 3}
+  m_Name: Control Track
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips:
+  - m_Version: 1
+    m_Start: 15
+    m_ClipIn: 0
+    m_Asset: {fileID: 114672306508523268}
+    m_Duration: 21.116666666666667
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114089843903986396}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Fire03
+  m_Markers:
+    m_Objects: []
+--- !u!114 &114672306508523268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ebf0209fab1ad6a6525161ed73cd77a, type: 3}
+  m_Name: ControlPlayableAsset
+  m_EditorClassIdentifier:
+  sourceGameObject:
+    exposedName:
+      id: 1638295498
+    defaultValue: {fileID: 0}
+  prefabGameObject: {fileID: 0}
+  updateParticle: 1
+  particleRandomSeed: 9989
+  updateDirector: 1
+  updateITimeControl: 1
+  searchHierarchy: 1
+  active: 1
+  postPlayback: 2

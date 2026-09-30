@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: td_hero_50008_diana
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: 956d7c220f6ffda4398d4193a11f8ead, type: 3}
+  clips:
+  - name: attack
+    duration: 1.2
+    xOffset: 0.0052083335
+    yOffset: 0.005050505
+    yLength: 0.09427609
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: die
+    duration: 2.266667
+    xOffset: 0.0052083335
+    yOffset: 0.1026936
+    yLength: 0.18181817
+    bind: 0
+    loop: 0
+    autoPlayNext: 0
+  - name: idle
+    duration: 1.3333334
+    xOffset: 0.0052083335
+    yOffset: 0.28787878
+    yLength: 0.1043771
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: run
+    duration: 0.8000001
+    xOffset: 0.0052083335
+    yOffset: 0.39562288
+    yLength: 0.06397306
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: skillxp
+    duration: 2.7
+    xOffset: 0.0052083335
+    yOffset: 0.46296296
+    yLength: 0.21548821
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: stun
+    duration: 1.6666667
+    xOffset: 0.0052083335
+    yOffset: 0.6818182
+    yLength: 0.13131313
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: walk
+    duration: 1.0666667
+    xOffset: 0.0052083335
+    yOffset: 0.8164983
+    yLength: 0.08417508
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: win
+    duration: 1.2
+    xOffset: 0.0052083335
+    yOffset: 0.9040404
+    yLength: 0.09427609
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  bones:
+  - Arm left hand
+  - Arm right hand
+  - Arrow01
+  - Bip001 L Calf
+  - Bip001 L Clavicle
+  - Bip001 L Finger0
+  - Bip001 L Finger1
+  - Bip001 L Forearm
+  - Bip001 L Thigh
+  - Bip001 L UpperArm
+  - Bip001 Neck
+  - Bip001 Pelvis
+  - Bip001 Prop1
+  - Bip001 R Calf
+  - Bip001 R Clavicle
+  - Bip001 R Finger0
+  - Bip001 R Finger1
+  - Bip001 R Forearm
+  - Bip001 R Thigh
+  - Bip001 R UpperArm
+  - Bip001 Spine
+  - Body01
+  - Box01
+  - Hair01
+  - Hair02
+  - Hair03
+  - Hair04
+  - Head
+  - Left foot
+  - Right foot
+  - String01
+  - v_fire
+  binePosesOffsets: []
+  transitions: []
+  offsets: []

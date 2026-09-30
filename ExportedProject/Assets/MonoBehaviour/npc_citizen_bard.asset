@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: npc_citizen_bard
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: de70d7824036c0b4ebaf58f23a9d6145, type: 3}
+  clips:
+  - name: idle
+    duration: 1.6666667
+    xOffset: 0.007936508
+    yOffset: 0.01
+    yLength: 0.26000002
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: idle02
+    duration: 3.6666667
+    xOffset: 0.007936508
+    yOffset: 0.27666667
+    yLength: 0.58000004
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: walk
+    duration: 0.86666673
+    xOffset: 0.007936508
+    yOffset: 0.86333334
+    yLength: 0.13333334
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  bones:
+  - Arm left hand
+  - Arm right hand
+  - Bip002 L Calf
+  - Bip002 L Clavicle
+  - Bip002 L Forearm
+  - Bip002 L Thigh
+  - Bip002 L UpperArm
+  - Bip002 Neck
+  - Bip002 Pelvis
+  - Bip002 R Calf
+  - Bip002 R Clavicle
+  - Bip002 R Forearm
+  - Bip002 R Thigh
+  - Bip002 R UpperArm
+  - Body01
+  - Bone_Guitar
+  - Feather01
+  - Hat01
+  - Head
+  - Left foot
+  - Right foot
+  binePosesOffsets: []
+  transitions: []
+  offsets: []

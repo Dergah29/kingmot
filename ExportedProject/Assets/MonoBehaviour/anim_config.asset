@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fa341537b786caf72090eee77170fd5, type: 3}
+  m_Name: anim_config
+  m_EditorClassIdentifier:
+  modelName: battle_soldier_gpu_30100
+  texConfigs:
+  - elemName: Rig__attack
+    meshName:
+    animName: attack
+    configType: 2
+    animTexturePath: Assets/Art/actorGPU/battle_soldier_gpu_30100/animTex/_rig_0.asset
+    animTextureArrayIdx: 0
+    animUsage: 2
+    vertPosRange: {x: 0, y: 0}
+    mTexDimensionX: 78
+    dataElemCount: 26
+    baseXPos: 0.0064102565
+    baseYPos: 0.0034013605
+    dataElemXOffset: 1
+    rigNames: []
+  - elemName: Rig__die
+    meshName:
+    animName: die
+    configType: 2
+    animTexturePath: Assets/Art/actorGPU/battle_soldier_gpu_30100/animTex/_rig_0.asset
+    animTextureArrayIdx: 0
+    animUsage: 2
+    vertPosRange: {x: 0, y: 0}
+    mTexDimensionX: 78
+    dataElemCount: 26
+    baseXPos: 0.0064102565
+    baseYPos: 0.16666666
+    dataElemXOffset: 1
+    rigNames: []
+  - elemName: Rig__idle
+    meshName:
+    animName: idle
+    configType: 2
+    animTexturePath: Assets/Art/actorGPU/battle_soldier_gpu_30100/animTex/_rig_0.asset
+    animTextureArrayIdx: 0
+    animUsage: 2
+    vertPosRange: {x: 0, y: 0}
+    mTexDimensionX: 78
+    dataElemCount: 26
+    baseXPos: 0.0064102565
+    baseYPos: 0.34353742
+    dataElemXOffset: 1
+    rigNames: []
+  - elemName: Rig__run
+    meshName:
+    animName: run
+    configType: 2
+    animTexturePath: Assets/Art/actorGPU/battle_soldier_gpu_30100/animTex/_rig_0.asset
+    animTextureArrayIdx: 0
+    animUsage: 2
+    vertPosRange: {x: 0, y: 0}
+    mTexDimensionX: 78
+    dataElemCount: 26
+    baseXPos: 0.0064102565
+    baseYPos: 0.43197277
+    dataElemXOffset: 1
+    rigNames: []
+  - elemName: Rig__stun
+    meshName:
+    animName: stun
+    configType: 2
+    animTexturePath: Assets/Art/actorGPU/battle_soldier_gpu_30100/animTex/_rig_0.asset
+    animTextureArrayIdx: 0
+    animUsage: 2
+    vertPosRange: {x: 0, y: 0}
+    mTexDimensionX: 78
+    dataElemCount: 26
+    baseXPos: 0.0064102565
+    baseYPos: 0.5408163
+    dataElemXOffset: 1
+    rigNames: []
+  - elemName: Rig__win
+    meshName:
+    animName: win
+    configType: 2
+    animTexturePath: Assets/Art/actorGPU/battle_soldier_gpu_30100/animTex/_rig_0.asset
+    animTextureArrayIdx: 0
+    animUsage: 2
+    vertPosRange: {x: 0, y: 0}
+    mTexDimensionX: 78
+    dataElemCount: 26
+    baseXPos: 0.0064102565
+    baseYPos: 0.84013605
+    dataElemXOffset: 1
+    rigNames: []
+  clipConfigs:
+  - animName: attack
+    frameCount: 24
+    speed: 1
+    duration: 1
+    animTexXOffset: 0
+    animTexYOffset: 0.0034013605
+    animTexYLength: 0.15646258
+    loop: 0
+  - animName: die
+    frameCount: 26
+    speed: 1
+    duration: 1.0666667
+    animTexXOffset: 0
+    animTexYOffset: 0.16666666
+    animTexYLength: 0.17006803
+    loop: 0
+  - animName: idle
+    frameCount: 13
+    speed: 1
+    duration: 0.53333336
+    animTexXOffset: 0
+    animTexYOffset: 0.34353742
+    animTexYLength: 0.08163265
+    loop: 1
+  - animName: run
+    frameCount: 16
+    speed: 1
+    duration: 0.6333334
+    animTexXOffset: 0
+    animTexYOffset: 0.43197277
+    animTexYLength: 0.10204081
+    loop: 1
+  - animName: stun
+    frameCount: 44
+    speed: 1
+    duration: 1.8000001
+    animTexXOffset: 0
+    animTexYOffset: 0.5408163
+    animTexYLength: 0.292517
+    loop: 1
+  - animName: win
+    frameCount: 24
+    speed: 1
+    duration: 1
+    animTexXOffset: 0
+    animTexYOffset: 0.84013605
+    animTexYLength: 0.15646258
+    loop: 1
+  allBones:
+  - Bip001 Prop1
+  - Bone005
+  - Bip001 Spine
+  - ' Body01'
+  - Bip001 Neck
+  - Head
+  - Bip001 R Thigh
+  - Bip001 L Thigh
+  - Bone001
+  - Bip001 L UpperArm
+  - Bip001 L Clavicle
+  - Bip001 L Calf
+  - Bip001 L Forearm
+  - Arm left hand
+  - Bip001 Pelvis
+  - Bip001 R Calf
+  - Bone002
+  - Left foot
+  - Bip001 R Toe0
+  - Bip001 L Toe0
+  - Right foot
+  - Bone003
+  - Bip001 R UpperArm
+  - Bip001 R Clavicle
+  - Bip001 R Forearm
+  - Arm right hand
+  vfxJointConfigs:
+  - clipName: attack
+    jointMatrix: []
+  - clipName: die
+    jointMatrix: []
+  - clipName: idle
+    jointMatrix: []
+  - clipName: run
+    jointMatrix: []
+  - clipName: stun
+    jointMatrix: []
+  - clipName: win
+    jointMatrix: []

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: td_monster_60021_falcon_config
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: 5ef0adb2cd87d6343b9b5ba8e23c7e8e, type: 3}
+  clips:
+  - name: attack
+    duration: 1
+    xOffset: 0.0061728396
+    yOffset: 0.006048387
+    yLength: 0.11693548
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: die
+    duration: 1
+    xOffset: 0.0061728396
+    yOffset: 0.12701613
+    yLength: 0.11693548
+    bind: 0
+    loop: 0
+    autoPlayNext: 0
+  - name: idle
+    duration: 1.0666667
+    xOffset: 0.0061728396
+    yOffset: 0.24798386
+    yLength: 0.125
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: run
+    duration: 5.1333337
+    xOffset: 0.0061728396
+    yOffset: 0.37701613
+    yLength: 0.62096775
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  bones: []
+  binePosesOffsets:
+  - name: td_monster_60021_falcon
+    bindPoses: {x: 0.0061728396, y: 0.002016129}
+  transitions: []
+  offsets: []

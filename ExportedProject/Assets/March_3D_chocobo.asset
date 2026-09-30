@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: March_3D_chocobo
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: 9777c80f7e47f3e4ab424a716deff3bb, type: 3}
+  clips:
+  - name: Attack
+    duration: 2.5000002
+    xOffset: 0.003267974
+    yOffset: 0.017045455
+    yLength: 0.6818182
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: Move
+    duration: 1.0666667
+    xOffset: 0.003267974
+    yOffset: 0.7102273
+    yLength: 0.2840909
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  bones:
+  - Bip001 Head
+  - Bip001 L Calf
+  - Bip001 L Foot
+  - Bip001 L Forearm
+  - Bip001 L Hand
+  - Bip001 L Thigh
+  - Bip001 L UpperArm
+  - Bip001 Pelvis
+  - Bip001 R Calf
+  - Bip001 R Foot
+  - Bip001 R Forearm
+  - Bip001 R Hand
+  - Bip001 R Thigh
+  - Bip001 R UpperArm
+  - Bip001 Spine
+  - Bip002 Head
+  - Bip002 L Calf
+  - Bip002 L Foot
+  - Bip002 L Forearm
+  - Bip002 L Hand
+  - Bip002 L Thigh
+  - Bip002 L UpperArm
+  - Bip002 Pelvis
+  - Bip002 R Calf
+  - Bip002 R Foot
+  - Bip002 R Forearm
+  - Bip002 R Hand
+  - Bip002 R Thigh
+  - Bip002 R UpperArm
+  - Bip002 Spine
+  - Bip003 Head
+  - Bip003 L Calf
+  - Bip003 L Foot
+  - Bip003 L Forearm
+  - Bip003 L Hand
+  - Bip003 L Thigh
+  - Bip003 L UpperArm
+  - Bip003 Neck
+  - Bip003 Pelvis
+  - Bip003 Prop1
+  - Bip003 R Calf
+  - Bip003 R Foot
+  - Bip003 R Forearm
+  - Bip003 R Hand
+  - Bip003 R Thigh
+  - Bip003 R UpperArm
+  - Bip003 Spine
+  - Mask
+  - Mask02
+  - Mask04
+  - Palanquin
+  binePosesOffsets: []
+  transitions: []
+  offsets: []

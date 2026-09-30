@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: td_monster_61009_witchdoctor_config
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: be924f5e26448df42bfa9d3cf0a53f7e, type: 3}
+  clips:
+  - name: attack
+    duration: 1
+    xOffset: 0.006666667
+    yOffset: 0.008474576
+    yLength: 0.16384181
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: die
+    duration: 1.3333334
+    xOffset: 0.006666667
+    yOffset: 0.1779661
+    yLength: 0.22033899
+    bind: 0
+    loop: 0
+    autoPlayNext: 0
+  - name: idle
+    duration: 1
+    xOffset: 0.006666667
+    yOffset: 0.4039548
+    yLength: 0.16384181
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: run
+    duration: 0.8000001
+    xOffset: 0.006666667
+    yOffset: 0.57344633
+    yLength: 0.13559322
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: skillxp
+    duration: 1.6666667
+    xOffset: 0.006666667
+    yOffset: 0.71468925
+    yLength: 0.28248587
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  bones: []
+  binePosesOffsets:
+  - name: td_monster_61009_witchdoctor
+    bindPoses: {x: 0.006666667, y: 0.0028248588}
+  transitions: []
+  offsets: []

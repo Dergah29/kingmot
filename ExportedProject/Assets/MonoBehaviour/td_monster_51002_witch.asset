@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: td_monster_51002_witch
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: 368b5f22a1484e74ebf36ae0fd29436a, type: 3}
+  clips:
+  - name: attack
+    duration: 1.8000001
+    xOffset: 0.005050505
+    yOffset: 0.006465517
+    yLength: 0.18534483
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: die
+    duration: 2.2
+    xOffset: 0.005050505
+    yOffset: 0.1961207
+    yLength: 0.22413793
+    bind: 0
+    loop: 0
+    autoPlayNext: 0
+  - name: idle
+    duration: 1.3333334
+    xOffset: 0.005050505
+    yOffset: 0.42456895
+    yLength: 0.1336207
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: run
+    duration: 0.73333335
+    xOffset: 0.005050505
+    yOffset: 0.5625
+    yLength: 0.073275864
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: skillxp
+    duration: 2.1333334
+    xOffset: 0.005050505
+    yOffset: 0.64008623
+    yLength: 0.21982759
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: win
+    duration: 1.3333334
+    xOffset: 0.005050505
+    yOffset: 0.86422414
+    yLength: 0.1336207
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  bones:
+  - Arm left hand
+  - Arm right hand
+  - Bip001 L Calf
+  - Bip001 L Clavicle
+  - Bip001 L Finger0
+  - Bip001 L Finger1
+  - Bip001 L Forearm
+  - Bip001 L Thigh
+  - Bip001 L UpperArm
+  - Bip001 Pelvis
+  - Bip001 Prop1
+  - Bip001 R Calf
+  - Bip001 R Clavicle
+  - Bip001 R Finger0
+  - Bip001 R Finger1
+  - Bip001 R Forearm
+  - Bip001 R Thigh
+  - Bip001 R UpperArm
+  - Bip001 Spine
+  - Body01
+  - Cape01
+  - Cape02
+  - Cape03
+  - Cape05
+  - Cape06
+  - Cape07
+  - Hair01
+  - Hair02
+  - Hair04
+  - Hair05
+  - Head
+  - Left foot
+  - Right foot
+  binePosesOffsets: []
+  transitions: []
+  offsets: []

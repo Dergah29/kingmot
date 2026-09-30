@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: pet_squirrel
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: e908718bdfddbaa448846f5a31aa6a85, type: 3}
+  clips:
+  - name: idle
+    duration: 5.666667
+    xOffset: 0.0064102565
+    yOffset: 0.009677419
+    yLength: 0.87096775
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: walk
+    duration: 0.73333335
+    xOffset: 0.0064102565
+    yOffset: 0.88709676
+    yLength: 0.10967742
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  bones:
+  - Arm left hand
+  - Arm right hand
+  - Bip001 L Calf
+  - Bip001 L Clavicle
+  - Bip001 L Forearm
+  - Bip001 L HorseLink
+  - Bip001 L Thigh
+  - Bip001 L UpperArm
+  - Bip001 Neck
+  - Bip001 Pelvis
+  - Bip001 R Calf
+  - Bip001 R Clavicle
+  - Bip001 R Forearm
+  - Bip001 R HorseLink
+  - Bip001 R Thigh
+  - Bip001 R UpperArm
+  - Bip001 Spine
+  - Body01
+  - Ear_L
+  - Ear_R
+  - Head
+  - Left foot
+  - Right foot
+  - Tail
+  - Tail01
+  - Tail02
+  binePosesOffsets: []
+  transitions: []
+  offsets: []

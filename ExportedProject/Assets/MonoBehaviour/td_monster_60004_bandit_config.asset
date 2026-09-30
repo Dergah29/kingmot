@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: td_monster_60004_bandit_config
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: c616885127f999c41889f0f95806cd42, type: 3}
+  clips:
+  - name: attack
+    duration: 1
+    xOffset: 0.008333334
+    yOffset: 0.004237288
+    yLength: 0.08192091
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: die
+    duration: 2.2
+    xOffset: 0.008333334
+    yOffset: 0.08898305
+    yLength: 0.18361582
+    bind: 0
+    loop: 0
+    autoPlayNext: 0
+  - name: hurt
+    duration: 0.5666667
+    xOffset: 0.008333334
+    yOffset: 0.27542374
+    yLength: 0.048022598
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: idle
+    duration: 1.3333334
+    xOffset: 0.008333334
+    yOffset: 0.32627118
+    yLength: 0.11016949
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: run
+    duration: 0.8000001
+    xOffset: 0.008333334
+    yOffset: 0.43926555
+    yLength: 0.06779661
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: skillxp
+    duration: 1.9000001
+    xOffset: 0.008333334
+    yOffset: 0.509887
+    yLength: 0.16101696
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: stun
+    duration: 1.3333334
+    xOffset: 0.008333334
+    yOffset: 0.6737288
+    yLength: 0.11016949
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: walk
+    duration: 1.2
+    xOffset: 0.008333334
+    yOffset: 0.78672314
+    yLength: 0.098870054
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: win
+    duration: 1.3333334
+    xOffset: 0.008333334
+    yOffset: 0.8884181
+    yLength: 0.11016949
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  bones: []
+  binePosesOffsets:
+  - name: td_monster_60004_bandit
+    bindPoses: {x: 0.008333334, y: 0.0014124294}
+  transitions: []
+  offsets: []

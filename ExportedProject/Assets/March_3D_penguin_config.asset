@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: March_3D_penguin_config
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: fe29d7fa67d570146bb45d2e98226107, type: 3}
+  clips:
+  - name: Move
+    duration: 1.0666667
+    xOffset: 0.0061728396
+    yOffset: 0.0058139535
+    yLength: 0.09689923
+    bind: 1
+    loop: 1
+    autoPlayNext: 1
+  - name: Attack
+    duration: 5.0000005
+    xOffset: 0.0061728396
+    yOffset: 0.106589146
+    yLength: 0.46511626
+    bind: 2
+    loop: 1
+    autoPlayNext: 1
+  - name: Move2
+    duration: 4.566667
+    xOffset: 0.0061728396
+    yOffset: 0.5755814
+    yLength: 0.4224806
+    bind: 3
+    loop: 1
+    autoPlayNext: 1
+  bones:
+  - 3d_march_3d_penguin_shadow
+  - fx_March_3D_penguin_chongji_dkb
+  binePosesOffsets:
+  - name: March_3D_penguin
+    bindPoses: {x: 0.0061728396, y: 0.0019379845}
+  transitions: []
+  offsets:
+  - {x: 0.083333336, y: 0.0019455253, z: 0.09727626}
+  - {x: 0.083333336, y: 0.10311284, z: 0.46692607}
+  - {x: 0.083333336, y: 0.57392997, z: 0.4241245}

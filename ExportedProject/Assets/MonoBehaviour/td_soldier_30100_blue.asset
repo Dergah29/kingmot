@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: td_soldier_30100_blue
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: b430eea5c0a8c2f4caa9fe751b76295b, type: 3}
+  clips:
+  - name: attack
+    duration: 1
+    xOffset: 0.0064102565
+    yOffset: 0.014423078
+    yLength: 0.22115386
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: die
+    duration: 1.5
+    xOffset: 0.0064102565
+    yOffset: 0.24519232
+    yLength: 0.24038462
+    bind: 0
+    loop: 0
+    autoPlayNext: 0
+  - name: idle
+    duration: 0.53333336
+    xOffset: 0.0064102565
+    yOffset: 0.49519232
+    yLength: 0.11538462
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: run
+    duration: 0.6333334
+    xOffset: 0.0064102565
+    yOffset: 0.62019235
+    yLength: 0.14423077
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: win
+    duration: 1
+    xOffset: 0.0064102565
+    yOffset: 0.7740385
+    yLength: 0.22115386
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  bones:
+  - ' Body01'
+  - Arm left hand
+  - Arm right hand
+  - Bip001 L Calf
+  - Bip001 L Clavicle
+  - Bip001 L Forearm
+  - Bip001 L Thigh
+  - Bip001 L Toe0
+  - Bip001 L UpperArm
+  - Bip001 Neck
+  - Bip001 Pelvis
+  - Bip001 Prop1
+  - Bip001 R Calf
+  - Bip001 R Clavicle
+  - Bip001 R Forearm
+  - Bip001 R Thigh
+  - Bip001 R Toe0
+  - Bip001 R UpperArm
+  - Bip001 Spine
+  - Bone001
+  - Bone002
+  - Bone003
+  - Bone005
+  - Head
+  - Left foot
+  - Right foot
+  binePosesOffsets: []
+  transitions: []
+  offsets: []

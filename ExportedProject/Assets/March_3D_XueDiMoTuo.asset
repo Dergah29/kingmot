@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: March_3D_XueDiMoTuo
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: 3bfdcdf31ed782149b9a9a1f2a91bd28, type: 3}
+  clips:
+  - name: Move
+    duration: 0.8000001
+    xOffset: 0.004761905
+    yOffset: 0.018292682
+    yLength: 0.2317073
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: Attack
+    duration: 2.5000002
+    xOffset: 0.004761905
+    yOffset: 0.2621951
+    yLength: 0.7317073
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  bones:
+  - Bip001 Head
+  - Bip001 L Clavicle
+  - Bip001 L Finger0
+  - Bip001 L Finger01
+  - Bip001 L Finger1
+  - Bip001 L Finger11
+  - Bip001 L Forearm
+  - Bip001 L Hand
+  - Bip001 L UpperArm
+  - Bip001 Neck
+  - Bip001 Pelvis
+  - Bip001 R Finger0
+  - Bip001 R Finger01
+  - Bip001 R Finger1
+  - Bip001 R Finger11
+  - Bip001 R Forearm
+  - Bip001 R Hand
+  - Bip001 R UpperArm
+  - Bip001 Spine
+  - Bone001
+  - Bone002
+  - Bone003
+  - Bone004
+  - Bone005
+  - Bone006
+  - Bone007
+  - Bone008
+  - Bone009
+  - Bone010
+  - Bone011
+  - Bone012
+  - Bone013
+  - Bone014
+  - Bone015
+  - march_motor_shadow
+  binePosesOffsets: []
+  transitions: []
+  offsets: []

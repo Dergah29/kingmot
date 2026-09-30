@@ -1,0 +1,365 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddc288ee56768d9bdacabe3501a74d1d, type: 3}
+  m_Name: linkage_monopoly_scene_timeline
+  m_EditorClassIdentifier:
+  m_Version: 0
+  m_Tracks:
+  - {fileID: 114709254077376921}
+  - {fileID: 114730242686860875}
+  - {fileID: 114618682377417806}
+  - {fileID: 114703437598541787}
+  - {fileID: 114884547391421755}
+  - {fileID: 114099118695303065}
+  - {fileID: 114243736805655561}
+  - {fileID: 114061268324235159}
+  - {fileID: 114587765826080250}
+  m_FixedDuration: 0
+  m_EditorSettings:
+    m_Framerate: 30
+    m_ScenePreview: 1
+  m_DurationMode: 0
+  m_MarkerTrack: {fileID: 0}
+--- !u!114 &114709254077376921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c1d367759f46f0f4113dd6c454880b, type: 3}
+  m_Name: xiong1
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 11400000, guid: c1677bb4ec12a794bab2a8f4c5799116, type: 2}
+  - {fileID: 11400000, guid: d790171fc854b5040bfdb29b4e647b13, type: 2}
+  - {fileID: 11400000, guid: c0f318dae3fddf247a40536cbaf6e3f9, type: 2}
+  - {fileID: 11400000, guid: e27645fa4f8838d4285557ee1582a14c, type: 2}
+  - {fileID: 11400000, guid: 93e83c370d394d542a8484c48c2deb6d, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &114730242686860875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b0fd18cc1d824272c4b9813bd5bc102, type: 3}
+  m_Name: Activation Track
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips:
+  - m_Version: 1
+    m_Start: 0
+    m_ClipIn: 0
+    m_Asset: {fileID: 114724804207875695}
+    m_Duration: 5.9
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114730242686860875}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Active
+  m_Markers:
+    m_Objects: []
+  m_PostPlaybackState: 3
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b85b91c4c48566e3a76a2954f68588a9, type: 3}
+  m_Name: ActivationPlayableAsset
+  m_EditorClassIdentifier:
+--- !u!114 &114618682377417806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c1d367759f46f0f4113dd6c454880b, type: 3}
+  m_Name: shayu
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 11400000, guid: cbec28a24cafaed48baeb071dbf12ed7, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &114703437598541787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c1d367759f46f0f4113dd6c454880b, type: 3}
+  m_Name: xiong2
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 11400000, guid: abd37624e08ace54f91277ffc15875d2, type: 2}
+  - {fileID: 11400000, guid: deb18fcb604df7d45a78d3261bb0db9a, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &114884547391421755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c1d367759f46f0f4113dd6c454880b, type: 3}
+  m_Name: bing
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 11400000, guid: 2851c7b6ff6643b4090e0da50576b3e6, type: 2}
+  - {fileID: 11400000, guid: 85107b461ed2f084d922b69c4724a9ce, type: 2}
+  - {fileID: 11400000, guid: 799dda513d278254789329f94d5ac27e, type: 2}
+  - {fileID: 11400000, guid: 644c084008303474d962d964e030b16b, type: 2}
+  - {fileID: 11400000, guid: bfc3c00c73b8f3a45bbdb940fffe861f, type: 2}
+  - {fileID: 11400000, guid: 1022054ed467c1a499050c46b8919bc7, type: 2}
+  - {fileID: 11400000, guid: bc7c89ea625860c4aaa2e36206d70525, type: 2}
+  - {fileID: 11400000, guid: 0cde6bfcc4cc76343978c3e61798f782, type: 2}
+  - {fileID: 11400000, guid: a21c892c5c9f5ff4881563a5172d2715, type: 2}
+  - {fileID: 11400000, guid: 6065444064618894db49d85df9b3e4c9, type: 2}
+  - {fileID: 11400000, guid: 919f3bc9d97845f49a0ad676cea1cd1a, type: 2}
+  - {fileID: 11400000, guid: ea58f5006f6fd1b4c91b705f95b5d76b, type: 2}
+  - {fileID: 11400000, guid: 5ca911292335de544a082438e68deaff, type: 2}
+  - {fileID: 11400000, guid: 313b53c6bc51b3249988d6e01f6265c4, type: 2}
+  - {fileID: 11400000, guid: 2fe3b06df30eb3a48ab6a3fb03bad647, type: 2}
+  - {fileID: 11400000, guid: d512b65af8b8ba64ba9c94e5e782b3b5, type: 2}
+  - {fileID: 11400000, guid: 9c7b43d7efee6bd4689c6c0aad39479e, type: 2}
+  - {fileID: 11400000, guid: 10c18d9c88e4a1b45a2cba13fa7edc07, type: 2}
+  - {fileID: 11400000, guid: 836041724aaa0d641af17974380058b2, type: 2}
+  - {fileID: 11400000, guid: 2915ac7112ad918459fc4141c0b8748c, type: 2}
+  - {fileID: 11400000, guid: 0c69c01b701824d4abc6e8b9c7329df3, type: 2}
+  - {fileID: 11400000, guid: 491ae79c754755348992822d3ee91ac3, type: 2}
+  - {fileID: 11400000, guid: 3b30db1d8ee7aca49b53f83de0b9d671, type: 2}
+  - {fileID: 11400000, guid: 1471a7347ea54fe4cb0699d6a7995f68, type: 2}
+  - {fileID: 11400000, guid: f2d07cb5485cd5c42b657d8d7855514f, type: 2}
+  - {fileID: 11400000, guid: b1b5cd91ded01e44f8bfe21903471805, type: 2}
+  - {fileID: 11400000, guid: 34307e848db8dac42ac4aeff4e38566b, type: 2}
+  - {fileID: 11400000, guid: 8f42d76a5c6bc3e4199e6b029908fa9b, type: 2}
+  - {fileID: 11400000, guid: 4036b2b3db39bee40b1e05cf703e522b, type: 2}
+  - {fileID: 11400000, guid: 56ecb089eaf6bd04ba4ed1060014ea03, type: 2}
+  - {fileID: 11400000, guid: b8e605663506df24fbb33e473e70f190, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &114099118695303065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c1d367759f46f0f4113dd6c454880b, type: 3}
+  m_Name: feiji
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 11400000, guid: bb1ee8184ee301a44a0ab658d9558c5b, type: 2}
+  - {fileID: 11400000, guid: 8cfcea8abeb895a4cbd5c8e0b4e05f6e, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &114243736805655561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c1d367759f46f0f4113dd6c454880b, type: 3}
+  m_Name: paodan
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 11400000, guid: 9eb15a6360fb65247a0d3ad14e5da8ca, type: 2}
+  - {fileID: 11400000, guid: 5a7637ade6c8ea442a81d01186a11216, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &114061268324235159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c1d367759f46f0f4113dd6c454880b, type: 3}
+  m_Name: xiangji
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 11400000, guid: c3bc2ff90da2aa94193f7851e9eb7995, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &114587765826080250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c1d367759f46f0f4113dd6c454880b, type: 3}
+  m_Name: fx
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 11400000, guid: fb2ee9bb755633d4191c48e6e9f31e4d, type: 2}
+  - {fileID: 11400000, guid: 004fe04fd2b33c749a8a16f621c7945f, type: 2}
+  - {fileID: 11400000, guid: 6dced221d897c334ba9ee6a982621960, type: 2}
+  - {fileID: 11400000, guid: 5e98851df235a2f45bbe4efe3724d56e, type: 2}
+  - {fileID: 11400000, guid: 0bb4be777c528044eb7309aecc9146b3, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []

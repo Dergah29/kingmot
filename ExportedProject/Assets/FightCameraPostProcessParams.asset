@@ -1,0 +1,734 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1b1cb2c87c06c1f1b4cada7ccfd6534, type: 3}
+  m_Name: FightCameraPostProcessParams
+  m_EditorClassIdentifier:
+  m_datas:
+  - Name: SSSS
+    Enable: 0
+    Propertys:
+    - Key: SubsurfaceScaler
+      Value: 1
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: Stencil
+      Value: 128
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: SubsurfaceColor
+      Value: FFFFFF
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: SubsurfaceFalloff
+      Value: FFFFFF
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  - Name: FXAA
+    Enable: 1
+    Propertys:
+    - Key: luminanceSource
+      Value: Green
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: contrastThreshold
+      Value: 0.0312
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: relativeThreshold
+      Value: 0.063
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: pointScale
+      Value: 1
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: sharpness
+      Value: 1.3
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: isMobile
+      Value: True
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  - Name: Bloom
+    Enable: 0
+    Propertys:
+    - Key: threshold
+      Value: 1.5
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: softKnee
+      Value: 0.1
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: radius
+      Value: 2
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: intensity
+      Value: 0.5
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  - Name: ColorGrading
+    Enable: 0
+    Propertys:
+    - Key: lookupTexture
+      Value:
+      IsObj: 1
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: amount
+      Value: 0
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: tintColor
+      Value: FFFFFF
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: hue
+      Value: 51
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: saturation
+      Value: -0.61
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: brightness
+      Value: -0.18
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: contrast
+      Value: 0
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  - Name: GodRay
+    Enable: 0
+    Propertys:
+    - Key: ColorThreshold
+      Value: FFFFFF
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: Light
+      Value:
+      IsObj: 1
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: LightRadius
+      Value: 2
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: LightPowFactor
+      Value: 3
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: LightDistance
+      Value: 50
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: LightColor
+      Value: FFFFFF
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: LightFactor
+      Value: 0.5
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: SamplerScale
+      Value: 1
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: BlurIteration
+      Value: 2
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: DownSample
+      Value: 1
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  - Name: Hotmap
+    Enable: 0
+    Propertys:
+    - Key: m_lerp
+      Value: 0
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: m_brightness
+      Value: 0.8
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  - Name: TiltShiftBlur
+    Enable: 0
+    Propertys:
+    - Key: m_area
+      Value: 0.5
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: m_pow
+      Value: 1
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: m_offset
+      Value: 0
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: m_blueSize
+      Value: 0
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  - Name: Distortion
+    Enable: 0
+    Propertys:
+    - Key: distortionOpaque
+      Value: False
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: sampleOpaqueScale
+      Value: 0.2
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: distortionOpaqueTexture
+      Value:
+      IsObj: 1
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: distortionAlpha
+      Value: True
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: sampleAlphaScale
+      Value: 0.3
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: distortionAlphaTexture
+      Value:
+      IsObj: 1
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  - Name: RadialBlur
+    Enable: 0
+    Propertys:
+    - Key: blurStrength
+      Value: 0.12
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: sampleStrength
+      Value: 3
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  - Name: DepthOfField
+    Enable: 0
+    Propertys:
+    - Key: focalDistance
+      Value: 0.5
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: nearBlurScale
+      Value: 0
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: farBlurScale
+      Value: 2500
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: downScale
+      Value: 1.2
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: offset
+      Value: 1
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: target
+      Value:
+      IsObj: 1
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: aniTime
+      Value: 1.3
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: aniDefaultValue
+      Value: 1
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: aniValue
+      Value: 1.5
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  - Name: ToneMapping
+    Enable: 0
+    Propertys:
+    - Key: Type
+      Value: ACES
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: Lum
+      Value: 1
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: UseSharpness
+      Value: False
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: Sharpness
+      Value: 0.2
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  - Name: ScreenWave
+    Enable: 0
+    Propertys:
+    - Key: distanceFactor
+      Value: 60
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: timeFactor
+      Value: -20
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: totalFactor
+      Value: 1
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: waveWidth
+      Value: 0.4
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: waveSpeed
+      Value: 0.8
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: waterWaveRang
+      Value: 0.1
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  - Name: Final
+    Enable: 1
+    Propertys:
+    - Key: outputColor
+      Value: False
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: outputDepth
+      Value: False
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: colorTexName
+      Value: _ColorTex
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    - Key: depthTexName
+      Value: _DepthTex
+      IsObj: 0
+      Obj: {fileID: 0}
+      AniCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4

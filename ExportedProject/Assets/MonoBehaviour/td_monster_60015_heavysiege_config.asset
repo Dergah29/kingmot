@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: td_monster_60015_heavysiege_config
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: 2bebf563bf5f8f14e8ae782360de2ead, type: 3}
+  clips:
+  - name: idle
+    duration: 3.0000002
+    xOffset: 0.023809524
+    yOffset: 0.0061728396
+    yLength: 0.37037036
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: attack
+    duration: 1
+    xOffset: 0.023809524
+    yOffset: 0.38065842
+    yLength: 0.11934156
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: die
+    duration: 1
+    xOffset: 0.023809524
+    yOffset: 0.5041152
+    yLength: 0.11934156
+    bind: 0
+    loop: 0
+    autoPlayNext: 0
+  - name: run
+    duration: 3.0000002
+    xOffset: 0.023809524
+    yOffset: 0.627572
+    yLength: 0.37037036
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  bones: []
+  binePosesOffsets:
+  - name: td_monster_60015_heavysiege
+    bindPoses: {x: 0.023809524, y: 0.002057613}
+  transitions: []
+  offsets: []

@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: td_hero_50009_helga
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: 1ca5b7566ea535f409c9928602ce2cea, type: 3}
+  clips:
+  - name: attack
+    duration: 1.3333334
+    xOffset: 0.0033333334
+    yOffset: 0.0048701297
+    yLength: 0.10064935
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: die
+    duration: 1.5333334
+    xOffset: 0.0033333334
+    yOffset: 0.108766235
+    yLength: 0.116883114
+    bind: 0
+    loop: 0
+    autoPlayNext: 0
+  - name: idle
+    duration: 1.6666667
+    xOffset: 0.0033333334
+    yOffset: 0.2288961
+    yLength: 0.12662338
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: run
+    duration: 0.4666667
+    xOffset: 0.0033333334
+    yOffset: 0.35876623
+    yLength: 0.035714287
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: skill1
+    duration: 1.4666667
+    xOffset: 0.0033333334
+    yOffset: 0.39772728
+    yLength: 0.11363637
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: skillxp
+    duration: 1.5000001
+    xOffset: 0.0033333334
+    yOffset: 0.5146104
+    yLength: 0.116883114
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: stun
+    duration: 1.6666667
+    xOffset: 0.0033333334
+    yOffset: 0.63474023
+    yLength: 0.12662338
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: walk
+    duration: 1.2
+    xOffset: 0.0033333334
+    yOffset: 0.7646104
+    yLength: 0.09090909
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: win
+    duration: 1.8333334
+    xOffset: 0.0033333334
+    yOffset: 0.85876626
+    yLength: 0.1396104
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  bones:
+  - Arm left hand
+  - Arm right hand
+  - Bip001 L Calf
+  - Bip001 L Clavicle
+  - Bip001 L Forearm
+  - Bip001 L Thigh
+  - Bip001 L UpperArm
+  - Bip001 Pelvis
+  - Bip001 Prop1
+  - Bip001 R Calf
+  - Bip001 R Clavicle
+  - Bip001 R Forearm
+  - Bip001 R Thigh
+  - Bip001 R UpperArm
+  - Bip001 Spine
+  - Bip002 Head
+  - Bip002 L Calf
+  - Bip002 L Clavicle
+  - Bip002 L Foot
+  - Bip002 L Forearm
+  - Bip002 L Hand
+  - Bip002 L HorseLink
+  - Bip002 L Thigh
+  - Bip002 L UpperArm
+  - Bip002 Neck
+  - Bip002 Pelvis
+  - Bip002 R Calf
+  - Bip002 R Clavicle
+  - Bip002 R Foot
+  - Bip002 R Forearm
+  - Bip002 R Hand
+  - Bip002 R HorseLink
+  - Bip002 R Thigh
+  - Bip002 R UpperArm
+  - Bip002 Spine
+  - Bip002 Spine1
+  - Body01
+  - Ear_L01
+  - Ear_R01
+  - FHair01
+  - FHair02
+  - Hair01
+  - Hair02
+  - Head
+  - Left foot
+  - Right foot
+  - Skirt01
+  - Skirt02
+  - Tail01
+  - v_fire
+  binePosesOffsets: []
+  transitions: []
+  offsets: []

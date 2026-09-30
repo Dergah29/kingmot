@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: March_3D_icebreaker_config
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: 3424e8b886af8ff43a657d98bd1146d8, type: 3}
+  clips:
+  - name: Move
+    duration: 1.6666667
+    xOffset: 0.006666667
+    yOffset: 0.009259259
+    yLength: 0.24074075
+    bind: 1
+    loop: 1
+    autoPlayNext: 1
+  - name: Attack
+    duration: 5.0000005
+    xOffset: 0.006666667
+    yOffset: 0.25617284
+    yLength: 0.7407408
+    bind: 2
+    loop: 1
+    autoPlayNext: 1
+  bones:
+  - 3d_world_march_skin_icebreaker_shadow
+  - bone_root
+  - Bone001
+  binePosesOffsets:
+  - name: March_3D_icebreaker
+    bindPoses: {x: 0.006666667, y: 0.0030864198}
+  transitions: []
+  offsets:
+  - {x: 0.055555556, y: 0.0031055901, z: 0.24223603}
+  - {x: 0.055555556, y: 0.2515528, z: 0.74534166}

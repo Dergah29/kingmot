@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7f049be18756a4ee32cefbe2ca14e0, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  Title: ScreenWave
+  Enable: 0
+  LastEnable: 1
+  Display: 0
+  Weight: 0
+  Propertys:
+  - distanceFactor
+  - timeFactor
+  - totalFactor
+  - waveWidth
+  - waveSpeed
+  - waterWaveRang
+  distanceFactor: 60
+  timeFactor: -20
+  totalFactor: 1
+  waveWidth: 0.4
+  waveSpeed: 0.8
+  waterWaveRang: 0.1

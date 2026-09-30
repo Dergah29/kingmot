@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: March_3D_2026worldcup_config
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: a0117936cedd5654387931c800f7c2de, type: 3}
+  clips:
+  - name: Move
+    duration: 4
+    xOffset: 0.0057471264
+    yOffset: 0.0048701297
+    yLength: 0.30844155
+    bind: 1
+    loop: 1
+    autoPlayNext: 1
+  - name: Move2
+    duration: 3.7333336
+    xOffset: 0.0057471264
+    yOffset: 0.31655845
+    yLength: 0.28896105
+    bind: 2
+    loop: 0
+    autoPlayNext: 1
+  - name: Attack
+    duration: 5.0000005
+    xOffset: 0.0057471264
+    yOffset: 0.60876626
+    yLength: 0.38961038
+    bind: 3
+    loop: 1
+    autoPlayNext: 1
+  bones:
+  - Ball
+  - bone_root
+  binePosesOffsets:
+  - name: March_3D_2026worldcup
+    bindPoses: {x: 0.0057471264, y: 0.0016233766}
+  transitions: []
+  offsets:
+  - {x: 0.083333336, y: 0.0016286644, z: 0.30944625}
+  - {x: 0.083333336, y: 0.31433225, z: 0.28990227}
+  - {x: 0.083333336, y: 0.60749185, z: 0.39087945}

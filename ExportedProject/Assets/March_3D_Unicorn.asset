@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: March_3D_Unicorn
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: 09e185d305d00ac4e9f72993105c67dd, type: 3}
+  clips:
+  - name: Move
+    duration: 6.5
+    xOffset: 0.018518519
+    yOffset: 0.0054151625
+    yLength: 0.5595668
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: Attack
+    duration: 5
+    xOffset: 0.018518519
+    yOffset: 0.5685921
+    yLength: 0.4296029
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  bones:
+  - Back01
+  - BPart01
+  - Down01
+  - Down03
+  - Middle01
+  - Plane01
+  - Up01
+  - v_fire
+  - 3d_world_march_skin_unicorn_shadow
+  binePosesOffsets:
+  - name: March_3D_Unicorn
+    bindPoses: {x: 0.018518519, y: 0.0018050541}
+  transitions: []
+  offsets: []

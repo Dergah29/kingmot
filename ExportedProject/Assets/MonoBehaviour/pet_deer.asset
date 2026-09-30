@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: pet_deer
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: daa4aa2fa55d36f418bc1be320ffecc2, type: 3}
+  clips:
+  - name: idle
+    duration: 10.400001
+    xOffset: 0.0069444445
+    yOffset: 0.0055762082
+    yLength: 0.92565054
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: walk
+    duration: 0.73333335
+    xOffset: 0.0069444445
+    yOffset: 0.9349442
+    yLength: 0.063197024
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  bones:
+  - Arm left hand
+  - Arm right hand
+  - Bip001 L Calf
+  - Bip001 L Clavicle
+  - Bip001 L Forearm
+  - Bip001 L HorseLink
+  - Bip001 L Thigh
+  - Bip001 L UpperArm
+  - Bip001 Neck
+  - Bip001 Pelvis
+  - Bip001 R Calf
+  - Bip001 R Clavicle
+  - Bip001 R Forearm
+  - Bip001 R HorseLink
+  - Bip001 R Thigh
+  - Bip001 R UpperArm
+  - Bip001 Spine
+  - Body01
+  - Ear_L
+  - Ear_R
+  - Head
+  - Left foot
+  - Right foot
+  - Tail
+  binePosesOffsets: []
+  transitions: []
+  offsets: []

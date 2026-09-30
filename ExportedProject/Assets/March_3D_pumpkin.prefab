@@ -1,0 +1,956 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4709867586078768}
+  - component: {fileID: 114044625135789424}
+  - component: {fileID: 114589667821646929}
+  - component: {fileID: 114372920208702427}
+  - component: {fileID: 114025901758691103}
+  - component: {fileID: 114985305603660343}
+  m_Layer: 24
+  m_Name: March_3D_pumpkin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1730242686860875
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4705390221481576}
+  m_Layer: 24
+  m_Name: 3d_world_march_skin_pumpkin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1724804207875695
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4977153420339851}
+  m_Layer: 24
+  m_Name: 3d_world_march_skin_pumpkin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1618682377417806
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4336590748365959}
+  - component: {fileID: 33256069497284392}
+  - component: {fileID: 23161607090078389}
+  - component: {fileID: 114002669891404536}
+  - component: {fileID: 114470112387431263}
+  m_Layer: 24
+  m_Name: 3d_world_march_skin_pumpkin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1703437598541787
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4313026266067498}
+  - component: {fileID: 33621510681728303}
+  - component: {fileID: 23632457200066912}
+  m_Layer: 24
+  m_Name: Plane001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1884547391421755
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4634108722742392}
+  - component: {fileID: 33302127217294661}
+  - component: {fileID: 23969106005120503}
+  m_Layer: 24
+  m_Name: Plane002
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1099118695303065
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4642988549198181}
+  m_Layer: 0
+  m_Name: Wings02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1243736805655561
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4946936116752871}
+  m_Layer: 0
+  m_Name: Wings04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1061268324235159
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4711914853252429}
+  m_Layer: 0
+  m_Name: Body
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1587765826080250
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4918264173551851}
+  m_Layer: 0
+  m_Name: Bip001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4709867586078768
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4705390221481576}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114044625135789424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11787a38e676e7c2f31660c72cda62c0, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  Config: {fileID: 11400000, guid: 05f459ddb6db6274eaff4b6b7dbfd271, type: 2}
+  BindPosesName: March_3D_pumpkin
+  Bindposes: {x: 0.005050505, y: 0.0015576323}
+  Renderers:
+  - {fileID: 23161607090078389}
+  Bones:
+  - {fileID: 4642988549198181}
+  - {fileID: 4946936116752871}
+  - {fileID: 4711914853252429}
+  - {fileID: 4918264173551851}
+  - {fileID: 4313026266067498}
+  - {fileID: 4634108722742392}
+  DefaultAnimName: Move
+  EnableJobSystem: 1
+  ReplayInEnable: 0
+--- !u!114 &114589667821646929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b6eaed01938ddcc8f30c74cab99aef7, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  avatar: {fileID: 114044625135789424}
+  animation: {fileID: 0}
+  animator: {fileID: 0}
+  clips:
+  - name: Move
+    items:
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 0
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 0
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 1
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 1
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 1
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 1
+    - item: {fileID: 0}
+      active: 0
+      frames:
+      - time: 0
+        active: 0
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 0
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 0
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 0
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 0
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 1
+  - name: Attack
+    items:
+    - item: {fileID: 0}
+      active: 0
+      frames:
+      - time: 0
+        active: 0
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 0
+      - time: 0.33333334
+        active: 1
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 1
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 0
+      - time: 0.9
+        active: 1
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 0
+      - time: 0.33333334
+        active: 1
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 0
+      - time: 1.6
+        active: 1
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 0
+      - time: 2.7
+        active: 1
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 0
+      - time: 3.3333333
+        active: 1
+  - name: Move2
+    items:
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 1
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 1
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 1
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 1
+    - item: {fileID: 0}
+      active: 0
+      frames:
+      - time: 0
+        active: 0
+      - time: 0.8
+        active: 1
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 0
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 0
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 0
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 0
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 0
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 0
+    - item: {fileID: 0}
+      active: 1
+      frames:
+      - time: 0
+        active: 1
+--- !u!114 &114372920208702427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2431d63a8ee61deb3e5219482a0e117b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  animator: {fileID: 0}
+  animatorRig: {fileID: 114044625135789424}
+  DefaultAnimName: Move
+--- !u!114 &114025901758691103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d8fc2f27b42bd6127ac5c3f0d398a18, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  widgets:
+  - name: VisibleController
+    item: {fileID: 114002669891404536}
+    exportAsList: 0
+  effects: []
+  externals: []
+  exportAsList: 0
+--- !u!114 &114985305603660343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6f13b8768d0c25b35e031693a67ac4a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  IsGpuModel: 1
+  CurAvatarRig: {fileID: 114044625135789424}
+  CurAvatarRigCurve: {fileID: 114589667821646929}
+  Animator: {fileID: 0}
+  Animation: {fileID: 0}
+  VisibleController: {fileID: 0}
+  EffectLoadDataList:
+  - Path: scene/world/effect/march/fx_world_march_March_3D_Pumpkin_dimian.prefab
+    Name: fx_world_march_March_3D_Pumpkin_dimian
+    EffectParentTf: {fileID: 4977153420339851}
+    FirstActiveTime: 0.33333334
+    AniName: Attack
+  - Path: scene/world/effect/march/fx_world_march_March_3D_Pumpkin_baozha.prefab
+    Name: fx_world_march_March_3D_Pumpkin_baozha
+    EffectParentTf: {fileID: 4977153420339851}
+    FirstActiveTime: 3.3333333
+    AniName: Attack
+  - Path: scene/world/effect/march/fx_world_march_March_3D_Pumpkin_shatang.prefab
+    Name: fx_world_march_March_3D_Pumpkin_shatang
+    EffectParentTf: {fileID: 4977153420339851}
+    FirstActiveTime: 0
+    AniName: Attack
+  - Path: scene/world/effect/march/fx_world_march_March_3D_Pumpkin_niao_cbz.prefab
+    Name: fx_world_march_March_3D_Pumpkin_niao_cbz
+    EffectParentTf: {fileID: 4642988549198181}
+    FirstActiveTime: 0
+    AniName: Move
+  - Path: scene/world/effect/march/fx_world_march_March_3D_Pumpkin_niao_cbz04.prefab
+    Name: fx_world_march_March_3D_Pumpkin_niao_cbz04
+    EffectParentTf: {fileID: 4946936116752871}
+    FirstActiveTime: 0
+    AniName: Move
+  - Path: scene/world/effect/march/fx_world_march_March_3D_Pumpkin_niao_ym.prefab
+    Name: fx_world_march_March_3D_Pumpkin_niao_ym
+    EffectParentTf: {fileID: 4711914853252429}
+    FirstActiveTime: 0
+    AniName: Move
+  - Path: scene/world/effect/march/fx_world_march_March_3D_Pumpkin_tuowei.prefab
+    Name: fx_world_march_March_3D_Pumpkin_tuowei
+    EffectParentTf: {fileID: 4918264173551851}
+    FirstActiveTime: 0
+    AniName: Move
+  - Path: scene/world/effect/march/fx_world_march_March_3D_Pumpkin_tuowei_xx.prefab
+    Name: fx_world_march_March_3D_Pumpkin_tuowei_xx
+    EffectParentTf: {fileID: 4918264173551851}
+    FirstActiveTime: 0.8
+    AniName: Move
+  AvatarRigBonesDataList: []
+  AvatarRigCurveClipDataList:
+  - EffectRootName: fx_world_march_March_3D_Pumpkin_baozha
+    ClipName: Move
+    EffectNodeName: fx_world_march_March_3D_Pumpkin_baozha
+    EffectNodeClipIndex: 0
+  - EffectRootName: fx_world_march_March_3D_Pumpkin_dimian
+    ClipName: Move
+    EffectNodeName: fx_world_march_March_3D_Pumpkin_dimian
+    EffectNodeClipIndex: 1
+  - EffectRootName: fx_world_march_March_3D_Pumpkin_niao_ym
+    ClipName: Move
+    EffectNodeName: fx_world_march_March_3D_Pumpkin_niao_ym
+    EffectNodeClipIndex: 2
+  - EffectRootName: fx_world_march_March_3D_Pumpkin_niao_cbz04
+    ClipName: Move
+    EffectNodeName: fx_world_march_March_3D_Pumpkin_niao_cbz04
+    EffectNodeClipIndex: 3
+  - EffectRootName: fx_world_march_March_3D_Pumpkin_niao_cbz
+    ClipName: Move
+    EffectNodeName: fx_world_march_March_3D_Pumpkin_niao_cbz
+    EffectNodeClipIndex: 4
+  - EffectRootName: fx_world_march_March_3D_Pumpkin_tuowei
+    ClipName: Move
+    EffectNodeName: fx_world_march_March_3D_Pumpkin_tuowei
+    EffectNodeClipIndex: 5
+  - EffectRootName: fx_world_march_March_3D_Pumpkin_tuowei_xx
+    ClipName: Move
+    EffectNodeName: fx_world_march_March_3D_Pumpkin_tuowei_xx
+    EffectNodeClipIndex: 6
+  - EffectRootName: fx_world_march_March_3D_Pumpkin_shatang
+    ClipName: Move
+    EffectNodeName: fx_world_march_March_3D_Pumpkin_shatang
+    EffectNodeClipIndex: 7
+  - EffectRootName: fx_world_march_March_3D_Pumpkin_tuowei
+    ClipName: Move
+    EffectNodeName: Particle System (5)_h
+    EffectNodeClipIndex: 8
+  - EffectRootName: fx_world_march_March_3D_Pumpkin_tuowei
+    ClipName: Move
+    EffectNodeName: Particle System (4)_h
+    EffectNodeClipIndex: 9
+  - EffectRootName: fx_world_march_March_3D_Pumpkin_tuowei
+    ClipName: Move
+    EffectNodeName: Particle System (2)_m
+    EffectNodeClipIndex: 10
+  - EffectRootName: fx_world_march_March_3D_Pumpkin_tuowei
+    ClipName: Move
+    EffectNodeName: Particle System (7)
+    EffectNodeClipIndex: 11
+  - EffectRootName: fx_world_march_March_3D_Pumpkin_tuowei_xx
+    ClipName: Attack
+    EffectNodeName: fx_world_march_March_3D_Pumpkin_tuowei_xx
+    EffectNodeClipIndex: 0
+  - EffectRootName: fx_world_march_March_3D_Pumpkin_dimian
+    ClipName: Attack
+    EffectNodeName: fx_world_march_March_3D_Pumpkin_dimian
+    EffectNodeClipIndex: 1
+  - EffectRootName: fx_world_march_March_3D_Pumpkin_shatang
+    ClipName: Attack
+    EffectNodeName: fx_world_march_March_3D_Pumpkin_shatang
+    EffectNodeClipIndex: 2
+  - EffectRootName: fx_world_march_March_3D_Pumpkin_shatang
+    ClipName: Attack
+    EffectNodeName: fx_shatang
+    EffectNodeClipIndex: 3
+  - EffectRootName: fx_world_march_March_3D_Pumpkin_shatang
+    ClipName: Attack
+    EffectNodeName: fx_shatang (1)
+    EffectNodeClipIndex: 4
+  - EffectRootName: fx_world_march_March_3D_Pumpkin_shatang
+    ClipName: Attack
+    EffectNodeName: fx_shatang (2)
+    EffectNodeClipIndex: 5
+  - EffectRootName: fx_world_march_March_3D_Pumpkin_shatang
+    ClipName: Attack
+    EffectNodeName: fx_shatang (3)
+    EffectNodeClipIndex: 6
+  - EffectRootName: fx_world_march_March_3D_Pumpkin_baozha
+    ClipName: Attack
+    EffectNodeName: fx_world_march_March_3D_Pumpkin_baozha
+    EffectNodeClipIndex: 7
+  - EffectRootName: fx_world_march_March_3D_Pumpkin_niao_ym
+    ClipName: Move2
+    EffectNodeName: fx_world_march_March_3D_Pumpkin_niao_ym
+    EffectNodeClipIndex: 0
+  - EffectRootName: fx_world_march_March_3D_Pumpkin_niao_cbz04
+    ClipName: Move2
+    EffectNodeName: fx_world_march_March_3D_Pumpkin_niao_cbz04
+    EffectNodeClipIndex: 1
+  - EffectRootName: fx_world_march_March_3D_Pumpkin_niao_cbz
+    ClipName: Move2
+    EffectNodeName: fx_world_march_March_3D_Pumpkin_niao_cbz
+    EffectNodeClipIndex: 2
+  - EffectRootName: fx_world_march_March_3D_Pumpkin_tuowei
+    ClipName: Move2
+    EffectNodeName: fx_world_march_March_3D_Pumpkin_tuowei
+    EffectNodeClipIndex: 3
+  - EffectRootName: fx_world_march_March_3D_Pumpkin_tuowei_xx
+    ClipName: Move2
+    EffectNodeName: fx_world_march_March_3D_Pumpkin_tuowei_xx
+    EffectNodeClipIndex: 4
+  - EffectRootName: fx_world_march_March_3D_Pumpkin_baozha
+    ClipName: Move2
+    EffectNodeName: fx_world_march_March_3D_Pumpkin_baozha
+    EffectNodeClipIndex: 5
+  - EffectRootName: fx_world_march_March_3D_Pumpkin_dimian
+    ClipName: Move2
+    EffectNodeName: fx_world_march_March_3D_Pumpkin_dimian
+    EffectNodeClipIndex: 6
+  - EffectRootName: fx_world_march_March_3D_Pumpkin_shatang
+    ClipName: Move2
+    EffectNodeName: fx_world_march_March_3D_Pumpkin_shatang
+    EffectNodeClipIndex: 7
+  - EffectRootName: fx_world_march_March_3D_Pumpkin_tuowei
+    ClipName: Move2
+    EffectNodeName: Particle System (5)_h
+    EffectNodeClipIndex: 8
+  - EffectRootName: fx_world_march_March_3D_Pumpkin_tuowei
+    ClipName: Move2
+    EffectNodeName: Particle System (4)_h
+    EffectNodeClipIndex: 9
+  - EffectRootName: fx_world_march_March_3D_Pumpkin_tuowei
+    ClipName: Move2
+    EffectNodeName: Particle System (2)_m
+    EffectNodeClipIndex: 10
+  - EffectRootName: fx_world_march_March_3D_Pumpkin_tuowei
+    ClipName: Move2
+    EffectNodeName: Particle System (7)
+    EffectNodeClipIndex: 11
+--- !u!4 &4705390221481576
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730242686860875}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4977153420339851}
+  m_Father: {fileID: 4709867586078768}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &4977153420339851
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724804207875695}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4336590748365959}
+  - {fileID: 4313026266067498}
+  - {fileID: 4634108722742392}
+  - {fileID: 4642988549198181}
+  - {fileID: 4946936116752871}
+  - {fileID: 4711914853252429}
+  - {fileID: 4918264173551851}
+  m_Father: {fileID: 4705390221481576}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &4336590748365959
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618682377417806}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4977153420339851}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!33 &33256069497284392
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618682377417806}
+  m_Mesh: {fileID: 4300000, guid: 1abd487183daeaf4e8ebe040e2d42b98, type: 2}
+--- !u!23 &23161607090078389
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618682377417806}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 8d69d922582c76a4a95a8e7713c5fdc6, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &114002669891404536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618682377417806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a08ea801395f69d0c32fa953a5041a5, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  Targets:
+  - {fileID: 114044625135789424}
+--- !u!114 &114470112387431263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618682377417806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a33c5152e3df7d4400d72fc9d63c62f1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!4 &4313026266067498
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703437598541787}
+  m_LocalRotation: {x: -0.7024676, y: 0.080865614, z: 0.080865614, w: 0.7024676}
+  m_LocalPosition: {x: -0.44970703, y: 0, z: 0}
+  m_LocalScale: {x: 0.9997842, y: 0.9997842, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4977153420339851}
+  m_LocalEulerAnglesHint: {x: -90, y: -13.133569, z: 0}
+--- !u!33 &33621510681728303
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703437598541787}
+  m_Mesh: {fileID: 4300000, guid: a57e3c16bd984a843be2bed36089417f, type: 2}
+--- !u!23 &23632457200066912
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703437598541787}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 85a80b8dda4d4c048a08162373ffbb4b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!4 &4634108722742392
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884547391421755}
+  m_LocalRotation: {x: 0.7064043, y: 0.031513263, z: 0.03151326, w: -0.7064042}
+  m_LocalPosition: {x: 0.6743164, y: 0, z: 0.9472656}
+  m_LocalScale: {x: 0.8353512, y: 1.0000663, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4977153420339851}
+  m_LocalEulerAnglesHint: {x: -90.000015, y: 5.1086345, z: -7.3495715E-07}
+--- !u!33 &33302127217294661
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884547391421755}
+  m_Mesh: {fileID: 4300000, guid: f137fca32771ccd4abc1f7f88873486d, type: 2}
+--- !u!23 &23969106005120503
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884547391421755}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 85a80b8dda4d4c048a08162373ffbb4b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!4 &4642988549198181
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099118695303065}
+  m_LocalRotation: {x: 0.72441953, y: -0.0069561615, z: 0.03033797, w: 0.6886564}
+  m_LocalPosition: {x: 0.44799805, y: 0.4423828, z: 1.0576172}
+  m_LocalScale: {x: 0.9999857, y: 1.0002216, z: 0.9998658}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4977153420339851}
+  m_LocalEulerAnglesHint: {x: 92.8508, y: 3.0688334, z: -1.8195641}
+--- !u!4 &4946936116752871
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243736805655561}
+  m_LocalRotation: {x: -0.16421022, y: -0.53381026, z: 0.81103307, w: 0.17408909}
+  m_LocalPosition: {x: 0.7392578, y: 0.34716797, z: 1.0800781}
+  m_LocalScale: {x: 0.99984664, y: 1.0002247, z: 0.9998102}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4977153420339851}
+  m_LocalEulerAnglesHint: {x: -67.82802, y: -4.6172338, z: -152.66525}
+--- !u!4 &4711914853252429
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061268324235159}
+  m_LocalRotation: {x: -0.17018813, y: 0.6594247, z: -0.4202263, w: 0.5996707}
+  m_LocalPosition: {x: 0.5722656, y: 0.33618164, z: 1.046875}
+  m_LocalScale: {x: 1.000156, y: 0.9999639, z: 1.0001544}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4977153420339851}
+  m_LocalEulerAnglesHint: {x: -84.54706, y: -40.378967, z: 107.01103}
+--- !u!4 &4918264173551851
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587765826080250}
+  m_LocalRotation: {x: -0.03306689, y: 0.23593532, z: 0.72074866, w: 0.6509704}
+  m_LocalPosition: {x: -0.51708984, y: 0.62060547, z: 0.07165527}
+  m_LocalScale: {x: 1.0000367, y: 1.0001409, z: 0.99974406}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4977153420339851}
+  m_LocalEulerAnglesHint: {x: 18.52535, y: -20.783617, z: -99.25035}

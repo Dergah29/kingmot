@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: td_monster_61007_arcanemage_config
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: b9e8581b7ad14f04abfdedee77a4a44e, type: 3}
+  clips:
+  - name: idle
+    duration: 1.3333334
+    xOffset: 0.0064102565
+    yOffset: 0.005555555
+    yLength: 0.14444444
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: run
+    duration: 0.73333335
+    xOffset: 0.0064102565
+    yOffset: 0.1537037
+    yLength: 0.07777777
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: die
+    duration: 1.8666668
+    xOffset: 0.0064102565
+    yOffset: 0.23518518
+    yLength: 0.2074074
+    bind: 0
+    loop: 0
+    autoPlayNext: 0
+  - name: attack
+    duration: 1
+    xOffset: 0.0064102565
+    yOffset: 0.44629627
+    yLength: 0.107407406
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: skillxp
+    duration: 4
+    xOffset: 0.0064102565
+    yOffset: 0.5574074
+    yLength: 0.44074073
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  bones: []
+  binePosesOffsets:
+  - name: td_monster_61007_arcanemage
+    bindPoses: {x: 0.0064102565, y: 0.0018518518}
+  transitions: []
+  offsets: []

@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: td_monster_60014_siege_config
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: 399fdb33c58ff604399b83c9b11e9d62, type: 3}
+  clips:
+  - name: attack
+    duration: 0.9333334
+    xOffset: 0.012820513
+    yOffset: 0.0042492915
+    yLength: 0.07932011
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: die
+    duration: 1.4000001
+    xOffset: 0.012820513
+    yOffset: 0.08640227
+    yLength: 0.11898017
+    bind: 0
+    loop: 0
+    autoPlayNext: 0
+  - name: idle
+    duration: 2.6666667
+    xOffset: 0.012820513
+    yOffset: 0.2082153
+    yLength: 0.22379602
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: stun
+    duration: 2.6666667
+    xOffset: 0.012820513
+    yOffset: 0.4348442
+    yLength: 0.22379602
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: walk
+    duration: 1.3333334
+    xOffset: 0.012820513
+    yOffset: 0.6614731
+    yLength: 0.11048158
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: win
+    duration: 2.6666667
+    xOffset: 0.012820513
+    yOffset: 0.77478755
+    yLength: 0.22379602
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  bones: []
+  binePosesOffsets:
+  - name: td_monster_60014_siege
+    bindPoses: {x: 0.012820513, y: 0.0014164306}
+  transitions: []
+  offsets: []

@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: td_monster_60009_wildknight_config
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: 0d9e9799039ed3c40a7f36d1bf0a2a64, type: 3}
+  clips:
+  - name: attack
+    duration: 1
+    xOffset: 0.003875969
+    yOffset: 0.010791367
+    yLength: 0.2086331
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: die
+    duration: 1.0666667
+    xOffset: 0.003875969
+    yOffset: 0.2266187
+    yLength: 0.22302158
+    bind: 0
+    loop: 0
+    autoPlayNext: 0
+  - name: idle
+    duration: 1
+    xOffset: 0.003875969
+    yOffset: 0.45683455
+    yLength: 0.2086331
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: run
+    duration: 0.53333336
+    xOffset: 0.003875969
+    yOffset: 0.6726619
+    yLength: 0.10791367
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: attack 0
+    duration: 1
+    xOffset: 0.003875969
+    yOffset: 0.7877698
+    yLength: 0.2086331
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  bones: []
+  binePosesOffsets:
+  - name: td_monster_60009_wildknight
+    bindPoses: {x: 0.003875969, y: 0.0035971224}
+  transitions: []
+  offsets: []

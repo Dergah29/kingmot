@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: March_3D_ZhongZhuangMengMa
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: 58e52ab5156d1b1499c6fe18b414b90d, type: 3}
+  clips:
+  - name: Move
+    duration: 1
+    xOffset: 0.006666667
+    yOffset: 0.0041436465
+    yLength: 0.107734814
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: Attack
+    duration: 5
+    xOffset: 0.006666667
+    yOffset: 0.11464089
+    yLength: 0.5497238
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: Move2
+    duration: 3.0000005
+    xOffset: 0.006666667
+    yOffset: 0.6671271
+    yLength: 0.33149174
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  bones:
+  - Bone13
+  - Bone14
+  - Bone15
+  - Bone16
+  - Bone17
+  - Bone18
+  - Bone19
+  - Bone20
+  - Bone21
+  - Bone22
+  - Bone23
+  - Bone24
+  - Bone25
+  - Bone26
+  - Bone27
+  - Bone28
+  - Bone29
+  - Bone30
+  - Bone31
+  - Bone32
+  - Dummy001
+  - fx_world_exhibit_skin_mammoth_nyh_shuiji_Bone22
+  - fx_world_exhibit_skin_mammoth_nyh_shuiji_Bone22_move
+  - fx_world_exhibit_skin_mammoth_nyh_shuiyue_bjx
+  - fx_world_exhibit_skin_mammoth_nyh_yue
+  binePosesOffsets: []
+  transitions: []
+  offsets: []

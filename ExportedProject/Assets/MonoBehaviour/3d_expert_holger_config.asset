@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: 3d_expert_holger_config
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: 778ebb7e667cda04cb3383f7a268a905, type: 3}
+  clips:
+  - name: stand
+    duration: 8.666667
+    xOffset: 0.004901961
+    yOffset: 0.0014880954
+    yLength: 0.20535715
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: attack1
+    duration: 1
+    xOffset: 0.004901961
+    yOffset: 0.20783731
+    yLength: 0.02281746
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: attack2
+    duration: 1.3333334
+    xOffset: 0.004901961
+    yOffset: 0.23164684
+    yLength: 0.03075397
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: comeon
+    duration: 1.6666667
+    xOffset: 0.004901961
+    yOffset: 0.26339287
+    yLength: 0.038690478
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: idle
+    duration: 1.6666667
+    xOffset: 0.004901961
+    yOffset: 0.3030754
+    yLength: 0.038690478
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: talk
+    duration: 3.3333335
+    xOffset: 0.004901961
+    yOffset: 0.34275797
+    yLength: 0.07837302
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: timeline_walk
+    duration: 1.0666667
+    xOffset: 0.004901961
+    yOffset: 0.42212304
+    yLength: 0.02480159
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: walkL
+    duration: 1.6000001
+    xOffset: 0.004901961
+    yOffset: 0.4479167
+    yLength: 0.037698414
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: walkR
+    duration: 1.6000001
+    xOffset: 0.004901961
+    yOffset: 0.48660716
+    yLength: 0.037698414
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: pause
+    duration: 1.1666667
+    xOffset: 0.004901961
+    yOffset: 0.52529764
+    yLength: 0.02777778
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: rest_idle
+    duration: 1.6666667
+    xOffset: 0.004901961
+    yOffset: 0.5540675
+    yLength: 0.038690478
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: rest_push_up
+    duration: 6.3333335
+    xOffset: 0.004901961
+    yOffset: 0.59375006
+    yLength: 0.1498016
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: rest_stretch
+    duration: 4
+    xOffset: 0.004901961
+    yOffset: 0.7445437
+    yLength: 0.09424604
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: rest_walk
+    duration: 1.0666667
+    xOffset: 0.004901961
+    yOffset: 0.8397818
+    yLength: 0.02480159
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: rest_idle1
+    duration: 4
+    xOffset: 0.004901961
+    yOffset: 0.86557543
+    yLength: 0.09424604
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: approve
+    duration: 1.6666667
+    xOffset: 0.004901961
+    yOffset: 0.9608135
+    yLength: 0.038690478
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  bones:
+  - Bip001 Head
+  - Bip001 L Calf
+  - Bip001 L Clavicle
+  - Bip001 L Foot
+  - Bip001 L Forearm
+  - Bip001 L Hand
+  - Bip001 L Thigh
+  - Bip001 L Toe0
+  - Bip001 L UpperArm
+  - Bip001 Neck
+  - Bip001 Pelvis
+  - Bip001 R Calf
+  - Bip001 R Clavicle
+  - Bip001 R Foot
+  - Bip001 R Forearm
+  - Bip001 R Hand
+  - Bip001 R Thigh
+  - Bip001 R Toe0
+  - Bip001 R UpperArm
+  - Bip001 Spine
+  - Bip001 Spine1
+  - Bip001 Spine2
+  - Bone_Body_01
+  - Bone_Body_02
+  - Bone_Body_03
+  - Bone_Body_04
+  - Bone_Body_05
+  - Bone_Body_06
+  - Bone_Body_07
+  - Bone_Body_08
+  - Bone_Body_09
+  - Bone_Body_10
+  - Bone_Weapon_01
+  - Bone_Weapon_02
+  binePosesOffsets:
+  - name: 3d_expert_holger
+    bindPoses: {x: 0.004901961, y: 0.0004960318}
+  transitions: []
+  offsets: []

@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: td_soldier_20100_blue
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: e5ee27bcf76944a44a3cc28b7d8852f0, type: 3}
+  clips:
+  - name: attack
+    duration: 0.9666667
+    xOffset: 0.0036231885
+    yOffset: 0.012396693
+    yLength: 0.19008264
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: die
+    duration: 1.5
+    xOffset: 0.0036231885
+    yOffset: 0.2107438
+    yLength: 0.14049587
+    bind: 0
+    loop: 0
+    autoPlayNext: 0
+  - name: idle
+    duration: 0.53333336
+    xOffset: 0.0036231885
+    yOffset: 0.3595041
+    yLength: 0.099173546
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: run
+    duration: 0.5666667
+    xOffset: 0.0036231885
+    yOffset: 0.46694213
+    yLength: 0.10743801
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: win
+    duration: 2.1000001
+    xOffset: 0.0036231885
+    yOffset: 0.5826446
+    yLength: 0.41322312
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  bones:
+  - Arm left hand
+  - Arm right hand
+  - Bip001 L Calf
+  - Bip001 L Clavicle
+  - Bip001 L Forearm
+  - Bip001 L Thigh
+  - Bip001 L Toe0
+  - Bip001 L UpperArm
+  - Bip001 Neck
+  - Bip001 Pelvis
+  - Bip001 Prop1
+  - Bip001 R Calf
+  - Bip001 R Clavicle
+  - Bip001 R Forearm
+  - Bip001 R Thigh
+  - Bip001 R Toe0
+  - Bip001 R UpperArm
+  - Bip001 Spine
+  - Bip002 Head
+  - Bip002 L Calf
+  - Bip002 L Clavicle
+  - Bip002 L Foot
+  - Bip002 L Forearm
+  - Bip002 L Hand
+  - Bip002 L Thigh
+  - Bip002 L UpperArm
+  - Bip002 Neck
+  - Bip002 Pelvis
+  - Bip002 R Calf
+  - Bip002 R Foot
+  - Bip002 R Forearm
+  - Bip002 R Hand
+  - Bip002 R Thigh
+  - Bip002 R UpperArm
+  - Bip002 Spine
+  - Bip002 Spine1
+  - Bip002 Tail
+  - Bip002 Tail1
+  - Body01
+  - bone_root
+  - Bone001
+  - Bone002
+  - Bone004
+  - Head
+  - Left foot
+  - Right foot
+  binePosesOffsets: []
+  transitions: []
+  offsets: []

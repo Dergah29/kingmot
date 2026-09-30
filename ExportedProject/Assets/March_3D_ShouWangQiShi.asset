@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: March_3D_ShouWangQiShi
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: 185786bc91c90c34bb19e97679438407, type: 3}
+  clips:
+  - name: Attack
+    duration: 2.5000002
+    xOffset: 0.005952381
+    yOffset: 0.013636364
+    yLength: 0.5454545
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: Move
+    duration: 2
+    xOffset: 0.005952381
+    yOffset: 0.5681818
+    yLength: 0.4272727
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  bones:
+  - Bip001 Head
+  - Bip001 L Forearm
+  - Bip001 L Hand
+  - Bip001 L UpperArm
+  - Bip001 Pelvis
+  - Bip001 R Forearm
+  - Bip001 R Hand
+  - Bip001 R UpperArm
+  - Bip001 Spine
+  - Bip001 Spine1
+  - Bone_root
+  - Bone01
+  - Bone02
+  - Bone03
+  - Bone030
+  - Bone032
+  - Bone033
+  - Bone036
+  - Bone037
+  - Bone04
+  - Bone06
+  - Bone08
+  - Bone09
+  - Bone10
+  - Bone11
+  - Bone12
+  - Bone14
+  - Bone15
+  binePosesOffsets: []
+  transitions: []
+  offsets: []

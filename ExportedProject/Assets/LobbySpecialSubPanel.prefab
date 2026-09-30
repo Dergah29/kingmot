@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224730242686860875}
+  - component: {fileID: 114724804207875695}
+  - component: {fileID: 114618682377417806}
+  m_Layer: 5
+  m_Name: LobbySpecialSubPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224730242686860875
+RectTransform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 370}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ffc7d923b31b10e81b381e1325ae677, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Padding:
+    m_Left: 0
+    m_Right: 8
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 7
+  m_StartCorner: 3
+  m_StartAxis: 1
+  m_CellSize: {x: 80, y: 80}
+  m_Spacing: {x: 4, y: 5}
+  m_Constraint: 0
+  m_ConstraintCount: 2
+--- !u!114 &114618682377417806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d8fc2f27b42bd6127ac5c3f0d398a18, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  widgets: []
+  effects: []
+  externals:
+  - name: LobbyCenterBlackknightItem
+    item: {fileID: 1709254077376921, guid: 5a6aa9fb65a2b424997374cc20a1b899, type: 2}
+    exportAsList: 0
+  - name: LobbyCenterTrapItem
+    item: {fileID: 1709254077376921, guid: f26ec04a380c1cf4fa942a475e6fe49d, type: 2}
+    exportAsList: 0
+  - name: LobbyCenterFortItem
+    item: {fileID: 1709254077376921, guid: ec6e0f33ad07a3241a88a9b4fbe08878, type: 2}
+    exportAsList: 0
+  - name: LobbyCenterCapitalWarItem
+    item: {fileID: 1709254077376921, guid: 37ab99f268bf44f4aa3f8a224be75b1f, type: 2}
+    exportAsList: 0
+  - name: LobbyCenterAppointKingItem
+    item: {fileID: 1709254077376921, guid: f95cd4c59725fb84289191dccad33861, type: 2}
+    exportAsList: 0
+  - name: LobbyCenterRegalitytem
+    item: {fileID: 1709254077376921, guid: 8380585448008cd459f8ffcb1b23fd17, type: 2}
+    exportAsList: 0
+  - name: LobbyCenterArsenalItem
+    item: {fileID: 1709254077376921, guid: b1556e57d6a9e704eb96f3251cdb0db0, type: 2}
+    exportAsList: 0
+  - name: LobbyCenterMercenaryItem
+    item: {fileID: 1709254077376921, guid: 6377969561225864c91618acea0caadf, type: 2}
+    exportAsList: 0
+  - name: LobbyCenterCapitalWarHospitaltem
+    item: {fileID: 1709254077376921, guid: 5f102b22d3fed1d4aa35b63430c4cf4e, type: 2}
+    exportAsList: 0
+  - name: LobbyCenterBestZoneItem
+    item: {fileID: 1709254077376921, guid: 5d751f3edcf7d484d92a964f169474a7, type: 2}
+    exportAsList: 0
+  - name: LobbyCenterMineWarItem
+    item: {fileID: 1709254077376921, guid: 12b4384871087d147ab1963b8191baf1, type: 2}
+    exportAsList: 0
+  - name: LobbyCenterThanksgivingFeastItem
+    item: {fileID: 1709254077376921, guid: 1e095671dacffdf44826a1887b610674, type: 2}
+    exportAsList: 0
+  - name: LobbyCenterImmigrantItem
+    item: {fileID: 1709254077376921, guid: 37191f28ccaea834892506b1cda31a08, type: 2}
+    exportAsList: 0
+  - name: LobbyCenterTriangleItem
+    item: {fileID: 1709254077376921, guid: 440795234f5711e45a78c4fa99071991, type: 2}
+    exportAsList: 0
+  - name: LobbyCenterParentComfirmItem
+    item: {fileID: 1709254077376921, guid: 62a37cb91b517cb4c90137f5db33d155, type: 2}
+    exportAsList: 0
+  - name: LobbyCenterTruckEscortItem
+    item: {fileID: 1709254077376921, guid: 07427f8fad70f514b81871f3195a09db, type: 2}
+    exportAsList: 0
+  - name: LobbyCenterClimbtowerItem
+    item: {fileID: 1709254077376921, guid: a967c4194a5ffc2468da7b0123ca0e51, type: 2}
+    exportAsList: 0
+  - name: LobbyCenterSupremacyFeastItem
+    item: {fileID: 1709254077376921, guid: 3d1c33cfc4cd8d649a92379acf46b0dc, type: 2}
+    exportAsList: 0
+  - name: LobbyCenterSupremacyPrivilegeItem
+    item: {fileID: 1709254077376921, guid: db347c1ad4c4e964c9cf06dfa058b8d4, type: 2}
+    exportAsList: 0
+  - name: LobbyCenterSupremacyWarItem
+    item: {fileID: 1709254077376921, guid: ee7b457292fbe58468266a72f495edcf, type: 2}
+    exportAsList: 0
+  - name: LobbyCenterMusicFestivalFeastItem
+    item: {fileID: 1709254077376921, guid: 89bbdcab127559a4dbf73383b34169d8, type: 2}
+    exportAsList: 0
+  - name: LobbyCenterImmigrantTransferItem
+    item: {fileID: 1709254077376921, guid: 0bac8237664c3564e8917575f3784276, type: 2}
+    exportAsList: 0
+  - name: LobbyCenterEmptyItem
+    item: {fileID: 1709254077376921, guid: 8cb7d4e02825eab4596db3f7c03aedfb, type: 2}
+    exportAsList: 0
+  - name: LobbyCenterAnniversaryFeastItem
+    item: {fileID: 1709254077376921, guid: e634dfcd870ca314aace616ac0ffd561, type: 2}
+    exportAsList: 0
+  - name: LobbyCenterExpertTravelItem
+    item: {fileID: 1709254077376921, guid: 18b180c360f8a4c4089afcc61090308b, type: 2}
+    exportAsList: 0
+  - name: LobbyCenterArsenalLeagueItem
+    item: {fileID: 1709254077376921, guid: 1d27ec68fb809624abe1b6a7815889df, type: 2}
+    exportAsList: 0
+  exportAsList: 0

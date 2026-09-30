@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: March_3D_2025moon_car_config
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: da3a62daae6809a4bb74e47751f5f456, type: 3}
+  clips:
+  - name: Attack
+    duration: 5.0000005
+    xOffset: 0.0023474179
+    yOffset: 0.0034168568
+    yLength: 0.27334854
+    bind: 1
+    loop: 1
+    autoPlayNext: 1
+  - name: Move2
+    duration: 11.2
+    xOffset: 0.0023474179
+    yOffset: 0.2790433
+    yLength: 0.6104784
+    bind: 2
+    loop: 1
+    autoPlayNext: 1
+  - name: Move
+    duration: 2
+    xOffset: 0.0023474179
+    yOffset: 0.89179957
+    yLength: 0.107061505
+    bind: 3
+    loop: 1
+    autoPlayNext: 1
+  bones:
+  - 3d_world_skin_2025mid_autumn_shadow
+  - Ball01
+  - bone_root03
+  - fx_3d_world_exhibit_skin_2025mid_autumn_yueqiu_dkb
+  - Lantern01
+  - Rabbit_Head
+  - Rabbit_root
+  - Rabbit_Spine
+  - Rabbit01
+  - Rabbit02
+  - Rabbit03
+  binePosesOffsets:
+  - name: March_3D_2025moon_car
+    bindPoses: {x: 0.0023474179, y: 0.0011389522}
+  transitions: []
+  offsets:
+  - {x: 0.015151516, y: 0.0011415525, z: 0.2739726}
+  - {x: 0.015151516, y: 0.27739725, z: 0.61187214}
+  - {x: 0.015151516, y: 0.89155245, z: 0.10730593}

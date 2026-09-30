@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: td_monster_61002_heavyswordsman_config
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: 742a61540d1db1c4dbff7e8b63e208ee, type: 3}
+  clips:
+  - name: attack
+    duration: 1.4000001
+    xOffset: 0.0069444445
+    yOffset: 0.0053956835
+    yLength: 0.15107913
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: die
+    duration: 2.2333333
+    xOffset: 0.0069444445
+    yOffset: 0.16007194
+    yLength: 0.23741008
+    bind: 0
+    loop: 0
+    autoPlayNext: 0
+  - name: hurt
+    duration: 0.73333335
+    xOffset: 0.0069444445
+    yOffset: 0.40107915
+    yLength: 0.07553957
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: idle
+    duration: 0.6666667
+    xOffset: 0.0069444445
+    yOffset: 0.48021585
+    yLength: 0.06834532
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: run
+    duration: 0.53333336
+    xOffset: 0.0069444445
+    yOffset: 0.5521583
+    yLength: 0.053956836
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: skillxp
+    duration: 1.5333334
+    xOffset: 0.0069444445
+    yOffset: 0.60971224
+    yLength: 0.16546763
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: walk
+    duration: 0.73333335
+    xOffset: 0.0069444445
+    yOffset: 0.778777
+    yLength: 0.07553957
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: win
+    duration: 0.6666667
+    xOffset: 0.0069444445
+    yOffset: 0.8579137
+    yLength: 0.06834532
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: stun
+    duration: 0.6666667
+    xOffset: 0.0069444445
+    yOffset: 0.9298561
+    yLength: 0.06834532
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  bones: []
+  binePosesOffsets:
+  - name: td_monster_61002_heavyswordsman
+    bindPoses: {x: 0.0069444445, y: 0.0017985612}
+  transitions: []
+  offsets: []

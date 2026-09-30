@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: td_hero_50011_amadeus_config
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: 2c73a29729fb1f149b896b75913a1724, type: 3}
+  clips:
+  - name: attack
+    duration: 1.5000001
+    xOffset: 0.005952381
+    yOffset: 0.004587156
+    yLength: 0.110091746
+    bind: 1
+    loop: 1
+    autoPlayNext: 1
+  - name: die
+    duration: 1.8333334
+    xOffset: 0.005952381
+    yOffset: 0.11773701
+    yLength: 0.13149847
+    bind: 2
+    loop: 1
+    autoPlayNext: 0
+  - name: idle
+    duration: 1.6000001
+    xOffset: 0.005952381
+    yOffset: 0.2522936
+    yLength: 0.11620796
+    bind: 3
+    loop: 1
+    autoPlayNext: 1
+  - name: run
+    duration: 0.6
+    xOffset: 0.005952381
+    yOffset: 0.37155965
+    yLength: 0.042813458
+    bind: 4
+    loop: 1
+    autoPlayNext: 1
+  - name: skillxp
+    duration: 3.266667
+    xOffset: 0.005952381
+    yOffset: 0.4174312
+    yLength: 0.23853211
+    bind: 5
+    loop: 0
+    autoPlayNext: 1
+  - name: stun
+    duration: 2
+    xOffset: 0.005952381
+    yOffset: 0.65902144
+    yLength: 0.1437309
+    bind: 6
+    loop: 1
+    autoPlayNext: 1
+  - name: walk
+    duration: 1.3333334
+    xOffset: 0.005952381
+    yOffset: 0.80581045
+    yLength: 0.094801225
+    bind: 7
+    loop: 1
+    autoPlayNext: 1
+  - name: win
+    duration: 1.3333334
+    xOffset: 0.005952381
+    yOffset: 0.9036698
+    yLength: 0.094801225
+    bind: 8
+    loop: 1
+    autoPlayNext: 1
+  bones:
+  - v_fire01
+  - v_fire02
+  binePosesOffsets:
+  - name: td_hero_50011_amadeus
+    bindPoses: {x: 0.005952381, y: 0.001529052}
+  transitions: []
+  offsets:
+  - {x: 0.083333336, y: 0.0015337423, z: 0.11042944}
+  - {x: 0.083333336, y: 0.11503067, z: 0.13190183}
+  - {x: 0.083333336, y: 0.25, z: 0.116564415}
+  - {x: 0.083333336, y: 0.3696319, z: 0.042944785}
+  - {x: 0.083333336, y: 0.41564417, z: 0.2392638}
+  - {x: 0.083333336, y: 0.65797544, z: 0.14417177}
+  - {x: 0.083333336, y: 0.8052147, z: 0.09509202}
+  - {x: 0.083333336, y: 0.9033742, z: 0.09509202}

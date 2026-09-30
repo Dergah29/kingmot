@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddc288ee56768d9bdacabe3501a74d1d, type: 3}
+  m_Name: bell_anim_01
+  m_EditorClassIdentifier:
+  m_Version: 0
+  m_Tracks:
+  - {fileID: 114709254077376921}
+  - {fileID: 114730242686860875}
+  - {fileID: 114724804207875695}
+  - {fileID: 114618682377417806}
+  m_FixedDuration: 0
+  m_EditorSettings:
+    m_Framerate: 30
+    m_ScenePreview: 1
+  m_DurationMode: 0
+  m_MarkerTrack: {fileID: 0}
+--- !u!114 &114709254077376921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c1d367759f46f0f4113dd6c454880b, type: 3}
+  m_Name: citizen01
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 11400000, guid: cd95add463659814a8f9c1f1933b26d4, type: 2}
+  - {fileID: 11400000, guid: 8a5ed968b547f5e4cba22730845f2db7, type: 2}
+  - {fileID: 11400000, guid: 3a778a6de776a1e40ab3ddddd376838d, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &114730242686860875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c1d367759f46f0f4113dd6c454880b, type: 3}
+  m_Name: citizen02
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 11400000, guid: b46b432aafa8507499aaaac2d0441787, type: 2}
+  - {fileID: 11400000, guid: 45f9defba7400664fab9c426a0e9af7d, type: 2}
+  - {fileID: 11400000, guid: 27459347be5896a4ab6e72938ac6ee00, type: 2}
+  - {fileID: 11400000, guid: 849b0198ba6087d4baad58c474864744, type: 2}
+  - {fileID: 11400000, guid: a151923b000cec34bbbab38287331904, type: 2}
+  - {fileID: 11400000, guid: 067a78d051ec0ee42bc2575583e7394e, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c1d367759f46f0f4113dd6c454880b, type: 3}
+  m_Name: citizen03
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 11400000, guid: 20b93d7de57d8f34fa7d708762fe3815, type: 2}
+  - {fileID: 11400000, guid: aa04f4a4fe437294580d9633efc46d98, type: 2}
+  - {fileID: 11400000, guid: a107d80cb7058e54e8fccd5b085b93aa, type: 2}
+  - {fileID: 11400000, guid: a234075b75b765a45aa6f9cf4506fbb8, type: 2}
+  - {fileID: 11400000, guid: c1c9ea5351c35e1498b24a5a58d0735e, type: 2}
+  - {fileID: 11400000, guid: c2393a5e54a7e0945b833489e184190f, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &114618682377417806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c1d367759f46f0f4113dd6c454880b, type: 3}
+  m_Name: citizen04
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 11400000, guid: 84290f8688d869746af073c412f86bfa, type: 2}
+  - {fileID: 11400000, guid: 2ae824096b458474895359e7381b6c1a, type: 2}
+  - {fileID: 11400000, guid: e6fce68fc4ede9e43b5cad177f22378f, type: 2}
+  - {fileID: 11400000, guid: a4318f7c1c9ef1c45b14d68c27d16d32, type: 2}
+  - {fileID: 11400000, guid: 370132ed4582658419fd283c428f5eb3, type: 2}
+  - {fileID: 11400000, guid: 5da0315f3fcd3a947ab05fe4166bfc6e, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []

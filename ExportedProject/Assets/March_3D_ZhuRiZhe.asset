@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: March_3D_ZhuRiZhe
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: 3f83f097f0e4e7343bb53b167a1d537e, type: 3}
+  clips:
+  - name: Move
+    duration: 4
+    xOffset: 0.007575758
+    yOffset: 0.010948905
+    yLength: 0.69343066
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: Attack
+    duration: 1.6333334
+    xOffset: 0.007575758
+    yOffset: 0.7116788
+    yLength: 0.28467155
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  bones:
+  - Bone_root
+  - Bone01
+  - Bone02
+  - Bone038
+  - Bone039
+  - Bone04
+  - Bone040
+  - Bone06
+  - Bone08
+  - Bone10
+  - Bone13
+  - Bone15
+  - Bone17
+  - Bone20
+  - Bone22
+  - Bone24
+  - Bone26
+  - Bone28
+  - Bone30
+  - Bone32
+  - Bone34
+  - Bone36
+  binePosesOffsets: []
+  transitions: []
+  offsets: []

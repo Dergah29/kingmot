@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: td_monster_61006_witch_config
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: 2d43e383f791a7f44baa59fa4b8208e2, type: 3}
+  clips:
+  - name: attack
+    duration: 1.8000001
+    xOffset: 0.005050505
+    yOffset: 0.0022900763
+    yLength: 0.082442746
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: die
+    duration: 2.2
+    xOffset: 0.005050505
+    yOffset: 0.086259544
+    yLength: 0.099236645
+    bind: 0
+    loop: 0
+    autoPlayNext: 0
+  - name: idle
+    duration: 1.3333334
+    xOffset: 0.005050505
+    yOffset: 0.1870229
+    yLength: 0.059541985
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: run
+    duration: 0.73333335
+    xOffset: 0.005050505
+    yOffset: 0.24809161
+    yLength: 0.03206107
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: skillxp
+    duration: 2.1333334
+    xOffset: 0.005050505
+    yOffset: 0.2816794
+    yLength: 0.0961832
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: stun
+    duration: 1.3333334
+    xOffset: 0.005050505
+    yOffset: 0.37938932
+    yLength: 0.059541985
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: win
+    duration: 1.3333334
+    xOffset: 0.005050505
+    yOffset: 0.44045803
+    yLength: 0.059541985
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: attack 0
+    duration: 1.8000001
+    xOffset: 0.005050505
+    yOffset: 0.5015267
+    yLength: 0.082442746
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: die 0
+    duration: 2.2
+    xOffset: 0.005050505
+    yOffset: 0.5854962
+    yLength: 0.099236645
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: idle 0
+    duration: 1.3333334
+    xOffset: 0.005050505
+    yOffset: 0.68625957
+    yLength: 0.059541985
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: run 0
+    duration: 0.73333335
+    xOffset: 0.005050505
+    yOffset: 0.7473282
+    yLength: 0.03206107
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: skillxp 0
+    duration: 2.1333334
+    xOffset: 0.005050505
+    yOffset: 0.78091604
+    yLength: 0.0961832
+    bind: 0
+    loop: 0
+    autoPlayNext: 1
+  - name: stun 0
+    duration: 1.3333334
+    xOffset: 0.005050505
+    yOffset: 0.8786259
+    yLength: 0.059541985
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  - name: win 0
+    duration: 1.3333334
+    xOffset: 0.005050505
+    yOffset: 0.93969464
+    yLength: 0.059541985
+    bind: 0
+    loop: 1
+    autoPlayNext: 1
+  bones: []
+  binePosesOffsets:
+  - name: td_monster_61006_witch
+    bindPoses: {x: 0.005050505, y: 0.0007633588}
+  transitions: []
+  offsets: []
