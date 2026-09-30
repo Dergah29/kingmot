@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: fxui_m_mat_common_cici_lxy
+  m_Shader: {fileID: 4800000, guid: 4137ce78bcbdc8f488e6779ff6a2a092, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _DISSOLVECUSTOM_ON
+  - _SOFTDISSOLVESWITCH_ON
+  m_InvalidKeywords:
+  - _DISSOLVE_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 62b188d790c06a84db66292d74fed799, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DistortionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: 143d8cbf40a063043aa6f0136b3816f9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SoftDissolveTex:
+        m_Texture: {fileID: 2800000, guid: a4ea44168adf7cf489899d507d6b93d9, type: 3}
+        m_Scale: {x: 1, y: 2}
+        m_Offset: {x: 0, y: 0}
+      _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _AlphaRed: 0
+      _AlphaU: 0
+      _AlphaU1: 0
+      _AlphaV: 0
+      _AlphaV1: 0
+      _CullMode: 0
+      _DepthFade1: 0
+      _Desaturate: 0
+      _Dissolve: 1
+      _DissolveCustom: 1
+      _Dissolve_U: -1
+      _Dissolve_V: 0
+      _DistortionInAlpha: 0
+      _DistortionInAlpha1: 0
+      _DistortionInDissolve: 0
+      _DistortionIndensity: 0
+      _DistortionTOAlpha: 0
+      _DistortionTODissolve: 0
+      _DistortionU: 0
+      _DistortionV: 0
+      _Dst: 1
+      _Indensity: 3
+      _Indensity_Power: 1.5
+      _MainTexTOCustom: 0
+      _MainU: 0
+      _MainV: 0
+      _Opacity: 5
+      _Opacity_Power: 1
+      _SoftDissolveIndensity: 0
+      _SoftDissolveSoft: 0.5
+      _SoftDissolveSwitch: 1
+      _SoftDissolveTexU: -1
+      _SoftDissolveTexV: 0
+      _ZTestMode: 2
+      __dirty: 0
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

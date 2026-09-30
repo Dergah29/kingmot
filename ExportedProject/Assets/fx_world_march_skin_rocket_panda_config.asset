@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdba994f642757e3ca3719fd39900fc, type: 3}
+  m_Name: fx_world_march_skin_rocket_panda_config
+  m_EditorClassIdentifier:
+  texture: {fileID: 2800000, guid: a252d3b3eb6a24b44b763fedd5409aac, type: 3}
+  clips:
+  - name: Attack
+    duration: 5.0000005
+    xOffset: 0.0052083335
+    yOffset: 0.012295081
+    yLength: 0.9836065
+    bind: 1
+    loop: 1
+    autoPlayNext: 1
+  bones:
+  - Body01
+  - FrontLeg03
+  - fx_3d_world_march_skin_rocket_panda_h_bianshen01_dkb01_Body01
+  - Hair01
+  - Head
+  binePosesOffsets:
+  - name: fx_world_march_skin_rocket_panda
+    bindPoses: {x: 0.0052083335, y: 0.0040983604}
+  transitions: []
+  offsets:
+  - {x: 0.033333335, y: 0.004132231, z: 0.9917355}
